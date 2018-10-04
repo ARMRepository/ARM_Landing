@@ -1824,7 +1824,7 @@
                 if(is_valid){
                     $.ajax({
                         type: "POST",
-                        url: "http://localhost:8000/check_subscription",
+                        url: "https://investor.aarnav.io/check_subscription",
                         data: {'email' : email},
                         success: function(check_exists){
                             if(check_exists == 1){
@@ -1833,7 +1833,7 @@
                             }else{
                                 $.ajax({
                                     type: "POST",
-                                    url: "http://localhost:8000/subscription",
+                                    url: "https://investor.aarnav.io/subscription",
                                     data: {'email' : email},
                                     success: function(resultData){
                                         $('#js-email').after('<p class="error">Success!!</p>');
