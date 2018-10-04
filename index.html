@@ -1808,39 +1808,46 @@
     }
     function is_unique(email){
         if(email){
-            $.ajax({
-                type: "POST",
-                url: "https://investor.aarnav.io/",
-                data: {'email' : email},
-                dataType: "text",
-                success: function(resultData){
-                    alert("Save Complete");
-                }
-            });
+            var i=0;
+            
+            return i;
         }
     } 
     $(document).ready(function(){
         $('#js-subscribe').click(function(){
+            if($('.error').length > 0){
+                $('.error').remove();
+            }
             var email =  $('#js-email').val().trim();
             if(email){
                 var is_valid = isEmail(email);
-                alert(is_valid);
                 if(is_valid){
-
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:8000/check_subscription",
+                        data: {'email' : email},
+                        success: function(check_exists){
+                            if(check_exists == 1){
+                                $('#js-email').after('<p class="error">Subscription Email Exists!!</p>');
+                                return false;
+                            }else{
+                                $.ajax({
+                                    type: "POST",
+                                    url: "http://localhost:8000/subscription",
+                                    data: {'email' : email},
+                                    success: function(resultData){
+                                        $('#js-email').after('<p class="error">Success!!</p>');
+                                    }
+                                });
+                            }
+                        }
+                    });
                 }else{
                     $('#js-email').after('<p class="error">Invalid Email</p>');
                     return false;
                 }
             }
-            $.ajax({
-                type: "POST",
-                url: "someaction.do?action=saveData",
-                data: {'email' : email},
-                dataType: "text",
-                success: function(resultData){
-                    alert("Save Complete");
-                }
-            });
+            
         });
     });
 </script>
