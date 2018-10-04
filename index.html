@@ -1476,9 +1476,9 @@
                             <div class="single">
                                 <h2>Stay Informed!</h2>
                                 <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="Leave Your Email">
+                                    <input type="email" id="js-email" class="form-control" placeholder="Leave Your Email">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-theme" type="submit">Get News</button>
+                                        <button class="btn btn-theme" id="js-subscribe" type="submit">Get News</button>
                                     </span>
                                 </div>
                                 <p><span>32435</span> community members have already joined the interest list.</p>
@@ -1679,6 +1679,7 @@
     <script src="js/scripts.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
     <script type="text/javascript">
+        
     $(function() {
 
         var test_plots = {
@@ -1799,3 +1800,47 @@
 </body>
 
 </html>
+<script src="js/jquery.min.js"></script>
+<script>
+    function isEmail(email) {
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        return regex.test(email);
+    }
+    function is_unique(email){
+        if(email){
+            $.ajax({
+                type: "POST",
+                url: "https://investor.aarnav.io/",
+                data: {'email' : email},
+                dataType: "text",
+                success: function(resultData){
+                    alert("Save Complete");
+                }
+            });
+        }
+    } 
+    $(document).ready(function(){
+        $('#js-subscribe').click(function(){
+            var email =  $('#js-email').val().trim();
+            if(email){
+                var is_valid = isEmail(email);
+                alert(is_valid);
+                if(is_valid){
+
+                }else{
+                    $('#js-email').after('<p class="error">Invalid Email</p>');
+                    return false;
+                }
+            }
+            $.ajax({
+                type: "POST",
+                url: "someaction.do?action=saveData",
+                data: {'email' : email},
+                dataType: "text",
+                success: function(resultData){
+                    alert("Save Complete");
+                }
+            });
+        });
+    });
+</script>
