@@ -9,7 +9,7 @@ body{
 	line-height: 23px;
 	color: #535353;
 	overflow-x: hidden;
-	background-color: #1e0b55;
+	background-color: #ffc107;
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
@@ -73,7 +73,7 @@ mark{
 	z-index: 9999;
 }
 .loader.dark {
-	background-color: #0e0529;
+	background-color: #ffc107;
 }
 .loader.green {
 	background-color: #fff;
@@ -181,10 +181,10 @@ mark{
 	background-color: #283038;
 }
 .background-dark-blue-2 {
-	background-color: #0e0529;
+	background-color: #ffc107;
 }
 .background-dark-blue-3 {
-	background-color: #1e0b56;
+	background-color: #ffc107;
 }
 .background-dark-blue-4 {
 	background-color: #050112;
@@ -193,10 +193,10 @@ mark{
 	background-color: rgba(245, 231, 252, 0.9);
 }
 .background-gradient-dark{
-	background: linear-gradient(#0e0529, #1e0b56);
+	background: linear-gradient(#ffc107, #ffc107);
 }
 .background-gradient-dark-re{
-	background: linear-gradient(#1e0b56, #0e0529);
+	background: linear-gradient(#ffc107, #ffc107);
 }
 .background-gradient-light{
 	background: linear-gradient(#004cff, #4d82ff);
@@ -357,7 +357,7 @@ mark{
 	transition : all 0.3s ease-out;
 }
 .menu-back.cbp-af-header-shrink.dark{
-	background-color: rgba(14,5,36,9);
+	background-color: #f3b705;
 }
 .cbp-af-header.cbp-af-header-shrink .navbar {
 	padding: 0;
@@ -623,7 +623,7 @@ mark{
 	height: 100%;
 }
 .scene.dark {
-	background: #1e0b56;
+	background: #ffc107;
 }
 .scene path:first-child {
 	opacity: 0.06;
@@ -787,7 +787,7 @@ mark{
 	z-index: 1;
 }
 .ocean.dark{
-	background: #0e0529;
+	background: #ffc107;
 }
 .ocean.dark .wave{
 	background: url('../img/wave-dark.svg') repeat-x; 
@@ -1170,7 +1170,7 @@ mark{
 	background: linear-gradient(#999, #fff);
 }
 .item.dark .roadmap-box.next-road:before{
-	background: linear-gradient(#999, #0e0529) !important;
+	background: linear-gradient(#999, #ffc107) !important;
 }
 .roadmap-box:after{
 	position:absolute;
@@ -1194,7 +1194,7 @@ mark{
 	background-image: url('../img/check-green.svg');
 }
 .item.dark .roadmap-box:after{
-	background-color: #0e0529;
+	background-color: #ffc107;
 }
 .item.blue .roadmap-box:after{
 	background-color: #4d82ff;
@@ -1250,7 +1250,7 @@ mark{
 }
 .prev-roadmap.dark:hover,
 .next-roadmap.dark:hover{
-	background-color: #0e0529 !important;
+	background-color: #ffc107 !important;
 }
 .prev-roadmap{
 	left:15px;
@@ -1528,7 +1528,7 @@ figure.vimeo a img, figure.youtube a img {
 	overflow: hidden;
 }
 .modal-content.dark {
-	background-color: #0e0529;
+	background-color: #ffc107;
 }
 .modal-header {
 	padding: 1rem;
@@ -1752,7 +1752,7 @@ figure.vimeo a img, figure.youtube a img {
 	left: 0;
 	z-index: 2;
 	font-size: 13px;
-	color: #db695d;
+	color: red;
 	font-weight: 400;
 	letter-spacing: 1px;
 }
@@ -1900,10 +1900,15 @@ input.btn.btn-primary{
     grid-row-gap: 40px;
 }
 
+.news-img.bg-img {
+    background: #e8b009;
+    padding: 15px;
+}
+
 .news-img.bg-img img {
     width: 100%;
-    height: 300px;
-    object-fit: cover;
+    height: 255px;
+    object-fit: contain;
 }
 
 h5.news-tit {
@@ -1916,6 +1921,10 @@ h5.news-tit {
     width: 100%;
     height: 100%;
 }
+::placeholder {
+    color: #f7f7f7 !important;
+}
+
 
 /* #Media
 ================================================== */

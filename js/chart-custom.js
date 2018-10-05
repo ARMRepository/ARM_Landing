@@ -16,11 +16,11 @@
 		labels: [ 'Year 2018', 'Year 2019', 'Year 2020', 'Year 2021', 'Year 2022', 'Year 2023' ],
 		datasets: [{
 				backgroundColor: gradient,
-				pointBackgroundColor: '#7b5eea',
+				pointBackgroundColor: '#18191A',
 				pointBorderWidth: 10,
 				pointHoverBorderWidth: 20,
 				borderWidth: 2,
-				borderColor: '#7b5eea',
+				borderColor: '#18191A',
 				data: [0.8, 2.00, 7.75, 12.35, 15.00, 23.25]
 		}]
 	};
@@ -80,7 +80,7 @@
 			},			
 			titleFontFamily: "'Work Sans', sans-serif",
 			bodyFontFamily: "'Poppins', sans-serif",
-			titleFontColor: '#7b5eea',
+			titleFontColor: '#18191A',
 			caretSize: 7,
 			cornerRadius: 4,
 			backgroundColor: 'rgba(0,0,0,0.85)',

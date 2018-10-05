@@ -2,7 +2,7 @@
 
 .loader svg path,
 .loader svg rect{
-	fill: #7b5eea;
+	fill: #18191A;
 }
 .hero-center-wrap p span.font-big-color,
 .countdown li,
@@ -22,26 +22,26 @@
 .nav-item ul li a.active-subnav,
 .menu-back.dark .nav-item ul li a.active-subnav,
 .menu-back.dark .nav-item ul li a:hover{
-	color: #7b5eea;
+	color: #18191A;
 }
 .menu-back.dark .nav-link:hover,  
 .menu-back.dark .nav-link:active,
 .nav-link:hover,  
 .nav-link:active {
-	color: #7b5eea !important;
-	border-color: #7b5eea !important; 
+	color: #18191A !important;
+	border-color: #18191A !important; 
 }
 .nav-link.mPS2id-highlight,
 .menu-back.dark .nav-link.mPS2id-highlight{
-	color: #7b5eea !important;
-	border-color: #7b5eea !important; 
+	color: #18191A !important;
+	border-color: #18191A !important; 
 }
 .color-pr{
-	color: #7b5eea !important;
+	color: #18191A !important;
 }
 .btn-primary.table-ver:active,
 .btn-primary.table-ver:focus{
-	color: #7b5eea !important;
+	color: #18191A !important;
 }
 .hero-center-wrap p span.back-color,
 .btn-primary,
@@ -63,23 +63,23 @@
 input.btn.btn-primary,
 .prev-roadmap.dark,
 .next-roadmap.dark{
-	background-color: #7b5eea !important;
+	background-color: #18191A !important;
 }
 .table-sale.future-price .table-line,
 .nav-item:hover ul,
 .roadmap-box:after,
 .accordion-style .card-header a{
-	border-color: #7b5eea;
+	border-color: #18191A;
 }
 .btn-primary:focus,
 .btn-primary:active{
-	background-color: #7b5eea !important;
+	background-color: #18191A !important;
 }
 .countdown li {
 	box-shadow: 0 8px 40px -6px rgba(123, 94, 234, 0.2); 
 }
 .table-shadow {
-	box-shadow: 0 8px 60px -6px rgba(123, 94, 234, 0.7); 
+	box-shadow: 0 8px 60px -6px rgb(243, 183, 5); 
 }
 .sub-shadow{
 	box-shadow: 0 8px 30px -6px rgba(123, 94, 234, 0.2); 
@@ -92,7 +92,7 @@ input.btn.btn-primary,
 }
 .prev-roadmap,
 .next-roadmap{
-	box-shadow: 0 8px 35px -6px rgba(123, 94, 234, 0.7); 
+	box-shadow: 0 8px 35px -6px rgb(243, 183, 5); 
 }
 .team-img-wrap img{ 
 	box-shadow: 0 8px 15px -6px rgba(123, 94, 234, 0.5);
@@ -101,10 +101,10 @@ input.btn.btn-primary,
 	box-shadow: 0 8px 45px -6px rgba(123, 94, 234, 0.3);
 }
 .roadmap-box:before{
-	background: linear-gradient(#7b5eea, #fff);
+	background: linear-gradient(#18191A, #fff);
 }
 .item.dark .roadmap-box:before{
-	background: linear-gradient(#7b5eea, #0e0529) !important;
+	background: linear-gradient(#18191A, #0e0529) !important;
 }
 .form-control{
 	background-color: rgba(123, 94, 234, 0.08);
@@ -114,7 +114,7 @@ input.btn.btn-primary,
 }
 .form-control:active,
 .form-control:focus{
-	background-color: rgba(123, 94, 234, 0.7);
+	background-color: rgb(243, 183, 5);
 }
 .scene path:first-child ,
 .scene path:nth-child(2),
@@ -123,19 +123,19 @@ input.btn.btn-primary,
 .scene path:nth-child(5),
 .scene path:nth-child(6),
 .scene path:nth-child(7) {
-	fill: #7b5eea;
+	fill: #18191A;
 }
 figure.vimeo a:before, figure.youtube a:before {
-	border-left: 10px solid #7b5eea;
+	border-left: 10px solid #18191A;
 }
 figure.vimeo:hover a:after, figure.youtube:hover a:after {
-	background:#7b5eea;
+	background:#18191A;
 }
 ::selection {
-	background-color: #7b5eea;
+	background-color: #18191A;
 }
 ::-moz-selection {
-	background-color: #7b5eea;
+	background-color: #18191A;
 }
 @media (max-width: 991px) { 
 	.nav-link:hover,  
