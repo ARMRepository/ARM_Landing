@@ -103,28 +103,28 @@
 		
 		/* Roadmap Carousel */		
 		
-		$("#owl-roadmap").owlCarousel({
-			items : 4,
-			itemsDesktop : [1199,4], 
-			itemsDesktopSmall : [991,3],
-			itemsTablet: [767,2], 
-			itemsMobile : [575,1], 
-			pagination : false,
-			autoPlay : false,
-			slideSpeed : 300
-		});	
-		(function ($) { 
-			var owl = $("#owl-roadmap");
-			owl.owlCarousel();	
+		// $("#owl-roadmap").owlCarousel({
+		// 	items : 4,
+		// 	itemsDesktop : [1199,4], 
+		// 	itemsDesktopSmall : [991,3],
+		// 	itemsTablet: [767,2], 
+		// 	itemsMobile : [575,1], 
+		// 	pagination : false,
+		// 	autoPlay : false,
+		// 	slideSpeed : 300
+		// });	
+		// (function ($) { 
+		// 	var owl = $("#owl-roadmap");
+		// 	owl.owlCarousel();	
 			
-			// Custom Navigation Events
-			$(".next-roadmap").click(function(){
-				owl.trigger('owl.next');
-			})
-			$(".prev-roadmap").click(function(){
-				owl.trigger('owl.prev');
-			})	
-		} )(jQuery);
+		// 	// Custom Navigation Events
+		// 	$(".next-roadmap").click(function(){
+		// 		owl.trigger('owl.next');
+		// 	})
+		// 	$(".prev-roadmap").click(function(){
+		// 		owl.trigger('owl.prev');
+		// 	})	
+		// } )(jQuery);
 		
 		
 		/* Video */
