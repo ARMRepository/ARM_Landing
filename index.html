@@ -836,3 +836,54 @@
 ================================================== -->
 </body>
 </html>
+<script src="js/jquery.min.js"></script>
+<script>
+    function isEmail(email) {
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        return regex.test(email);
+    }
+    function is_unique(email){
+        if(email){
+            var i=0;
+            
+            return i;
+        }
+    } 
+    $(document).ready(function(){
+        $('#js-subscribe').click(function(){
+            if($('.error').length > 0){
+                $('.error').remove();
+            }
+            var email =  $('#js-email').val().trim();
+            if(email){
+                var is_valid = isEmail(email);
+                if(is_valid){
+                    $.ajax({
+                        type: "POST",
+                        url: "https://investor.aarnav.io/check_subscription",
+                        data: {'email' : email},
+                        success: function(check_exists){
+                            if(check_exists == 1){
+                                $('#js-email').after('<p class="error">Subscription Email Exists!!</p>');
+                                return false;
+                            }else{
+                                $.ajax({
+                                    type: "POST",
+                                    url: "https://investor.aarnav.io/subscription",
+                                    data: {'email' : email},
+                                    success: function(resultData){
+                                        $('#js-email').after('<p class="error">Success!!</p>');
+                                    }
+                                });
+                            }
+                        }
+                    });
+                }else{
+                    $('#js-email').after('<p class="error">Invalid Email</p>');
+                    return false;
+                }
+            }
+            
+        });
+    });
+</script>
