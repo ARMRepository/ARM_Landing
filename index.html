@@ -131,16 +131,6 @@
 								<li class="nav-item">
 									<a class="nav-link" href="#contact">Contact</a>
 								</li>
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Variants</a>
-									<ul class="dropdown-menu">
-										<li class="dropdown-item"><a href="pdf/onepager.pdf">One Pager</a></li>
-										<li class="dropdown-item"><a href="pdf/white-paper.pdf">Whitepaper</a></li>
-									</ul>
-								</li>
-								<li class="nav-item mt-2">
-									<a class="btn btn-primary js-tilt" href="https://investor.aarnav.io/" target="_blank" role="button" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>ICO Wallet</span></a>
-								</li>
 							</ul>
 						</div>
 					</nav>				
@@ -160,7 +150,7 @@
 						<p class="mt-3 font-weight-normal text-white">It’s just to show that we are mining and payouts are visible on blockchain.</p>
 						<p class="mt-3 font-weight-normal text-white">Investors can check this bitcoin address to see the mining statistics by clicking below</p>
 						<a class="btn btn-primary ml-lg-0 js-tilt" href="#" role="button" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>Whitepaper</span></a>
-						<a class="btn btn-primary js-tilt" href="http://investor.aarnav.io/" data-gal="m_PageScroll2id" data-ps2id-offset="68" role="button" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>Live Mining Stats</span></a>
+						<a class="btn btn-primary js-tilt" href="javascript:void(0)" data-toggle="modal" data-target="#myModal" data-gal="m_PageScroll2id" data-ps2id-offset="68" role="button" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>Live Mining Stats</span></a>
 					</div>
 					<div class="col-lg-6 mt-5 pl-4 mt-lg-0 parallax-fade-top align-self-center z-bigger">
 						<div class="img-wrap">
@@ -192,7 +182,7 @@
 						<ul class="payment-methods text-white">
 							<li><img src="img/bitcoin.png" alt=""><p>bitcoin</p></li>
 							<li><img src="img/etherium-light.png" alt=""><p>ethereum</p></li>
-							<li><img src="img/litecoin.png" alt=""><p>litecoin</p></li>
+							<!-- <li><img src="img/litecoin.png" alt=""><p>litecoin</p></li> -->
 							<li><img src="img/usd-light.png" alt=""><p>US Dollars</p></li>
 						</ul>
 					</div>
@@ -252,26 +242,21 @@
 						<h3 class="text-white">How it works</h3>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<!-- <div class="video-section video-shadow"> -->
-						<!-- <figure class="vimeo"> 
+				<!-- <div class="col-md-6">
+					<div class="video-section video-shadow">
+						<figure class="vimeo"> 
 							<a href="https://youtu.be/YC9a-0a-E5o">
 								<img src="img/home/video-1.PNG" alt="image"/>
 							</a>
-						</figure> -->
+						</figure>
 						<iframe style="width: 100%; height: 280px;" class="embed-responsive-item" src="https://www.youtube.com/embed/YC9a-0a-E5o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					<!-- </div> -->
-				</div>
-				<div class="col-md-6">
-						<!-- <div class="video-section video-shadow"> -->
-							<!-- <figure class="vimeo"> 
-								<a href="https://youtu.be/R9AOF1gc2mc">
-									<img src="img/home/video-2.PNG" alt="image"/>
-								</a>
-							</figure> -->
-							<iframe style="width: 100%; height: 280px;" class="embed-responsive-item" src="https://www.youtube.com/embed/R9AOF1gc2mc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						<!-- </div> -->
 					</div>
+				</div> -->
+				<div class="col-md-12">
+					<div class="col-md-6 how-it-video">
+							<iframe style="width: 100%; height: 280px;" class="embed-responsive-item" src="https://www.youtube.com/embed/R9AOF1gc2mc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -823,6 +808,33 @@
 		</div>
 	</div>
 	<div class="scroll-to-top">to top</div>
+	
+		<div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content dark">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"></span>
+							</button>
+							<div class="modal-title text-center"><img src="img/black-logo.png" alt="logo" width="20%" class="img-responsive"></div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+										<br>
+										<p class="text-white"><b>Mining statistics link</b></p>
+										<p class="text-white"><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank" style="word-wrap: break-word;color: #ffffff !important;">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p>
+										<br>
+										<br>
+                                    </div>
+                                </div>	
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 	<!-- JAVASCRIPT
     ================================================== -->
 	<script src="js/jquery-3.2.1.min.js"></script>

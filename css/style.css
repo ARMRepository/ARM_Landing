@@ -1924,8 +1924,13 @@ h5.news-tit {
 ::placeholder {
     color: #f7f7f7 !important;
 }
-
-
+.how-it-video {
+    float: none;
+    margin: 0 auto;
+}
+.btn.disabled, .btn:disabled {
+	opacity: 1;
+}
 /* #Media
 ================================================== */
 
