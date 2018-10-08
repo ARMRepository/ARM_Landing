@@ -1845,7 +1845,10 @@
                     $('#js-email').after('<p class="error">Invalid Email</p>');
                     return false;
                 }
-            }
+            }else{
+				$('#js-email').after('<p class="error">Please Enter a Email</p>');
+				return false;
+			}
 
         });
     });
