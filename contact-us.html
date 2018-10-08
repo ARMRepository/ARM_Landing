@@ -422,7 +422,7 @@
                 url: "https://investor.aarnav.io/contact_us",
                 data: {'name' : name,'email' : email,'phone' : phone,'country' : country,'message' : message},
                 success: function(data){
-                    if(data == 1){
+                    if(data){
                         $('#js-send-query').after('<p class="success">Success</p>');
                     }
                 }
