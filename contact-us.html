@@ -377,13 +377,6 @@
         var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
         return regex.test(email);
     }
-    function is_unique(email){
-        if(email){
-            var i=0;
-
-            return i;
-        }
-    }
     $(document).ready(function(){
         $('#js-send-query').click(function(){
             if($('.error').length > 0){
@@ -416,8 +409,8 @@
                 var is_valid = isEmail(email);
                 if(!is_valid){
                     $('#js-email').after('<p class="error">Invalid email</p>');
+                    return false;
                 }
-                return false;
             }
             if(isNaN(phone))
             {
