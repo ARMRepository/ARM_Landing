@@ -1827,7 +1827,7 @@
                         data: {'email' : email},
                         success: function(check_exists){
                             if(check_exists == 1){
-                                $('#js-email').after('<p class="error">Subscription Email Exists!!</p>');
+                                $('#js-email').parent().after('<p class="error">Subscription Email Exists!!</p>');
                                 return false;
                             }else{
                                 $.ajax({
@@ -1835,18 +1835,18 @@
                                     url: "https://investor.aarnav.io/subscription",
                                     data: {'email' : email},
                                     success: function(resultData){
-                                        $('#js-email').after('<p class="error">Success!!</p>');
+                                        $('#js-email').parent().after('<p class="success">Success!!</p>');
                                     }
                                 });
                             }
                         }
                     });
                 }else{
-                    $('#js-email').after('<p class="error">Invalid Email</p>');
+                    $('#js-email').parent().after('<p class="error">Invalid Email</p>');
                     return false;
                 }
             }else{
-				$('#js-email').after('<p class="error">Please Enter a Email</p>');
+				$('#js-email').parent().after('<p class="error">Please Enter a Email</p>');
 				return false;
 			}
 

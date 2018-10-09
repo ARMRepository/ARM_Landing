@@ -536,6 +536,14 @@ Header
     padding-top: 30px;
 }
 
+.error {
+    color: red !important;
+}
+
+.success {
+    color: green !important;
+}
+
  @media screen and (min-width: 767px) and (max-width: 1025px) {
      .navbar-brand {
          max-width: 100px;
@@ -4483,7 +4491,7 @@ Responsive CSS
      width: 290px;
      font-size: 24px;
      font-weight: 600;
-     border-radius: 50px;
+     border-radius: 0 50px 50px 0;
      background: -moz-linear-gradient(180deg, #4a62ff 0%, #871fff 100%);
     background: -webkit-gradient(linear, left top, right top, #4a62ff 0%, #871fff 100%);
     background: -webkit-linear-gradient(180deg, #4a62ff 0%, #871fff 100%);
@@ -4495,7 +4503,7 @@ Responsive CSS
      padding: 0px 25px;
      position: relative;
      z-index: 5;
-     left: -60px;
+     left: 0px;
      box-shadow: 0 39px 80px 0 rgba(0, 0, 0, .2);
      transition: 500ms all ease-in;
      transition: all 0.4s ease-in-out;
@@ -4505,7 +4513,7 @@ Responsive CSS
      box-shadow: none;
      border-color: none;
      outline: none;
-     border-radius: 50px;
+     border-radius: 0 50px 50px 0;
  }
  /*.newsletter .single .btn:hover {
     background: linear-gradient(90deg, rgba(248, 54, 0, 1) 0%, rgba(248, 54, 0, 1) 38%, rgba(254, 140, 0, 1) 100%);
