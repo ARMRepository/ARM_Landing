@@ -561,6 +561,7 @@ Intro Section CSS
  .intro-section {
      padding: 180px 0px 80px;
      position: relative;
+     overflow: hidden;
  }
 
  .canvas-block {
