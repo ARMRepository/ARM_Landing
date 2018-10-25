@@ -1,4 +1,4 @@
-] /*General
+/*General
 ===========================================*/
 
  @font-face {
@@ -3432,6 +3432,33 @@ Static Page CSS
     height: 100%;
     z-index: -1;
     object-fit: cover;
+}
+
+.grid-tokens {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.token-info {
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.token-details {margin-bottom: 40px;}
+
+.token-info:hover {
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.token-info h4 {
+    text-transform: capitalize;
+    font-size: 24px;
+    margin: 20px 0 0px;
 }
 
  /*=========================================== 
