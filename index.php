@@ -334,6 +334,9 @@
 
             <div class="container">
                 <div class="grid-tokens">
+                    <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12 mb40">
+                        <h4>Live Cryptocurrencies Price</h4>
+                    </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
                         <div class="token-info">
                             <img width="75" height="75" src="svg/bitcoin.svg" alt="bitcoin">
