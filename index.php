@@ -341,7 +341,7 @@
                         <div class="token-info">
                             <img width="75" height="75" src="svg/bitcoin.svg" alt="bitcoin">
                             <h4>bitcoin</h4>
-                            <h6><strong>$123</strong></h6>
+                            
                             <h6><strong>$<?php echo $btc;?></strong></h6>
                         </div>
                     </div>
@@ -349,7 +349,7 @@
                         <div class="token-info">
                             <img width="75" height="75" src="svg/Ethereum.svg" alt="Ethereum">
                             <h4>etherium</h4>
-                            <h6><strong>$123</strong></h6>
+                            
                             <h6><strong>$<?php echo $eth;?></strong></h6>
                         </div>
                     </div>
@@ -357,7 +357,7 @@
                         <div class="token-info">
                             <img width="75" height="75" src="svg/Ripple.svg" alt="Ripple">
                             <h4>ripple</h4>
-                            <h6><strong>$123</strong></h6>
+                            
                             <h6><strong>$<?php echo $rpl;?></strong></h6>
                         </div>
                     </div>
@@ -365,7 +365,7 @@
                         <div class="token-info">
                             <img width="75" height="75" src="svg/Bitcoin-Gold.svg" alt="Bitcoin Gold">
                             <h4>bitcoin gold</h4>
-                            <h6><strong>$123</strong></h6>
+                            
                             <h6><strong>$<?php echo $btg;?></strong></h6>
                         </div>
                     </div>
@@ -373,7 +373,7 @@
                         <div class="token-info">
                             <img width="75" height="75" src="svg/Litecoin.svg" alt="Litecoin">
                             <h4>litecoin</h4>
-                            <h6><strong>$123</strong></h6>
+                            
                             <h6><strong>$<?php echo $ltc;?></strong></h6>
                         </div>
                     </div>
@@ -381,7 +381,7 @@
                         <div class="token-info">
                             <img width="75" height="75" src="svg/zrx.svg" alt="zrx">
                             <h4>Zrx</h4>
-                            <h6><strong>$123</strong></h6>
+                            
                             <h6><strong>$<?php echo $zrx;?></strong></h6>
                         </div>
                     </div>
