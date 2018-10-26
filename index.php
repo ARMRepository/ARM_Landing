@@ -223,8 +223,9 @@
                                 <!-- <p class="whitetxt text-center">Mining statistics link</p>
                                 <p class="whitetxt" style="word-wrap: break-word;"><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p> -->
                                 <br>
-                                <!-- <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">Live Mining Stats</a> -->
-                                <a href="https://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn">Live Mining Stats</a>
+                                <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">Live Mining Stats</a>
+                                
+                                <!-- <a href="https://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn">Live Mining Stats</a> -->
                             </div>
                         </div>
                         <!-- Intro Left Ends -->
