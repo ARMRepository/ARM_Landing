@@ -1,5 +1,50 @@
 <?php
-
+    $rpl = 0;
+    $eth = 0;
+    $btc = 0;
+    $ltc = 0;
+    $btg = 0;
+    $zrx = 0;
+    $coins = array(
+        'rpl' => 'https://www.bitstamp.net/api/v2/ticker/xrpusd',
+        'eth' => 'https://api.etherscan.io/api?module=stats&action=ethprice',
+        'btc' => 'https://www.bitstamp.net/api/v2/ticker/btcusd',
+        'ltc' => 'https://www.bitstamp.net/api/v2/ticker/ltcusd',
+        'btg' => 'https://api.coinmarketcap.com/v1/ticker/bitcoin-gold',
+        'zrx' => 'https://api.coinmarketcap.com/v1/ticker/0x'
+    );
+    foreach($coins as $coin => $url){
+        if($coin != 'btg' && $coin != 'zrx'){
+            $ch = curl_init();
+            curl_setopt_array($ch, array(
+                CURLOPT_RETURNTRANSFER => 1,
+                CURLOPT_URL => $url
+            ));
+            $response = curl_exec($ch);
+            $format_response = json_decode($response);
+        }else{
+            $response = file_get_contents($url);
+            $format_response = json_decode($response);
+        }
+        if($coin == 'rpl'){
+            $rpl = $format_response->last;
+        }
+        if($coin == 'eth'){
+            $eth = $format_response->result->ethusd;
+        }
+        if($coin == 'btc'){
+            $btc = $format_response->last;
+        }
+        if($coin == 'ltc'){
+            $ltc = $format_response->last;
+        }
+        if($coin == 'btg'){
+            $btg = $format_response[0]->price_usd;
+        }
+        if($coin == 'zrx'){
+            $zrx = $format_response[0]->price_usd;
+        }
+    }
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +54,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -145,54 +190,54 @@
             <div class="static-head">
                 <h2>Cryptocurrencies</h2>
             </div>
-            
+
             <div class="container">
                 <div class="grid-tokens">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
                         <div class="token-info">
                             <img width="75" height="75" src="svg/bitcoin.svg" alt="bitcoin">
                             <h4>bitcoin</h4>
-                            <h6><strong>$123</strong></h6>
+                            <h6><strong>$<?php echo $btc;?></strong></h6>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
                         <div class="token-info">
                             <img width="75" height="75" src="svg/Ethereum.svg" alt="Ethereum">
                             <h4>etherium</h4>
-                            <h6><strong>$123</strong></h6>
+                            <h6><strong>$<?php echo $eth;?></strong></h6>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
                         <div class="token-info">
                             <img width="75" height="75" src="svg/Ripple.svg" alt="Ripple">
                             <h4>ripple</h4>
-                            <h6><strong>$123</strong></h6>
+                            <h6><strong>$<?php echo $rpl;?></strong></h6>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
                         <div class="token-info">
                             <img width="75" height="75" src="svg/Bitcoin-Gold.svg" alt="Bitcoin Gold">
                             <h4>bitcoin gold</h4>
-                            <h6><strong>$123</strong></h6>
+                            <h6><strong>$<?php echo $btg;?></strong></h6>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
                         <div class="token-info">
                             <img width="75" height="75" src="svg/Litecoin.svg" alt="Litecoin">
                             <h4>litecoin</h4>
-                            <h6><strong>$123</strong></h6>
+                            <h6><strong>$<?php echo $ltc;?></strong></h6>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
                         <div class="token-info">
                             <img width="75" height="75" src="svg/zrx.svg" alt="zrx">
                             <h4>Zrx</h4>
-                            <h6><strong>$123</strong></h6>
+                            <h6><strong>$<?php echo $zrx;?></strong></h6>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <!-- Content Wrapper Ends -->
         <!-- Footer Starts -->
@@ -214,7 +259,7 @@
                         </div>
                     </div>
                 </div>
-                    
+
                     <div class="foot-top-right col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">
                         <ul class="list-unstyled list-inline social-list">
                             <li><a target="_blank" href="https://www.linkedin.com/company/aarnav/" class="social-item"><i class="mdi mdi-linkedin"></i></a></li>
