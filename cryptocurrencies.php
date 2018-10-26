@@ -120,14 +120,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="img/black-logo.png">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="menu-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="index.php">Home</a>
                         </li>
                         <li>
                             <a href="roadmap.html">Road Map</a>
@@ -139,7 +139,7 @@
                             <a href="team.html">Team</a>
                         </li>
                         <li>
-                            <a href="index.html#news">News</a>
+                            <a href="index.php#news">News</a>
                         </li>
                         <li>
                             <a href="gallery.html">Gallery</a>
@@ -169,7 +169,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="index.html#about">About Us</a>
+                            <a href="index.php#about">About Us</a>
                         </li>
                         <li>
                             <a href="contact-us.html">Contact Us</a>
