@@ -123,14 +123,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="./">
                         <img src="img/black-logo.png">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="menu-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="./">Home</a>
                         </li>
                         <li>
                             <a href="roadmap.html">Road Map</a>
