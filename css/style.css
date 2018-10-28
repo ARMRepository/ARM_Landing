@@ -3508,6 +3508,20 @@ Static Page CSS
 .gray-bg {
     background: #f7f7f7;
 }
+
+
+.token-info .fa-arrow-down {
+    color: #d90000;
+}
+
+.token-info .fa-arrow-up {
+    color: green;
+}
+
+.token-info h6 span {
+    margin-left: 10px;
+}
+
  /*=========================================== 
 }
 Responsive CSS

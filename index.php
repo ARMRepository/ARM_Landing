@@ -72,7 +72,7 @@
             }else{
                 $btg_status = 'fa fa-arrow-down';
             }
-            $btg = $number_format($format_response[0]->price_usd,3);
+            $btg = number_format($format_response[0]->price_usd,3);
         }
         if($coin == 'zrx'){
             if($format_response[0]->percent_change_24h < 0){
@@ -444,7 +444,7 @@
                             <img width="30" height="30" src="img/newlogo.png" alt="zrx">
                             <h4>ARM</h4>
 
-                            <h6><strong>$0.10</strong></h6>
+                            <h6><strong>$0.10</strong><span class="fa fa-arrow-up"></span></h6>
                         </div>
                     </div>
                 </div>
