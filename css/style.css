@@ -3438,10 +3438,12 @@ Static Page CSS
 }
 
 .grid-tokens {
-    display: inline-block;
+    display: flex;
     width: 100%;
     text-align: center;
-    padding: 60px 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .token-info {
@@ -3451,7 +3453,15 @@ Static Page CSS
     transition: 0.3s;
 }
 
-.token-details {margin-bottom: 40px;}
+.token-details {
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.token-details:first-child {
+    margin-left: 0;
+}
 
 .token-info:hover {
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
@@ -3460,9 +3470,18 @@ Static Page CSS
 
 .token-info h4 {
     text-transform: capitalize;
-    font-size: 24px;
+    font-size: 16px;
     margin: 20px 0 0px;
 }
+
+.token-info h6 {
+    font-size: 14px;
+}
+
+.cryptocurrencies {
+    padding: 60px 0;
+}
+
 
  /*=========================================== 
 Responsive CSS
@@ -3654,6 +3673,13 @@ Responsive CSS
 
      .bg_img_1.ll {
          display: none;
+     }
+
+     .grid-tokens {
+        flex-wrap: wrap;
+     }
+     .token-details {
+        width: 22%;
      }
  }
 
@@ -4317,6 +4343,12 @@ Responsive CSS
      .navbar-default .navbar-nav>li>a {
           color: #000000;
      }
+     .token-details {
+        width: 48%;
+    }
+    .sec-title h4 {
+        font-size: 20px;
+    }
  }
 
  @media screen and (max-width: 500px) {
@@ -4386,6 +4418,13 @@ Responsive CSS
      .price-box h1.theme-color {
          padding-bottom: 30px !important;
      }
+     .token-details {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    .token-details:last-child {
+        margin: 0;
+    }
  }
 
  @media screen and (min-width: 300px) and (max-width: 780px) {

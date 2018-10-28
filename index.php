@@ -331,63 +331,79 @@
             </section> -->
             <!-- Discounts Section Ends -->
             <!-- Problem Section Starts style="background-image: url(img/shape.png);"-->
-
+        <div class="cryptocurrencies">
             <div class="container">
-                <div class="grid-tokens">
-                    <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12 mb40">
+                <div class="text-center sec-title col-lg-12 col-md-12 col-sm-12 col-xs-12 mb40">
                         <h4>Live Cryptocurrencies Price</h4>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
+                <div class="grid-tokens">
+                    <div class="token-details">
                         <div class="token-info">
-                            <img width="75" height="75" src="svg/bitcoin.svg" alt="bitcoin">
+                            <img width="30" height="30" src="svg/bitcoin.svg" alt="bitcoin">
                             <h4>bitcoin</h4>
                             
                             <h6><strong>$<?php echo $btc;?></strong></h6>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
+                    <div class="token-details">
                         <div class="token-info">
-                            <img width="75" height="75" src="svg/Ethereum.svg" alt="Ethereum">
+                            <img width="30" height="30" src="svg/Ethereum.svg" alt="Ethereum">
                             <h4>etherium</h4>
                             
                             <h6><strong>$<?php echo $eth;?></strong></h6>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
+                    <div class="token-details">
                         <div class="token-info">
-                            <img width="75" height="75" src="svg/Ripple.svg" alt="Ripple">
+                            <img width="30" height="30" src="svg/Ripple.svg" alt="Ripple">
                             <h4>ripple</h4>
                             
                             <h6><strong>$<?php echo $rpl;?></strong></h6>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
+                    <div class="token-details">
                         <div class="token-info">
-                            <img width="75" height="75" src="svg/Bitcoin-Gold.svg" alt="Bitcoin Gold">
+                            <img width="30" height="30" src="svg/Bitcoin-Gold.svg" alt="Bitcoin Gold">
                             <h4>bitcoin gold</h4>
                             
                             <h6><strong>$<?php echo $btg;?></strong></h6>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
+                    <div class="token-details">
                         <div class="token-info">
-                            <img width="75" height="75" src="svg/Litecoin.svg" alt="Litecoin">
+                            <img width="30" height="30" src="svg/Litecoin.svg" alt="Litecoin">
                             <h4>litecoin</h4>
                             
                             <h6><strong>$<?php echo $ltc;?></strong></h6>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 token-details">
+                    <div class="token-details">
                         <div class="token-info">
-                            <img width="75" height="75" src="svg/zrx.svg" alt="zrx">
+                            <img width="30" height="30" src="svg/zrx.svg" alt="zrx">
                             <h4>Zrx</h4>
                             
                             <h6><strong>$<?php echo $zrx;?></strong></h6>
                         </div>
                     </div>
+                    <div class="token-details">
+                        <div class="token-info">
+                            <img width="30" height="30" src="svg/Tron.svg" alt="Tron">
+                            <h4>Tron</h4>
+                            
+                            <h6><strong>$0.023387</strong></h6>
+                        </div>
+                    </div>
+                    <div class="token-details">
+                        <div class="token-info">
+                            <img width="30" height="30" src="img/newlogo.png" alt="zrx">
+                            <h4>ARM</h4>
+                            
+                            <h6><strong>$0.10</strong></h6>
+                        </div>
+                    </div>
                 </div>
             </div>
-    
+    </div>
 
 
             <section class="problem-sec section p-80" id="about">
