@@ -291,7 +291,7 @@ Header
  }
 
  .scroll.navbar-default .navbar-nav>li>a {
-     color: #0288d1 !important;
+     color: #2a303b !important;
  }
 
  .scroll.navbar-default .navbar-nav .open .dropdown-menu>li>a {
@@ -353,7 +353,6 @@ Header
  .navbar-default .navbar-nav>li>a:hover {
      opacity: 1;
      color: #ffffff;
-     font-weight: bold;
  }
 
  .navbar-right {
@@ -562,7 +561,7 @@ Intro Section CSS
  }
 
  .intro-section {
-     padding: 180px 0px 80px;
+     padding: 190px 0px 190px;
      position: relative;
      overflow: hidden;
  }
@@ -834,9 +833,10 @@ Problem Section CSS
  }
 
  .sec-tit {
-     font-size: 45px;
-     color: #5c6062;
-     position: relative;
+    font-size: 26px;
+    color: #5c6062;
+    position: relative;
+    padding-top: 20px;
  }
 
  .sec-tit::before {
@@ -1423,7 +1423,7 @@ News Section  CSS
  }
 
  .news-tit {
-     font-size: 18px;
+     font-size: 15px;
      font-weight: 300;
      line-height: 1.5;
      text-align: left;
@@ -1740,8 +1740,8 @@ News Section  CSS
  }
 
  .whitepaper-tit {
-     margin-bottom: 37px;
-     font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
      font-weight: 300;
      text-align: center;
      color: #5c6062;
@@ -3260,16 +3260,20 @@ Static Page CSS
  }
 
  .static-tit {
-     font-size: 23px;
-     font-weight: bold;
+    border-radius: 3px;
+    font-size: 23px;
+    font-weight: bold;
      letter-spacing: .8px;
-     color: #fff;
-     background: #444444;
-     padding: 8px 20px;
-     font-size: 18px;
-     font-weight: normal;
-     cursor: pointer;
- }
+    color: #fff;
+   background: -webkit-linear-gradient(rgba(74, 98, 255,1) 0%, rgba(135, 31, 255, 1) 100%);
+   background: -o-linear-gradient(rgba(74, 98, 255,1) 0%, rgba(135, 31, 255, 1) 100%);
+   background: linear-gradient(rgba(74, 98, 255,1) 0%, rgba(135, 31, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(74, 98, 255, 1)', endColorstr='rgba(135, 31, 255, 1)', GradientType=1);
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+}  
 
 
  .contact-form {
@@ -3418,11 +3422,6 @@ Static Page CSS
      box-shadow: 0px 0px 15px rgba(0, 0, 0, .12);
  }
 
-
- #news {
-     background: #ffffff;
- }
-
  .teambanner h1 {
     color: #fff;
 }
@@ -3482,8 +3481,35 @@ Static Page CSS
     padding: 60px 0;
 }
 
+/* This used to work for the parent element of button divs */
+/* But it does not work with newer browsers, the below doesn't hide the play button parent div */
 
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* Old shadow dom for play button */
+
+*::-webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* New shadow dom for play button */
+
+/* This one works! */
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+.gray-bg {
+    background: #f7f7f7;
+}
  /*=========================================== 
+}
 Responsive CSS
 ===========================================*/
 
@@ -4518,7 +4544,8 @@ Responsive CSS
 
  .newsletter h2 {
      color: #ffffff;
-     margin-top: -10px;
+    margin-top: 0;
+    font-size: 28px;
  }
 
  .newsletter p {
@@ -4547,7 +4574,7 @@ Responsive CSS
      padding-left: 25px;
      position: relative;
      z-index: 0;
-     font-size: 20px;
+     font-size: 16px;
  }
 
  .newsletter .single .form-control:focus {
@@ -4868,23 +4895,19 @@ Responsive CSS
 }*/
 
  h5.static-tit:before {
-
-     font-family: fontawesome;
-     width: 30px;
-     height: 30px;
-     line-height: 25px;
-     border-radius: 50%;
-     background: #fe7725;
-     font-size: 30px;
-     font-weight: normal;
-     color: #fff;
-     text-align: center;
-     position: absolute;
-     top: 5px;
-     right: 6px;
-     content: "\f067";
-     background: #ababab;
-     border: 4px solid #626262;
+    font-family: fontawesome;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    content: "\f067";
  }
 
  h5.static-tit {
@@ -4893,21 +4916,19 @@ Responsive CSS
 
  h5.static-tit.active:before {
      content: "\f068";
-     font-family: fontawesome;
-     width: 30px;
-     height: 30px;
-     line-height: 25px;
-     border-radius: 50%;
-     background: #fe7725;
-     font-size: 30px;
-     font-weight: normal;
-     color: #fff;
-     text-align: center;
-     border: 3px solid #fff;
-     position: absolute;
-     top: 5px;
-     right: 6px;
-     box-sizing: border-box;
+    font-family: fontawesome;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    box-sizing: border-box;
  }
  /*.static-block .static-txt ul{
    list-style: none;
@@ -4926,9 +4947,21 @@ Responsive CSS
 }
 
 .raised-tit.sales-tit.black {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
+.sec-tit p {
+    margin-bottom: 0;
+}
+
+.sec-content h4 {
+    font-size: 22px;
+    color: #000000;
+}
+
+p {
+    color: #616161;
+}
 
 
 @media (max-width: 1199px) {

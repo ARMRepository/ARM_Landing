@@ -452,7 +452,7 @@
     </div>
 
 
-            <section class="problem-sec section p-80" id="about">
+            <section class="problem-sec section p-80 gray-bg" id="about">
                 <div class="shape-bg shape-bg1 bg-img" ></div>
                 <div class="container">
                     <div class="sec-inner problem-sec-inner">
@@ -560,7 +560,7 @@
             <!-- Problem Section Ends -->
             <!-- Vide
                 o Section Starts -->
-            <section class="video-sec image-section bg-img section p-80" id="video">
+            <section class="video-sec bg-img section p-80" id="video">
                 <div class="container">
                     <!-- <div class="sec-tit text-center">Videos</div> -->
                     <div class="sec-inner solution-sec-inner">
@@ -582,8 +582,14 @@
                             </div>
 
                         </div>
-                        <br>
-                        <br>
+                    </div>
+                </div>
+            </section>
+
+            <section class="video-sec gray-bg bg-img section p-80" id="video">
+                <div class="container">
+                    <!-- <div class="sec-tit text-center">Videos</div> -->
+                    <div class="sec-inner solution-sec-inner">
                         <div class="col-md-3">
                             <div class="testimonial wow fadeInUp" data-wow-duration="1.5s">
                                 <div class="testi-img bg-img" style="background-image: url(img/team/manpreet.jpg);"></div>
@@ -1367,7 +1373,7 @@
             <!-- ICO Details Section Ends -->
             <!-- News Section Starts -->
 
-            <section class="news-sec image-section bg-img section p-80">
+            <section class="news-sec bg-img section p-80">
                 <div class="container">
                     <div class="sec-inner news-sec-inner m-b-80">
                         <div class="sec-head text-center">
@@ -1399,12 +1405,12 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-            </section>
+                </div
+>            </section>
 
 
 
-            <section class="news-sec image-section bg-img section p-80 grey-bg" id="news">
+            <section class="news-sec gray-bg bg-img section p-80" id="news">
                 <div class="container">
                     <!-- News Section Inner Starts -->
                     <div class="sec-inner news-sec-inner m-b-80">
@@ -1656,7 +1662,7 @@
                             <div class="single">
                                 <h2>Stay Informed!</h2>
                                 <div class="input-group">
-                                    <input type="email" id="js-email" class="form-control" placeholder="Leave Your Email">
+                                    <input type="email" id="js-email" class="form-control" placeholder="Subscribe Now">
                                     <span class="input-group-btn">
                                         <button class="btn btn-theme" id="js-subscribe" type="submit">Get News</button>
                                     </span>
