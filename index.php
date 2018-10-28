@@ -37,7 +37,7 @@
             }else{
                 $rpl_status = 'fa fa-arrow-down';
             }
-            $rpl = $format_response[0]->price_usd;
+            $rpl = number_format($format_response[0]->price_usd,3);
         }
         if($coin == 'eth'){
             //$eth = $format_response->result->ethusd;
@@ -46,7 +46,7 @@
             }else{
                 $eth_status = 'fa fa-arrow-down';
             }
-            $eth = $format_response[0]->price_usd;
+            $eth = number_format($format_response[0]->price_usd,3);
         }
         if($coin == 'btc'){
             //$btc = $format_response->last;
@@ -55,7 +55,7 @@
             }else{
                 $btc_status = 'fa fa-arrow-down';
             }
-            $btc = $format_response[0]->price_usd;
+            $btc = number_format($format_response[0]->price_usd,3);
         }
         if($coin == 'ltc'){
             //$ltc = $format_response->last;
@@ -64,7 +64,7 @@
             }else{
                 $ltc_status = 'fa fa-arrow-down';
             }
-            $ltc = $format_response[0]->price_usd;
+            $ltc = number_format($format_response[0]->price_usd,3);
         }
         if($coin == 'btg'){
             if($format_response[0]->percent_change_24h < 0){
@@ -72,7 +72,7 @@
             }else{
                 $btg_status = 'fa fa-arrow-down';
             }
-            $btg = $format_response[0]->price_usd;
+            $btg = $number_format($format_response[0]->price_usd,3);
         }
         if($coin == 'zrx'){
             if($format_response[0]->percent_change_24h < 0){
@@ -80,7 +80,7 @@
             }else{
                 $zrx_status = 'fa fa-arrow-down';
             }
-            $zrx = $format_response[0]->price_usd;
+            $zrx = number_format($format_response[0]->price_usd,3);
         }
         if($coin == 'trx'){
             if($format_response[0]->percent_change_24h < 0){
@@ -88,7 +88,7 @@
             }else{
                 $trx_status = 'fa fa-arrow-down';
             }
-            $trx = $format_response[0]->price_usd;
+            $trx = number_format($format_response[0]->price_usd,3);
         }
     }
 ?>
@@ -396,7 +396,7 @@
                             <img width="30" height="30" src="svg/Ethereum.svg" alt="Ethereum">
                             <h4>etherium</h4>
 
-                            <h6><strong>$<?php echo $eth;?></strong></h6>
+                            <h6><strong>$<?php echo $eth;?></strong><span class="<?php echo $eth_status;?>"></h6>
                         </div>
                     </div>
                     <div class="token-details">
@@ -404,7 +404,7 @@
                             <img width="30" height="30" src="svg/Ripple.svg" alt="Ripple">
                             <h4>ripple</h4>
 
-                            <h6><strong>$<?php echo $rpl;?></strong></h6>
+                            <h6><strong>$<?php echo $rpl;?></strong><span class="<?php echo $rpl_status;?>"></h6>
                         </div>
                     </div>
                     <div class="token-details">
@@ -412,7 +412,7 @@
                             <img width="30" height="30" src="svg/Bitcoin-Gold.svg" alt="Bitcoin Gold">
                             <h4>bitcoin gold</h4>
 
-                            <h6><strong>$<?php echo $btg;?></strong></h6>
+                            <h6><strong>$<?php echo $btg;?></strong><span class="<?php echo $btg_status;?>"></h6>
                         </div>
                     </div>
                     <div class="token-details">
@@ -420,7 +420,7 @@
                             <img width="30" height="30" src="svg/Litecoin.svg" alt="Litecoin">
                             <h4>litecoin</h4>
 
-                            <h6><strong>$<?php echo $ltc;?></strong></h6>
+                            <h6><strong>$<?php echo $ltc;?></strong><span class="<?php echo $ltc_status;?>"></h6>
                         </div>
                     </div>
                     <div class="token-details">
@@ -428,7 +428,7 @@
                             <img width="30" height="30" src="svg/zrx.svg" alt="zrx">
                             <h4>Zrx</h4>
 
-                            <h6><strong>$<?php echo $zrx;?></strong></h6>
+                            <h6><strong>$<?php echo $zrx;?></strong><span class="<?php echo $zrx_status;?>"></h6>
                         </div>
                     </div>
                     <div class="token-details">
@@ -436,7 +436,7 @@
                             <img width="30" height="30" src="svg/Tron.svg" alt="Tron">
                             <h4>Tron</h4>
 
-                            <h6><strong>$<?php echo $trx;?></strong></h6>
+                            <h6><strong>$<?php echo $trx;?></strong><span class="<?php echo $txr_status;?>"></h6>
                         </div>
                     </div>
                     <div class="token-details">
