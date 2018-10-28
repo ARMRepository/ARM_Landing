@@ -436,7 +436,7 @@
                             <img width="30" height="30" src="svg/Tron.svg" alt="Tron">
                             <h4>Tron</h4>
 
-                            <h6><strong>$<?php echo $trx;?></strong><span class="<?php echo $txr_status;?>"></h6>
+                            <h6><strong>$<?php echo $trx;?></strong><span class="<?php echo $trx_status;?>"></h6>
                         </div>
                     </div>
                     <div class="token-details">
