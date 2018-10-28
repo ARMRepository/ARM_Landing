@@ -5,44 +5,90 @@
     $ltc = 0;
     $btg = 0;
     $zrx = 0;
+    $trx = 0;
     $coins = array(
-        'rpl' => 'https://www.bitstamp.net/api/v2/ticker/xrpusd',
-        'eth' => 'https://api.etherscan.io/api?module=stats&action=ethprice',
-        'btc' => 'https://www.bitstamp.net/api/v2/ticker/btcusd',
-        'ltc' => 'https://www.bitstamp.net/api/v2/ticker/ltcusd',
+        'rpl' => 'https://api.coinmarketcap.com/v1/ticker/ripple',//'https://www.bitstamp.net/api/v2/ticker/xrpusd',
+        'eth' => 'https://api.coinmarketcap.com/v1/ticker/ethereum',//'https://api.etherscan.io/api?module=stats&action=ethprice',
+        'btc' => 'https://api.coinmarketcap.com/v1/ticker/bitcoin',//'https://www.bitstamp.net/api/v2/ticker/btcusd',
+        'ltc' => 'https://api.coinmarketcap.com/v1/ticker/litecoin',//'https://www.bitstamp.net/api/v2/ticker/ltcusd',
         'btg' => 'https://api.coinmarketcap.com/v1/ticker/bitcoin-gold',
-        'zrx' => 'https://api.coinmarketcap.com/v1/ticker/0x'
+        'zrx' => 'https://api.coinmarketcap.com/v1/ticker/0x',
+        'trx' => 'https://api.coinmarketcap.com/v1/ticker/tron'
     );
     foreach($coins as $coin => $url){
-        if($coin != 'btg' && $coin != 'zrx'){
-            $ch = curl_init();
-            curl_setopt_array($ch, array(
-                CURLOPT_RETURNTRANSFER => 1,
-                CURLOPT_URL => $url
-            ));
-            $response = curl_exec($ch);
-            $format_response = json_decode($response);
-        }else{
-            $response = file_get_contents($url);
-            $format_response = json_decode($response);
-        }
+        // if($coin != 'btg' && $coin != 'zrx'){
+        //     $ch = curl_init();
+        //     curl_setopt_array($ch, array(
+        //         CURLOPT_RETURNTRANSFER => 1,
+        //         CURLOPT_URL => $url
+        //     ));
+        //     $response = curl_exec($ch);
+        //     $format_response = json_decode($response);
+        // }else{
+        //     $response = file_get_contents($url);
+        //     $format_response = json_decode($response);
+        // }
+        $response = file_get_contents($url);
+        $format_response = json_decode($response);
         if($coin == 'rpl'){
-            $rpl = $format_response->last;
+            //$rpl = $format_response->last;
+            if($format_response[0]->percent_change_24h < 0){
+                $rpl_status = 'fa fa-arrow-up';
+            }else{
+                $rpl_status = 'fa fa-arrow-down';
+            }
+            $rpl = $format_response[0]->price_usd;
         }
         if($coin == 'eth'){
-            $eth = $format_response->result->ethusd;
+            //$eth = $format_response->result->ethusd;
+            if($format_response[0]->percent_change_24h < 0){
+                $eth_status = 'fa fa-arrow-up';
+            }else{
+                $eth_status = 'fa fa-arrow-down';
+            }
+            $eth = $format_response[0]->price_usd;
         }
         if($coin == 'btc'){
-            $btc = $format_response->last;
+            //$btc = $format_response->last;
+            if($format_response[0]->percent_change_24h < 0){
+                $btc_status = 'fa fa-arrow-up';
+            }else{
+                $btc_status = 'fa fa-arrow-down';
+            }
+            $btc = $format_response[0]->price_usd;
         }
         if($coin == 'ltc'){
-            $ltc = $format_response->last;
+            //$ltc = $format_response->last;
+            if($format_response[0]->percent_change_24h < 0){
+                $ltc_status = 'fa fa-arrow-up';
+            }else{
+                $ltc_status = 'fa fa-arrow-down';
+            }
+            $ltc = $format_response[0]->price_usd;
         }
         if($coin == 'btg'){
+            if($format_response[0]->percent_change_24h < 0){
+                $btg_status = 'fa fa-arrow-up';
+            }else{
+                $btg_status = 'fa fa-arrow-down';
+            }
             $btg = $format_response[0]->price_usd;
         }
         if($coin == 'zrx'){
+            if($format_response[0]->percent_change_24h < 0){
+                $zrx_status = 'fa fa-arrow-up';
+            }else{
+                $zrx_status = 'fa fa-arrow-down';
+            }
             $zrx = $format_response[0]->price_usd;
+        }
+        if($coin == 'trx'){
+            if($format_response[0]->percent_change_24h < 0){
+                $trx_status = 'fa fa-arrow-up';
+            }else{
+                $trx_status = 'fa fa-arrow-down';
+            }
+            $trx = $format_response[0]->price_usd;
         }
     }
 ?>
@@ -224,7 +270,7 @@
                                 <p class="whitetxt" style="word-wrap: break-word;"><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p> -->
                                 <br>
                                 <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">Live Mining Stats</a>
-                                
+
                                 <!-- <a href="https://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn">Live Mining Stats</a> -->
                             </div>
                         </div>
@@ -341,15 +387,15 @@
                         <div class="token-info">
                             <img width="30" height="30" src="svg/bitcoin.svg" alt="bitcoin">
                             <h4>bitcoin</h4>
-                            
-                            <h6><strong>$<?php echo $btc;?></strong></h6>
+
+                            <h6><strong>$<?php echo $btc;?></strong><span class="<?php echo $btc_status;?>"></h6>
                         </div>
                     </div>
                     <div class="token-details">
                         <div class="token-info">
                             <img width="30" height="30" src="svg/Ethereum.svg" alt="Ethereum">
                             <h4>etherium</h4>
-                            
+
                             <h6><strong>$<?php echo $eth;?></strong></h6>
                         </div>
                     </div>
@@ -357,7 +403,7 @@
                         <div class="token-info">
                             <img width="30" height="30" src="svg/Ripple.svg" alt="Ripple">
                             <h4>ripple</h4>
-                            
+
                             <h6><strong>$<?php echo $rpl;?></strong></h6>
                         </div>
                     </div>
@@ -365,7 +411,7 @@
                         <div class="token-info">
                             <img width="30" height="30" src="svg/Bitcoin-Gold.svg" alt="Bitcoin Gold">
                             <h4>bitcoin gold</h4>
-                            
+
                             <h6><strong>$<?php echo $btg;?></strong></h6>
                         </div>
                     </div>
@@ -373,7 +419,7 @@
                         <div class="token-info">
                             <img width="30" height="30" src="svg/Litecoin.svg" alt="Litecoin">
                             <h4>litecoin</h4>
-                            
+
                             <h6><strong>$<?php echo $ltc;?></strong></h6>
                         </div>
                     </div>
@@ -381,7 +427,7 @@
                         <div class="token-info">
                             <img width="30" height="30" src="svg/zrx.svg" alt="zrx">
                             <h4>Zrx</h4>
-                            
+
                             <h6><strong>$<?php echo $zrx;?></strong></h6>
                         </div>
                     </div>
@@ -389,15 +435,15 @@
                         <div class="token-info">
                             <img width="30" height="30" src="svg/Tron.svg" alt="Tron">
                             <h4>Tron</h4>
-                            
-                            <h6><strong>$0.023387</strong></h6>
+
+                            <h6><strong>$<?php echo $trx;?></strong></h6>
                         </div>
                     </div>
                     <div class="token-details">
                         <div class="token-info">
                             <img width="30" height="30" src="img/newlogo.png" alt="zrx">
                             <h4>ARM</h4>
-                            
+
                             <h6><strong>$0.10</strong></h6>
                         </div>
                     </div>
