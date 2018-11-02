@@ -580,6 +580,13 @@
                                     <iframe style="padding: 10px;" class="embed-responsive-item" width="100%" height="580" src="https://www.youtube.com/embed/GmOzih6I1zs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
                             </div>
+                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe style="padding: 10px;" class="embed-responsive-item" width="100%" height="580" src="https://www.youtube.com/embed/GmOzih6I1zs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                                    <iframe style="padding: 10px;" class="embed-responsive-item" width="100%" height="580" src="https://www.youtube.com/embed/s-NsYj8Ic3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
@@ -1423,6 +1430,25 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
+                                
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://blockmanity.com/news/ron-paul-calls-for-exempting-cryptocurrencies-from-capital-gains-tax/" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/RonPaul-news.jpg);"></div>
+                                        <h5 class="news-tit">Ron Paul Calls for Exempting Cryptocurrencies from Capital Gains Tax</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://www.ccn.com/crypto-exchange-bithumb-u-s-with-security-token-exchange-deal/" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/KoreanCrypto-news.jpg);"></div>
+                                        <h5 class="news-tit">Korean Crypto Giant Bithumb Makes U.S. Foray with Security Token Exchange Deal</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
                                     <a href="https://www.dfs.ny.gov/about/press/pr1810231.htm" target="_blank">
