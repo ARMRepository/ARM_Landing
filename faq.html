@@ -99,9 +99,9 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="javascript: void(0)">Whitepaper
                             <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li>
+                                <!-- <li>
                                     <a target="_blank" href="pdf/onepager.pdf">Onepager</a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="pdf/white-paper.pdf" target="_blank">Whitepaper</a>
                                 </li>
@@ -117,10 +117,10 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="index.php#about">About Us</a>
+                            <a href="index.php#about">About</a>
                         </li>
                         <li>
-                            <a href="contact-us.html">Contact Us</a>
+                            <a href="contact-us.html">Contact</a>
                         </li>
                         <li class="btn-group">
                             <a href="https://investor.aarnav.io/" target="_blank">
@@ -422,6 +422,26 @@
                         <h5 class="static-tit">Is locking my money for 12 months as compelling as investing in a CD?</h5>
                         <p class="static-txt">It is a great option, as you will be paid in dividends for the 12-month holding period.</p>             
                     </div>
+                    <div class="static-block">
+                        <h5 class="static-tit">What documents do I need to submit for KYC?</h5>
+                        <div class="static-txt">
+                            <p>
+                                A valid government-issued ID is necessary for KYC verification.Your government-issued ID must not be expired and must have your photograph on it. Please use a scanner or the Google scanner app to get a clear picture of the front and back of your ID card (or the picture page of your passport if using a passport). If you do not have a scanner/the Google scanner app,Please take a flat picture of the front and back of your ID (or the picture page of your passport if using a passport). 
+                            </p>
+                            <p>Pleaes ensure the documentation you submit meets ALL the following criteria:</p>
+                            <ul>
+                                <li>
+                                    <p>No glare on the photo</p>
+                                </li>
+                                <li>
+                                    <p>All the information on the ID is readable</p>
+                                </li>
+                                <li>
+                                    <p>All corners of the ID are visible</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -634,7 +654,7 @@
 
     $("h5.static-tit").click(function(){
         $(this).toggleClass('active');
-        $(this).parent().find("p.static-txt").toggle('slow');
+        $(this).parent().find(".static-txt").toggle('slow');
 
     });
 

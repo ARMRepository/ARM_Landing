@@ -218,10 +218,10 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="index.php#about">About Us</a>
+                            <a href="index.php#about">About</a>
                         </li>
                         <li>
-                            <a href="contact-us.html">Contact Us</a>
+                            <a href="contact-us.html">Contact</a>
                         </li>
                         <li class="btn-group">
                             <a href="https://investor.aarnav.io/" target="_blank">
@@ -271,7 +271,7 @@
                                 <br>
                                 <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">Live Mining Stats</a>
 
-                                <!-- <a href="https://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn">Live Mining Stats</a> -->
+                                <a href="https://discord.gg/wVgD9J6" class="gradient-btn intro-btn">Join Our Community</a>
                             </div>
                         </div>
                         <!-- Intro Left Ends -->
@@ -1642,12 +1642,13 @@
             <section class="whitepaper-sec section p-80">
                 <div class="shape-bg bg-img"></div>
                 <div class="container">
+                <h4 class="raised-tit sales-tit black text-center mb40">“First payout to our investors is <span>decided by the board,</span> <span>will be distributed on</span> <span>31st of December 2018”</span></h4>
                     <div class="sec-inner whitepaper-sec-inner">
                         <!-- Section Content Starts -->
                         <div class="sec-content whitepaper-sec-content wow fadeInUp" data-wow-duration="1s">
                             <div class="whitepaper row">
                                 <!-- Whitepaper Block Starts -->
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                     <div class="whitepaper-block text-center" style="border: 0px;">
                                         <h5 class="whitepaper-tit">Read our Whitepaper</h5>
                                         <a href="pdf/white-paper.pdf" target="_blank" class="whitepaper-link"><span>Whitepaper</span></a>
@@ -1655,15 +1656,15 @@
                                 </div>
                                 <!-- Whitepaper Block Ends -->
                                 <!-- Whitepaper Block Starts -->
-                                <div class="col-md-4">
+                                <!-- <div class="col-md-4">
                                     <div class="whitepaper-block text-center">
                                         <h5 class="whitepaper-tit">Read Our Onepager</h5>
                                         <a href="pdf/onepager.pdf" target="_blank" class="whitepaper-link"><span>Onepager</span></a>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Whitepaper Block Ends -->
                                 <!-- Whitepaper Block Starts -->
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                     <div class="whitepaper-block text-center">
                                         <h5 class="whitepaper-tit">Register for Token sales</h5>
                                         <a href="http://investor.aarnav.io" class="whitepaper-link"><span>Buy Tokens</span></a>
@@ -2050,7 +2051,7 @@
                                     url: "https://investor.aarnav.io/subscription",
                                     data: {'email' : email},
                                     success: function(resultData){
-                                        $('#js-email').parent().after('<p class="success">You have successfully subscribed to Aarnav,great news and offers are waiting for you!</p>');
+                                        $('#js-email').parent().after('<p class="success">You have successfully subscribed to Aarnav, Great news and offers are waiting for you!</p>');
                                     }
                                 });
                             }

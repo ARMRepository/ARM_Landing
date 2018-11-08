@@ -63,8 +63,10 @@
      padding: 20px;
  }
  .mb40 {
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
  }
+
+
 
  a,
  a:hover,
@@ -4926,6 +4928,7 @@ Responsive CSS
 
  h5.static-tit {
      position: relative;
+     margin-bottom: 0;
  }
 
  h5.static-tit.active:before {
