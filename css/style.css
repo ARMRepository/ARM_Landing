@@ -133,7 +133,7 @@
      font-weight: bold;
      display: inline-block;
      padding: 15px 30px;
-     border-radius: 50px;
+     border-radius: 5px;
      text-transform: uppercase;
      font-size: 15px;
      transition: all .3s ease-in;
@@ -152,8 +152,8 @@
      background: linear-gradient(90deg,#fb8842 0,#fbc342);
      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb8842",endColorstr="#7db9e8",GradientType=1); */
 
-     background: rgba(255,255,255,1);
-     color: #fb8842;
+     background: #69B541;
+     color: #ffffff;
      box-shadow: 0px 3px 8px rgba(46, 30, 85, 0.20);
      transition: 0.3s;
  }
@@ -180,7 +180,7 @@
      font-weight: 600;
      border: 1px solid transparent;
      padding: 15px 30px;
-     border-radius: 50px;
+     border-radius: 5px;
     /* background: -moz-linear-gradient(180deg, #fba542 0%, #871fff 100%);
     background: -webkit-gradient(linear, left top, right top, #fba542 0%, #871fff 100%);
     background: -webkit-linear-gradient(180deg, #fba542 0%, #871fff 100%);
@@ -190,10 +190,10 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fba542', endColorstr='#871fff', GradientType=1); */
 
     background: #fba542;
-    background: -moz-linear-gradient(left,#fb8842 0,#fbc342 50%,#7db9e8 100%);
+    /* background: -moz-linear-gradient(left,#fb8842 0,#fbc342 50%,#7db9e8 100%);
     background: -webkit-linear-gradient(left,#fb8842,#fbc342);
     background: linear-gradient(90deg,#fb8842 0,#fbc342);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb8842",endColorstr="#7db9e8",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb8842",endColorstr="#7db9e8",GradientType=1); */
 
      color: #ffffff;
 
@@ -208,11 +208,11 @@
      background-image: -o-linear-gradient(left, #6edcaa 0%, #25bfbf 100%);
      background-image: linear-gradient(to right, #6edcaa 0%, #25bfbf 100%); */
 
-     background: #fba542;
-    background: -moz-linear-gradient(left,#fb8842 0,#fbc342 50%,#7db9e8 100%);
+     background: #69B541;
+    /* background: -moz-linear-gradient(left,#fb8842 0,#fbc342 50%,#7db9e8 100%);
     background: -webkit-linear-gradient(left,#fb8842,#fbc342);
     background: linear-gradient(90deg,#fb8842 0,#fbc342);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb8842",endColorstr="#7db9e8",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb8842",endColorstr="#7db9e8",GradientType=1); */
 
      color: #ffffff;
  }
@@ -1759,7 +1759,7 @@ News Section  CSS
      padding: 1px;
      text-decoration: none;
      display: inline-block;
-     border-radius: 100px;
+     border-radius: 5px;
      transition: all .3s ease;
      cursor: pointer;
      /* background: -moz-linear-gradient(180deg, #fba542 0%, #871fff 100%);
