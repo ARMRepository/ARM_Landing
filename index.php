@@ -385,10 +385,12 @@
                 <div class="grid-tokens">
                     <div class="token-details">
                         <div class="token-info">
+                            <a href="https://www.buybitcoinach.com/learn/what-is-bitcoin" target="_blank">
                             <img width="30" height="30" src="svg/bitcoin.svg" alt="bitcoin">
                             <h4>bitcoin</h4>
 
                             <h6><strong>$<?php echo $btc;?></strong><span class="<?php echo $btc_status;?>"></h6>
+                            </a>
                         </div>
                     </div>
                     <div class="token-details">
@@ -580,13 +582,13 @@
                                     <iframe style="padding: 10px;" class="embed-responsive-item" width="100%" height="580" src="https://www.youtube.com/embed/GmOzih6I1zs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s">
+                            <!-- <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s">
                                 <div class="embed-responsive embed-responsive-16by9">
                                     <iframe style="padding: 10px;" class="embed-responsive-item" width="100%" height="580" src="https://www.youtube.com/embed/GmOzih6I1zs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
                                     <iframe style="padding: 10px;" class="embed-responsive-item" width="100%" height="580" src="https://www.youtube.com/embed/s-NsYj8Ic3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
