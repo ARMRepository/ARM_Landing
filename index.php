@@ -1435,6 +1435,24 @@
                                 
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
+                                    <a href="https://www.ccn.com/worlds-first-crypto-etp-gets-green-light-in-switzerland/" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/switzerland-bitcoin.jpg);"></div>
+                                        <h5 class="news-tit">World's First Crypto ETP Gets Green Light in Switzerland</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                 <!-- News Slide Box Starts --> 
+                                 <div class="news-slide-box">
+                                    <a href="https://www.ccn.com/worlds-first-crypto-etp-gets-green-light-in-switzerland/" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/Singapore-Exchange.webp);"></div>
+                                        <h5 class="news-tit">Singapore Exchange Successfully Trials Blockchain for Tokenized Assets Settlement</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
                                     <a href="https://blockmanity.com/news/ron-paul-calls-for-exempting-cryptocurrencies-from-capital-gains-tax/" target="_blank">
                                         <div class="news-img bg-img" style="background-image: url(img/RonPaul-news.jpg);"></div>
                                         <h5 class="news-tit">Ron Paul Calls for Exempting Cryptocurrencies from Capital Gains Tax</h5>
