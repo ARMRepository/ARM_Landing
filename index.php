@@ -1435,6 +1435,33 @@
                                 
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
+                                    <a href="https://www.ccn.com/susquehanna-exec-bakkt-and-fidelity-could-solve-bitcoins-liquidity-issue/" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/glass-of-water-bitcoin-sidechain-liquid-cryptocurrency.jpg);"></div>
+                                        <h5 class="news-tit">Susquehanna Exec: Bakkt and Fidelity Could Solve Bitcoin’s Liquidity Issue</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://insidebitcoins.com/news/vanecks-mvis-debuts-first-ever-bitcoin-otc-index/195129" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/iftseo.jpg);"></div>
+                                        <h5 class="news-tit">VanEck’s MVIS Debuts First Ever Bitcoin OTC Index</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://www.ccn.com/could-switzerlands-crypto-etp-increase-the-chance-of-a-bitcoin-etf-approval/" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/switzerland-bitcoin-etf-crypto.jpg);"></div>
+                                        <h5 class="news-tit">Could Switzerland’s Crypto ETP Increase the Chance of a Bitcoin ETF Approval?</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+                                
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
                                     <a href="https://www.ccn.com/worlds-first-crypto-etp-gets-green-light-in-switzerland/" target="_blank">
                                         <div class="news-img bg-img" style="background-image: url(img/switzerland-bitcoin.jpg);"></div>
                                         <h5 class="news-tit">World's First Crypto ETP Gets Green Light in Switzerland</h5>
