@@ -280,6 +280,59 @@
                     </div>
                 </div>
             </section>
+
+
+            <section class="newsection-armaltcoin section p-80">
+                <div class="container">
+                    <h4 class="text-center">ARM Altcoin<span>Simple Configuration Mine flexibly</span></h4>
+                    <div class="items col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="item">
+                            <div class="item-icon">
+                                <img width="50px" height="50px" src="img/shop.92919ab2.svg" alt="">
+                            </div>
+                            <div class="item-title"><strong>Fast shipout</strong></div>
+                            <div class="item-desc">
+                                <div>Ship out at first time you need after purchase</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="item">
+                            <div class="item-icon">
+                                <img width="50px" height="50px" src="img/cloud.109312fb.svg" alt="">
+                            </div>
+                            <div class="item-title"><strong>Hosting Option</strong></div>
+                            <div class="item-desc">
+                                <div>Innovative Altcoin hosting mining</div>
+                                <div>Get rid of the Noise , Power Consumption and Maintenance </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="item">
+                            <div class="item-icon">
+                                <img src="img/update.d52f4d8d.svg" width="50px" height="50px" alt="">
+                            </div>
+                            <div class="item-title"><strong>Flexible configuration</strong></div>
+                            <div class="item-desc">
+                                <div>Mine immediately  No waitting time</div>
+                                <div>The algorithm can be flexibly configured and upgraded</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="item-icon">
+                                <img src="img/stable.3dd4e6e9.svg" alt="" width="50px" height="50px">
+                            </div>
+                            <div class="item-title"><strong>Stable and reliable</strong></div>
+                            <div class="item-desc">
+                                <div>Specialized deployment  99.9% no fault guarantee</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Intro Section Ends -->
             <!-- Discounts Section Starts -->
             <!-- <section class="discount-sec section p-80">
@@ -377,81 +430,7 @@
             </section> -->
             <!-- Discounts Section Ends -->
             <!-- Problem Section Starts style="background-image: url(img/shape.png);"-->
-        <div class="cryptocurrencies">
-            <div class="container">
-                <div class="text-center sec-title col-lg-12 col-md-12 col-sm-12 col-xs-12 mb40">
-                        <h4>Live Cryptocurrencies Price</h4>
-                    </div>
-                <div class="grid-tokens">
-                    <div class="token-details">
-                        <div class="token-info">
-                            <a href="https://www.buybitcoinach.com/learn/what-is-bitcoin" target="_blank">
-                            <img width="30" height="30" src="svg/bitcoin.svg" alt="bitcoin">
-                            <h4>bitcoin</h4>
-
-                            <h6><strong>$<?php echo $btc;?></strong><span class="<?php echo $btc_status;?>"></h6>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="token-details">
-                        <div class="token-info">
-                            <img width="30" height="30" src="svg/Ethereum.svg" alt="Ethereum">
-                            <h4>etherium</h4>
-
-                            <h6><strong>$<?php echo $eth;?></strong><span class="<?php echo $eth_status;?>"></h6>
-                        </div>
-                    </div>
-                    <div class="token-details">
-                        <div class="token-info">
-                            <img width="30" height="30" src="svg/Ripple.svg" alt="Ripple">
-                            <h4>ripple</h4>
-
-                            <h6><strong>$<?php echo $rpl;?></strong><span class="<?php echo $rpl_status;?>"></h6>
-                        </div>
-                    </div>
-                    <div class="token-details">
-                        <div class="token-info">
-                            <img width="30" height="30" src="svg/Bitcoin-Gold.svg" alt="Bitcoin Gold">
-                            <h4>bitcoin gold</h4>
-
-                            <h6><strong>$<?php echo $btg;?></strong><span class="<?php echo $btg_status;?>"></h6>
-                        </div>
-                    </div>
-                    <div class="token-details">
-                        <div class="token-info">
-                            <img width="30" height="30" src="svg/Litecoin.svg" alt="Litecoin">
-                            <h4>litecoin</h4>
-
-                            <h6><strong>$<?php echo $ltc;?></strong><span class="<?php echo $ltc_status;?>"></h6>
-                        </div>
-                    </div>
-                    <div class="token-details">
-                        <div class="token-info">
-                            <img width="30" height="30" src="svg/zrx.svg" alt="zrx">
-                            <h4>Zrx</h4>
-
-                            <h6><strong>$<?php echo $zrx;?></strong><span class="<?php echo $zrx_status;?>"></h6>
-                        </div>
-                    </div>
-                    <div class="token-details">
-                        <div class="token-info">
-                            <img width="30" height="30" src="svg/Tron.svg" alt="Tron">
-                            <h4>Tron</h4>
-
-                            <h6><strong>$<?php echo $trx;?></strong><span class="<?php echo $trx_status;?>"></h6>
-                        </div>
-                    </div>
-                    <div class="token-details">
-                        <div class="token-info">
-                            <img width="30" height="30" src="img/newlogo.png" alt="zrx">
-                            <h4>ARM</h4>
-
-                            <h6><strong>$0.10</strong><span class="fa fa-arrow-up"></span></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
+        
 
 
             <section class="problem-sec section p-80 gray-bg" id="about">
@@ -567,17 +546,17 @@
                     <!-- <div class="sec-tit text-center">Videos</div> -->
                     <div class="sec-inner solution-sec-inner">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s">
                                 <div class="embed-responsive embed-responsive-16by9">
                                     <iframe style="padding: 10px;" class="embed-responsive-item" width="100%" height="580" src="https://www.youtube.com/embed/YC9a-0a-E5o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s">
                                 <div class="embed-responsive embed-responsive-16by9">
                                     <iframe style="padding: 10px;" class="embed-responsive-item" width="100%" height="580" src="https://www.youtube.com/embed/R9AOF1gc2mc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s">
                                 <div class="embed-responsive embed-responsive-16by9">
                                     <iframe style="padding: 10px;" class="embed-responsive-item" width="100%" height="580" src="https://www.youtube.com/embed/GmOzih6I1zs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
@@ -1417,7 +1396,81 @@
                 </div
 >            </section>
 
+            <div class="cryptocurrencies">
+            <div class="container">
+                <div class="text-center sec-title col-lg-12 col-md-12 col-sm-12 col-xs-12 mb40">
+                        <h4>Live Cryptocurrencies Price</h4>
+                    </div>
+                <div class="grid-tokens">
+                    <div class="token-details">
+                        <div class="token-info">
+                            <a href="https://www.buybitcoinach.com/learn/what-is-bitcoin" target="_blank">
+                            <img width="30" height="30" src="svg/bitcoin.svg" alt="bitcoin">
+                            <h4>bitcoin</h4>
 
+                            <h6><strong>$<?php echo $btc;?></strong><span class="<?php echo $btc_status;?>"></h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="token-details">
+                        <div class="token-info">
+                            <img width="30" height="30" src="svg/Ethereum.svg" alt="Ethereum">
+                            <h4>etherium</h4>
+
+                            <h6><strong>$<?php echo $eth;?></strong><span class="<?php echo $eth_status;?>"></h6>
+                        </div>
+                    </div>
+                    <div class="token-details">
+                        <div class="token-info">
+                            <img width="30" height="30" src="svg/Ripple.svg" alt="Ripple">
+                            <h4>ripple</h4>
+
+                            <h6><strong>$<?php echo $rpl;?></strong><span class="<?php echo $rpl_status;?>"></h6>
+                        </div>
+                    </div>
+                    <div class="token-details">
+                        <div class="token-info">
+                            <img width="30" height="30" src="svg/Bitcoin-Gold.svg" alt="Bitcoin Gold">
+                            <h4>bitcoin gold</h4>
+
+                            <h6><strong>$<?php echo $btg;?></strong><span class="<?php echo $btg_status;?>"></h6>
+                        </div>
+                    </div>
+                    <div class="token-details">
+                        <div class="token-info">
+                            <img width="30" height="30" src="svg/Litecoin.svg" alt="Litecoin">
+                            <h4>litecoin</h4>
+
+                            <h6><strong>$<?php echo $ltc;?></strong><span class="<?php echo $ltc_status;?>"></h6>
+                        </div>
+                    </div>
+                    <div class="token-details">
+                        <div class="token-info">
+                            <img width="30" height="30" src="svg/zrx.svg" alt="zrx">
+                            <h4>Zrx</h4>
+
+                            <h6><strong>$<?php echo $zrx;?></strong><span class="<?php echo $zrx_status;?>"></h6>
+                        </div>
+                    </div>
+                    <div class="token-details">
+                        <div class="token-info">
+                            <img width="30" height="30" src="svg/Tron.svg" alt="Tron">
+                            <h4>Tron</h4>
+
+                            <h6><strong>$<?php echo $trx;?></strong><span class="<?php echo $trx_status;?>"></h6>
+                        </div>
+                    </div>
+                    <div class="token-details">
+                        <div class="token-info">
+                            <img width="30" height="30" src="img/newlogo.png" alt="zrx">
+                            <h4>ARM</h4>
+
+                            <h6><strong>$0.10</strong><span class="fa fa-arrow-up"></span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
 
             <section class="news-sec gray-bg bg-img section p-80" id="news">
                 <div class="container">
@@ -1685,6 +1738,9 @@
                 </div>
             </section>
             <!-- News Section Ends -->
+
+            
+
             <!-- Whitepaper Section Starts style="background-image: url(img/bg.png);-->
             <section class="whitepaper-sec section p-80">
                 <div class="shape-bg bg-img"></div>
