@@ -150,6 +150,34 @@
     .whitetxt {
         color: #fff;
     }
+    /* This used to work for the parent element of button divs */
+
+
+/* But it does not work with newer browsers, the below doesn't hide the play button parent div */
+
+*::-webkit-media-controls-panel {
+    display: none!important;
+    -webkit-appearance: none;
+}
+
+
+/* Old shadow dom for play button */
+
+*::-webkit-media-controls-play-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
+
+
+/* New shadow dom for play button */
+
+
+/* This one works! */
+
+*::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
     </style>
 </head>
 
@@ -1486,7 +1514,16 @@
                             <!-- News Slider Starts -->
                             <div class="news-slider">
                                 
-                                <!-- News Slide Box Starts -->
+                                    <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://www.ccn.com/breaking-what-crypto-winter-nasdaq-to-launch-bitcoin-futures-market/" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/Nasdaq-760x400.jpg);"></div>
+                                        <h5 class="news-tit">What Crypto Winter? Nasdaq to Launch Bitcoin Futures Market: Report</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
                                     <a href="https://www.ccn.com/susquehanna-exec-bakkt-and-fidelity-could-solve-bitcoins-liquidity-issue/" target="_blank">
                                         <div class="news-img bg-img" style="background-image: url(img/glass-of-water-bitcoin-sidechain-liquid-cryptocurrency.jpg);"></div>
