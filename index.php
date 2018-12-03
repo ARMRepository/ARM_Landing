@@ -1515,6 +1515,24 @@
                             <div class="news-slider">
                                 
                                     <!-- News Slide Box Starts -->
+                                    <div class="news-slide-box">
+                                    <a href="https://finance.yahoo.com/news/g20-countries-regulate-cryptocurrencies-line-191710160.html" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/g20countries.jpg);"></div>
+                                        <h5 class="news-tit">G20 Countries to Regulate Cryptocurrencies in Line with FATF Standards</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                    <!-- News Slide Box Starts -->
+                                    <div class="news-slide-box">
+                                    <a href="https://news.bitcoin.com/report-bitcoin-mining-doesnt-fuel-climate-change-it-benefits-the-global-economy/" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/bitcoinmining.jpg);"></div>
+                                        <h5 class="news-tit">Bitcoin Mining Doesn’t Fuel Climate Change, It Benefits the Global Economy</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                    <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
                                     <a href="https://www.ccn.com/breaking-what-crypto-winter-nasdaq-to-launch-bitcoin-futures-market/" target="_blank">
                                         <div class="news-img bg-img" style="background-image: url(img/Nasdaq-760x400.jpg);"></div>
