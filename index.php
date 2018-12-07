@@ -299,7 +299,9 @@
                                 <br>
                                 <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">Live Mining Stats</a>
 
-                                <a href="https://discord.gg/wVgD9J6" class="gradient-btn intro-btn">Join Our Community</a>
+                                <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-new">ARM Mining Stats</a>
+								
+								<!--<a href="https://discord.gg/wVgD9J6" class="gradient-btn intro-btn">Join Our Community</a> -->
                             </div>
                         </div>
                         <!-- Intro Left Ends -->
@@ -1789,6 +1791,7 @@
                     <!-- News Section Inner Ends -->
                     <div class="sec-button-sec text-center m-t-50">
                         <a href="http://investor.aarnav.io/register" class="white-btn">Signup &amp; Buy Tokens</a>
+						<a href="https://discord.gg/wVgD9J6" class="gradient-btn intro-btn">Join Our Community</a>
                     </div>
                 </div>
             </section>
@@ -1909,6 +1912,25 @@
     <!-- Video Modal Ends -->
     <!-- Slider Button Modal Start -->
     <!-- Modal_1 Start-->
+	<div class="modal fade" id="myModal-new" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="color: #000 !important">&times;</button>
+                    <div class="modal-title text-center"><img src="img/black-logo.png" alt="logo" width="20%" class="img-responsive"></div>
+                </div>
+            <!--<div class="modal-body">
+                    <p><b>Mining statistics link</b></p>
+                    <p><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank" style="word-wrap: break-word;color: #797777 !important;">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p>
+                </div> -->
+				<div class="row overflow modal-body">
+					<div id="chartContainer" style="height: 400px; width: 600px;"></div>
+					
+				</div>
+            </div>
+        </div>
+    </div>
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
@@ -1917,13 +1939,111 @@
                     <button type="button" class="close" data-dismiss="modal" style="color: #000 !important">&times;</button>
                     <div class="modal-title text-center"><img src="img/black-logo.png" alt="logo" width="20%" class="img-responsive"></div>
                 </div>
-                <div class="modal-body">
-                    <br>
+            <!--<div class="modal-body">
                     <p><b>Mining statistics link</b></p>
                     <p><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank" style="word-wrap: break-word;color: #797777 !important;">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p>
-                    <br>
-                    <br>
-                </div>
+                </div> -->
+				<div class="row overflow modal-body">
+					<div class="frame">
+						<h1>3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</h1>
+						<div class="select right">
+							<select>
+								<option value="AUD">AUD</option>
+								<option value="BGN">BGN</option>
+								<option value="BRL">BRL</option>
+								<option value="CAD">CAD</option>
+							</select>
+						</div>
+					</div>
+					<div class="divider"></div>
+					<div id="stats-cntnt">
+						<div class="col_4">
+							<h2>Profitability</h2>
+							<div class="content" id="statsProfitability">0.0313 <small>BTC/day</small><sub><span class="fiatAmount">101.71</span> <small><span class="fiatCurrency">USD</span>/day</small></sub></div>
+						</div>
+						<div class="col_4">
+							<h2>Efficiency</h2>
+							<div class="content" id="statsEfficiency">99.88% <sub>0.12% rejected</sub></div>
+						</div>
+						<div class="col_4">
+							<h2>Workers</h2>
+							<div class="content" id="totalWorkers">1</div>
+						</div>
+					</div>
+					
+					<div class="row closer">
+						<div class="col_2_3">
+							<div>
+							<h2>Mining stats</h2>
+							<table class="light">
+								<thead>
+									<tr>
+										<th>Algorithm</th>
+										<th class="rmv2" style="text-align: right;">Accepted speed</th>
+										<th class="rmv" style="text-align: right;">Rejected speed</th>
+										<th class="rmv" style="text-align: right;">Profitability<br>(BTC/day)</th>
+										<!--<th class="rmv2" style="text-align: right;">Unpaid balance<br>(BTC)</th>-->
+									</tr>
+								</thead>
+								<tbody id="miningStats">
+									<tr>
+										<td>Equihash<div class="shw"><b>Accepted speed:</b> 783344.00 Sol/s<br><b>Unpaid balance:</b> 0.00838217 BTC</div></td>
+										<td class="rmv2" style="text-align: right;">783344.00 Sol/s</td>
+										<td class="rmv" style="text-align: right;">1856.83 Sol/s (0.24%)</td>
+										<td class="rmv" style="text-align: right;">0.0313</td>
+										<!--<td class="rmv2" style="text-align: right;">0.00838217</td>-->
+									</tr>
+									<tr>
+										<td>Lyra2Z<div class="shw"><b>Accepted speed:</b> 0.00 MH/s<br><b>Unpaid balance:</b> 0.00000000 BTC</div></td>
+										<td class="rmv2" style="text-align: right;">0.00 MH/s</td>
+										<td class="rmv" style="text-align: right;">0.00 MH/s (0.00%)</td>
+										<td class="rmv" style="text-align: right;">0.0000</td>
+										<!--<td class="rmv2" style="text-align: right;">0.00000000</td>-->
+									</tr>
+									<tr class="rmv"><td></td><td></td>
+										<td class="results" style="text-align: right;"><div style="margin-bottom: 5px;">Total BTC</div><span class="text-muted">Total USD</span></td>
+										<td class="results" style="text-align: right;"><div style="margin-bottom: 5px;">0.0313/day</div><span class="text-muted"><span class="fiatAmount">101.71</span>/day</span></td>
+										<!--<td class="results"><div style="margin-bottom: 5px;">0.00838217</div><span class="text-muted"><span class="fiatAmount">27.21</span></span></td>-->
+									</tr>
+								</tbody>
+							</table>
+							</div>
+						</div>
+						<div class="col_1_3">
+							<div>
+							<h2>Projected payout</h2>
+								<div class="payout">
+									<div class="payout_header">
+										<div class="line">
+											<div class="title">Next payout</div>
+											<div class="value">2018-12-08 16:00</div>
+										</div>
+										<div class="line">
+											<div class="title">Payout amount</div>
+											<div class="value"><span id="nextPayoutBalanceBTC">0.03067990</span> BTC<sub><span class="fiatAmount" id="nextPayoutBalanceFIAT">99.59 </span><span class="fiatCurrency">USD</span></sub></div>
+										</div>
+									</div>
+									<div class="payout_content">
+										<div class="line">
+											<div class="title">Daily income</div>
+											<div class="value"><span id="dailyIncomeBTC">0.02999784</span> BTC<sub><span id="dailyIncomeFIAT" class="fiatAmount">97.37 </span><span class="fiatCurrency">USD</span></sub></div>
+										</div>
+										<div class="line">
+											<div class="title">Weekly income</div>
+											<div class="value"><span id="weeklyIncomeBTC">0.20998488</span> BTC<sub><span id="weeklyIncomeFIAT" class="fiatAmount">681.61 </span><span class="fiatCurrency">USD</span></sub></div>
+										</div>
+										<div class="line">
+											<div class="title">Monthly income</div>
+											<div class="value"><span id="monthlyIncomeBTC">0.89993520</span> BTC<sub><span id="monthlyIncomeFIAT" class="fiatAmount">2921.19 </span><span class="fiatCurrency">USD</span></sub></div>
+										</div>
+									</div>
+									<div class="payout_content" style="border-top: 1px solid rgb(219, 219, 219); position: relative; top: -3px; background: white;"><div class="line text-center"><a href="/help/when-and-how-do-you-get-paid" target="_blank" style="text-transform: uppercase; color: rgb(136, 136, 136); text-decoration: underline;">When and how do you get paid?</a></div></div>
+									<small>Please note that these values are only estimations on the basis of your current mining tempo and they can change over time. Exchange rate of 1 BTC = <span class="fiatAmountExchange">3246.00</span> <span class="fiatCurrency">USD</span> was used.</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
             </div>
         </div>
     </div>
@@ -2048,6 +2168,7 @@
     <script src="js/world_countries_miller.js"></script>
     <!-- Scripts -->
     <script src="js/scripts.js"></script>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
     <script type="text/javascript">
     $(function() {
@@ -2145,6 +2266,53 @@
         });
     });
     </script>
+	
+	<script>
+					window.onload = function () {
+
+					var chart = new CanvasJS.Chart("chartContainer", {
+						animationEnabled: true,  
+						title:{
+							text: "Company Revenue by Year"
+						},
+						axisY: {
+							title: "Revenue in USD",
+							valueFormatString: "#0,,.",
+							suffix: "mn",
+							prefix: "$"
+						},
+						data: [{
+							type: "splineArea",
+							color: "rgba(54,158,173,.7)",
+							markerSize: 5,
+							xValueFormatString: "YYYY",
+							yValueFormatString: "$#,##0.##",
+							dataPoints: [
+								{ x: new Date(2000, 0), y: 3289000 },
+								{ x: new Date(2001, 0), y: 3830000 },
+								{ x: new Date(2002, 0), y: 2009000 },
+								{ x: new Date(2003, 0), y: 2840000 },
+								{ x: new Date(2004, 0), y: 2396000 },
+								{ x: new Date(2005, 0), y: 1613000 },
+								{ x: new Date(2006, 0), y: 2821000 },
+								{ x: new Date(2007, 0), y: 2000000 },
+								{ x: new Date(2008, 0), y: 1397000 },
+								{ x: new Date(2009, 0), y: 2506000 },
+								{ x: new Date(2010, 0), y: 2798000 },
+								{ x: new Date(2011, 0), y: 3386000 },
+								{ x: new Date(2012, 0), y: 6704000},
+								{ x: new Date(2013, 0), y: 6026000 },
+								{ x: new Date(2014, 0), y: 2394000 },
+								{ x: new Date(2015, 0), y: 1872000 },
+								{ x: new Date(2016, 0), y: 2140000 }
+							]
+						}]
+						});
+					chart.render();
+
+					}
+					</script>
+	
     <!-- Start of LiveChat (www.livechatinc.com) code -->
     <script type="text/javascript">
     window.__lc = window.__lc || {};
