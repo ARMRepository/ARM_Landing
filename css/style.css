@@ -3592,6 +3592,13 @@ Static Page CSS
     margin-left: 10px;
 }
 
+#chartContainer {
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
 
 /*=========================================== 
 }
@@ -5046,70 +5053,334 @@ p {
 
 /* New Styles (12.07.18) */
 
-#myModal .frame .select select {border: 0;color: #3a3939;background: #fff;font-weight: 400;font-size: 20px;padding-right: 10px;background-color: #fff;}
-#myModal .modal-body .frame {display: block;clear: both;padding: 20px;}
-#myModal .modal-body .frame h1 {font-size: 23px;display: inline-block;}
-#myModal .modal-body .frame .select.right {display: inline-block;float: right;}
-#myModal .modal-body .frame .select.right select {border: 1px solid #dbdbdb;padding: 6px 12px;font-size: 16px;border-radius: 2px;}	
-#myModal .modal-body .divider {border: 0.4px solid #dbdbdb;padding: 0 10px;display: block;width: 96%;margin: 0 auto 20px;}
+#myModal .frame .select select {
+    border: 0;
+    color: #3a3939;
+    background: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    padding-right: 10px;
+    background-color: #fff;
+}
 
-#myModal .modal-dialog {width: auto;max-width: 1100px;}
-#stats-cntnt .col_4 {display: inline-block;width: 33%;float: left;padding: 8px;text-align: center;}
-#stats-cntnt h2 {font-size: 16px;background: #fba342;color: #fff;padding: 15px 0;border-radius: 5px 5px 0 0;font-weight: 700;margin: 0;}
-#stats-cntnt .content {border: 1px solid #dbdbdb;border-top: 0;border-radius: 0 0 5px 5px;padding: 15px 0;font-size: 22px;font-weight: 700;color: #524e4e;text-align: center;height: 80px;}
-#stats-cntnt .content small {font-weight: 400;font-size: 12px;}
-#stats-cntnt .content sub {display: block;font-size: 14px;font-weight: 400;color: #9b9b9b;margin-top: 6px;}
-.modal-body #stats-cntnt {display: block;clear: both;padding: 12px;}
+#myModal .modal-body .frame {
+    display: block;
+    clear: both;
+    padding: 20px;
+}
 
-.modal-body .row.closer {margin: 0;clear: both;padding: 20px 25px;}
-.modal-body .row.closer .col_2_3 {display: inline-block;width: 65%;float: left;}
-.modal-body .row.closer .col_1_3 {display: inline-block;width: 35%;float: left;padding: 0 0px 0 16px;}
-#myModal .modal-body .row.closer h2{text-align: left;font-size: 22px;font-weight: 700;padding: 0;margin: 0;display: inline-block;}
-#myModal .modal-body .row.closer table.light {margin: 20px 0;width: 100%;border-collapse: separate;border-spacing: 0 0;clear: both;border: 1px solid #dbdbdb;box-shadow: 2px 2px 3px rgba(0,0,0,.05);border-radius: 5px;}
-#myModal .modal-body .row.closer table.light tr:first-child {border-radius: 5px 5px 0 0;border-bottom: 1px solid #dbdbdb;}
-#myModal .modal-body .row.closer table.light tr:last-child {border-radius: 0 0 5px 5px;}
-#myModal .modal-body .row.closer table.light tr th:first-child {border-radius: 5px 0 0 0;}
-#myModal .modal-body .row.closer table.light tr th {background: 0 0;font-size: 10px;font-weight: 400;color: #959595;letter-spacing: 1px;text-transform: uppercase;padding: 15px;border-bottom: 1px solid #dbdbdb;}
-#myModal .modal-body .row.closer .col_2_3 table.light tr td {font-weight: 400;font-size: 12px;border-bottom: 0;padding: 10px 15px;}
-#myModal .modal-body .row.closer .col_2_3 table.light tr td:first-child {font-weight: 500;width: auto;}
-.modal-body .row.closer .col_1_3 .payout {margin: 20px 0;}
-.modal-body .row.closer .col_1_3 .payout .payout_header {padding: 20px;background: #68b641;font-size: 14px;color: #fff;border-radius: 5px 5px 0 0;}
-.modal-body .row.closer .col_1_3 .payout .line {overflow: hidden;}
-.modal-body .row.closer .col_1_3 .payout .title {padding: 5px 10px;font-weight: 700;float: left;width: 50%;}
-.modal-body .row.closer .col_1_3 .payout .value {padding: 5px 10px;float: left;width: 50%;}
-.modal-body .row.closer .col_1_3 .payout_content {border: 1px solid #dbdbdb;border-top: 0;border-radius: 0 0 5px 5px;overflow: hidden;padding: 10px 20px;font-size: 14px;}
-.modal-body .row.closer .col_1_3 small {font-size: 12px;color: #9b9b9b;line-height: 1.3;}
+#myModal .modal-body .frame h1 {
+    font-size: 23px;
+    display: inline-block;
+}
 
+#myModal .modal-body .frame .select.right {
+    display: inline-block;
+    float: right;
+}
+
+#myModal .modal-body .frame .select.right select {
+    border: 1px solid #dbdbdb;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+#myModal .modal-body .divider {
+    border: 0.4px solid #dbdbdb;
+    padding: 0 10px;
+    display: block;
+    width: 96%;
+    margin: 0 auto 20px;
+}
+
+#myModal .modal-dialog {
+    width: auto;
+    max-width: 1100px;
+}
+
+#stats-cntnt .col_4 {
+    display: inline-block;
+    width: 33%;
+    float: left;
+    padding: 8px;
+    text-align: center;
+}
+
+#stats-cntnt h2 {
+    font-size: 16px;
+    background: #fba342;
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 5px 5px 0 0;
+    font-weight: 700;
+    margin: 0;
+}
+
+#stats-cntnt .content {
+    border: 1px solid #dbdbdb;
+    border-top: 0;
+    border-radius: 0 0 5px 5px;
+    padding: 15px 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: #524e4e;
+    text-align: center;
+    height: 80px;
+}
+
+#stats-cntnt .content small {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#stats-cntnt .content sub {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9b9b9b;
+    margin-top: 6px;
+}
+
+.modal-body #stats-cntnt {
+    display: block;
+    clear: both;
+    padding: 12px;
+}
+
+.modal-body .row.closer {
+    margin: 0;
+    clear: both;
+    padding: 20px 25px;
+}
+
+.modal-body .row.closer .col_2_3 {
+    display: inline-block;
+    width: 65%;
+    float: left;
+}
+
+.modal-body .row.closer .col_1_3 {
+    display: inline-block;
+    width: 35%;
+    float: left;
+    padding: 0 0px 0 16px;
+}
+
+#myModal .modal-body .row.closer h2 {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+#myModal .modal-body .row.closer table.light {
+    margin: 20px 0;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0;
+    clear: both;
+    border: 1px solid #dbdbdb;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .05);
+    border-radius: 5px;
+}
+
+#myModal .modal-body .row.closer table.light tr:first-child {
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+#myModal .modal-body .row.closer table.light tr:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+#myModal .modal-body .row.closer table.light tr th:first-child {
+    border-radius: 5px 0 0 0;
+}
+
+#myModal .modal-body .row.closer table.light tr th {
+    background: 0 0;
+    font-size: 10px;
+    font-weight: 400;
+    color: #959595;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+#myModal .modal-body .row.closer .col_2_3 table.light tr td {
+    font-weight: 400;
+    font-size: 12px;
+    border-bottom: 0;
+    padding: 10px 15px;
+}
+
+#myModal .modal-body .row.closer .col_2_3 table.light tr td:first-child {
+    font-weight: 500;
+    width: auto;
+}
+
+#myModal .modal-body .row.closer table.light tr td {
+    font-weight: 400;
+    font-size: 12px;
+    border-bottom: 0;
+    padding: 10px 15px;
+}
+
+#myModal-new .row.closer .light.new-table,
+#myModal-new .row.closer .light.new-table thead,
+#myModal-new .row.closer .light.new-table tbody,
+#myModal-new .row.closer .light.new-table tr {
+    display: block;
+}
+
+#myModal-new .row.closer .light.new-table {
+    border: 1px solid #dbdbdb;
+}
+
+#myModal-new .row.closer .light.new-table thead {
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+#myModal-new .row.closer .light.new-table #miningStats {
+    padding: 10px;
+}
+
+#myModal-new .row.closer .light.new-table #miningStats td {
+    width: 49.5%;
+    display: inline-block;
+}
+
+#myModal-new .modal-dialog {
+    width: 100%;
+    max-width: 1100px;
+}
+
+#myModal-new .row.closer .light.new-table tr th {
+    width: 49.5%;
+    display: inline-block;
+}
+
+#myModal .modal-body .row.closer table.light tr td:first-child {
+    font-weight: 500;
+    width: auto;
+}
+
+.modal-body .row.closer .col_1_3 .payout {
+    margin: 20px 0;
+}
+
+.modal-body .row.closer .col_1_3 .payout .payout_header {
+    padding: 20px;
+    background: #68b641;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.modal-body .row.closer .col_1_3 .payout .line {
+    overflow: hidden;
+}
+
+.modal-body .row.closer .col_1_3 .payout .title {
+    padding: 5px 10px;
+    font-weight: 700;
+    float: left;
+    width: 50%;
+}
+
+.modal-body .row.closer .col_1_3 .payout .value {
+    padding: 5px 10px;
+    float: left;
+    width: 50%;
+}
+
+.modal-body .row.closer .col_1_3 .payout_content {
+    border: 1px solid #dbdbdb;
+    border-top: 0;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.modal-body .row.closer .col_1_3 small {
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 1.3;
+}
 
 @media screen and (max-width: 767px) {
-.modal-body .row.closer .col_2_3 {display: block;width: 100%;float: left;}
-.modal-body .row.closer .col_1_3 {display: block;width: 100%;float: left;padding: 0 6px 0 6px;}
-#myModal .modal-body .frame h1 {font-size: 15px;display: block;}
-#myModal .modal-body .frame .select.right {display: block;float: none;text-align: right;}
-.row.overflow.modal-body #chartContainer, .row.overflow.modal-body #chartContainer canvas {width: 100% !important;display: block;}
+    .modal-body .row.closer .col_2_3 {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+    .modal-body .row.closer .col_1_3 {
+        display: block;
+        width: 100%;
+        float: left;
+        padding: 0 6px 0 6px;
+    }
+    #myModal .modal-body .frame h1 {
+        font-size: 15px;
+        display: block;
+    }
+    #myModal .modal-body .frame .select.right {
+        display: block;
+        float: none;
+        text-align: right;
+    }
+    .row.overflow.modal-body #chartContainer,
+    .row.overflow.modal-body #chartContainer canvas {
+        width: 100% !important;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 480px) {
-#stats-cntnt .col_4 {padding: 5px;}
-#stats-cntnt h2 {font-size: 14px;padding: 12px 0;font-weight: 700;}
-#stats-cntnt .content {padding: 16px 0;font-size: 14px;font-weight: 700;height: 80px;}
-#stats-cntnt .content small {font-weight: 400;font-size: 11px;}
-#stats-cntnt .content sub {display: block;font-size: 12px;font-weight: 400;}
-
-.modal-body .row.closer .col_2_3 {display: block;overflow-x: scroll;}
-.modal-body .row.closer .col_2_3 > div {width: 500px;}
-.modal-body .row.closer {padding: 20px 22px;}
+    #stats-cntnt .col_4 {
+        padding: 5px;
+    }
+    #stats-cntnt h2 {
+        font-size: 14px;
+        padding: 12px 0;
+        font-weight: 700;
+    }
+    #stats-cntnt .content {
+        padding: 16px 0;
+        font-size: 14px;
+        font-weight: 700;
+        height: 80px;
+    }
+    #stats-cntnt .content small {
+        font-weight: 400;
+        font-size: 11px;
+    }
+    #stats-cntnt .content sub {
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .modal-body .row.closer .col_2_3 {
+        display: block;
+        overflow-x: scroll;
+    }
+    .modal-body .row.closer .col_2_3>div {
+        width: 500px;
+    }
+    .modal-body .row.closer {
+        padding: 20px 22px;
+    }
 }
 
 @media screen and (max-width: 380px) {
-#stats-cntnt .content sub {font-size: 11px;font-weight: 400;}
+    #stats-cntnt .content sub {
+        font-size: 11px;
+        font-weight: 400;
+    }
 }
-
-
-
-
-
-
-
-
-

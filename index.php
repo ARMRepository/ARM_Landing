@@ -1925,8 +1925,31 @@
                     <p><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank" style="word-wrap: break-word;color: #797777 !important;">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p>
                 </div> -->
 				<div class="row overflow modal-body">
-					<div id="chartContainer" style="height: 400px; width: 600px;"></div>
-					
+					<div id="chartContainer"></div>
+					<div class="row closer">
+					<table class="light new-table">
+						<thead>
+							<tr>
+								<th>ZP</th>
+								<th class="rmv2" style="text-align: right;">USD</th>
+							</tr>
+						</thead>
+						<tbody id="miningStats">
+							<tr>
+								<td><div class="shw"><b>28.6500</b> ZP</div></td>
+								<td class="rmv2" style="text-align: right;">26.02</td>
+							</tr>
+							<tr>
+								<td>Lyra2Z<div class="shw"><b>200.5848</b> ZP</div></td>
+								<td class="rmv2" style="text-align: right;">182.14</td>
+							</tr>
+							<tr>
+								<td>Equihash<div class="shw"><b>859.6491</b> ZP</div></td>
+								<td class="rmv2" style="text-align: right;">806.62</td>
+							</tr>
+						</tbody>
+					</table>
+					</div>
 				</div>
             </div>
         </div>
@@ -1980,21 +2003,21 @@
 									<tr>
 										<th>Algorithm</th>
 										<th class="rmv2" style="text-align: right;">Accepted speed</th>
-										<th class="rmv" style="text-align: right;">Rejected speed</th>
-										<th class="rmv" style="text-align: right;">Profitability<br>(BTC/day)</th>
+										<th class="rmv" style="text-align: right;">Rejected speed<br>(BTC/day)</th>
+										<th class="rmv" style="text-align: right;">Profitability</th>
 										<!--<th class="rmv2" style="text-align: right;">Unpaid balance<br>(BTC)</th>-->
 									</tr>
 								</thead>
 								<tbody id="miningStats">
 									<tr>
-										<td>Equihash<div class="shw"><b>Accepted speed:</b> 783344.00 Sol/s<br><b>Unpaid balance:</b> 0.00838217 BTC</div></td>
-										<td class="rmv2" style="text-align: right;">783344.00 Sol/s</td>
-										<td class="rmv" style="text-align: right;">1856.83 Sol/s (0.24%)</td>
-										<td class="rmv" style="text-align: right;">0.0313</td>
+										<td>Equihash<!--<div class="shw"><b>Accepted speed:</b> 783344.00 Sol/s<br><b>Unpaid balance:</b> 0.00838217 BTC</div>--></td>
+										<td class="rmv2" style="text-align: right;">723015.00 Sol/s</td>
+										<td class="rmv" style="text-align: right;">1856.83 Sol/s (0.26%)</td>
+										<td class="rmv" style="text-align: right;">0.062</td>
 										<!--<td class="rmv2" style="text-align: right;">0.00838217</td>-->
 									</tr>
 									<tr>
-										<td>Lyra2Z<div class="shw"><b>Accepted speed:</b> 0.00 MH/s<br><b>Unpaid balance:</b> 0.00000000 BTC</div></td>
+										<td>Lyra2Z<!--<div class="shw"><b>Accepted speed:</b> 0.00 MH/s<br><b>Unpaid balance:</b> 0.00000000 BTC</div>--></td>
 										<td class="rmv2" style="text-align: right;">0.00 MH/s</td>
 										<td class="rmv" style="text-align: right;">0.00 MH/s (0.00%)</td>
 										<td class="rmv" style="text-align: right;">0.0000</td>
@@ -2002,11 +2025,12 @@
 									</tr>
 									<tr class="rmv"><td></td><td></td>
 										<td class="results" style="text-align: right;"><div style="margin-bottom: 5px;">Total BTC</div><span class="text-muted">Total USD</span></td>
-										<td class="results" style="text-align: right;"><div style="margin-bottom: 5px;">0.0313/day</div><span class="text-muted"><span class="fiatAmount">101.71</span>/day</span></td>
+										<td class="results" style="text-align: right;"><div style="margin-bottom: 5px;">0.062 BTC/day</div><span class="text-muted"><span class="fiatAmount">210 USD</span>/day</span></td>
 										<!--<td class="results"><div style="margin-bottom: 5px;">0.00838217</div><span class="text-muted"><span class="fiatAmount">27.21</span></span></td>-->
 									</tr>
 								</tbody>
 							</table>
+							
 							</div>
 						</div>
 						<div class="col_1_3">
@@ -2016,25 +2040,25 @@
 									<div class="payout_header">
 										<div class="line">
 											<div class="title">Next payout</div>
-											<div class="value">2018-12-08 16:00</div>
+											<div class="value">2018-12-31 17:00</div>
 										</div>
-										<div class="line">
+										<!--<div class="line">
 											<div class="title">Payout amount</div>
 											<div class="value"><span id="nextPayoutBalanceBTC">0.03067990</span> BTC<sub><span class="fiatAmount" id="nextPayoutBalanceFIAT">99.59 </span><span class="fiatCurrency">USD</span></sub></div>
-										</div>
+										</div>-->
 									</div>
 									<div class="payout_content">
 										<div class="line">
 											<div class="title">Daily income</div>
-											<div class="value"><span id="dailyIncomeBTC">0.02999784</span> BTC<sub><span id="dailyIncomeFIAT" class="fiatAmount">97.37 </span><span class="fiatCurrency">USD</span></sub></div>
+											<div class="value"><span id="dailyIncomeBTC">0.062</span> BTC<sub><span id="dailyIncomeFIAT" class="fiatAmount">210</span><span class="fiatCurrency">USD</span></sub></div>
 										</div>
 										<div class="line">
 											<div class="title">Weekly income</div>
-											<div class="value"><span id="weeklyIncomeBTC">0.20998488</span> BTC<sub><span id="weeklyIncomeFIAT" class="fiatAmount">681.61 </span><span class="fiatCurrency">USD</span></sub></div>
+											<div class="value"><span id="weeklyIncomeBTC">0.43</span> BTC<sub><span id="weeklyIncomeFIAT" class="fiatAmount">1470</span><span class="fiatCurrency">USD</span></sub></div>
 										</div>
 										<div class="line">
 											<div class="title">Monthly income</div>
-											<div class="value"><span id="monthlyIncomeBTC">0.89993520</span> BTC<sub><span id="monthlyIncomeFIAT" class="fiatAmount">2921.19 </span><span class="fiatCurrency">USD</span></sub></div>
+											<div class="value"><span id="monthlyIncomeBTC">1.86</span> BTC<sub><span id="monthlyIncomeFIAT" class="fiatAmount">6300</span><span class="fiatCurrency">USD</span></sub></div>
 										</div>
 									</div>
 									<div class="payout_content" style="border-top: 1px solid rgb(219, 219, 219); position: relative; top: -3px; background: white;"><div class="line text-center"><a href="/help/when-and-how-do-you-get-paid" target="_blank" style="text-transform: uppercase; color: rgb(136, 136, 136); text-decoration: underline;">When and how do you get paid?</a></div></div>
@@ -2268,9 +2292,11 @@
     </script>
 	
 	<script>
-					window.onload = function () {
+					
 
 					var chart = new CanvasJS.Chart("chartContainer", {
+                        width: 1024,
+                        height: 480,
 						animationEnabled: true,  
 						title:{
 							text: "Company Revenue by Year"
@@ -2310,7 +2336,7 @@
 						});
 					chart.render();
 
-					}
+					
 					</script>
 	
     <!-- Start of LiveChat (www.livechatinc.com) code -->
