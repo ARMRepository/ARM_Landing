@@ -297,9 +297,9 @@
                                 <!-- <p class="whitetxt text-center">Mining statistics link</p>
                                 <p class="whitetxt" style="word-wrap: break-word;"><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p> -->
                                 <br>
-                                <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">Live Mining Stats</a>
+                                <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">nice mining stats</a>
 
-                                <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-new">ARM Mining Stats</a>
+                                <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-new">zp stats</a>
 								
 								<!--<a href="https://discord.gg/wVgD9J6" class="gradient-btn intro-btn">Join Our Community</a> -->
                             </div>
@@ -1916,16 +1916,18 @@
         <div class="modal-dialog">
             <!-- Modal content-->
             <div class="modal-content">
+				
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" style="color: #000 !important">&times;</button>
                     <div class="modal-title text-center"><img src="img/black-logo.png" alt="logo" width="20%" class="img-responsive"></div>
                 </div>
-            <!--<div class="modal-body">
-                    <p><b>Mining statistics link</b></p>
+            <div class="modal-body modelz">
+			<a href="https://www.google.com/url?q=https://zp.leafpool.com/miners/zen1qa9ttmrt43l9h5h7fdllk3lx5j090yc7lm42226nt63f4jd2rksnqa4s0gv&sa=D&source=hangouts&ust=1544558399285000&usg=AFQjCNHqEK6UPdbDk7tGt691U_Z82Keb7g" class="modal-link">https://www.google.com/url?q=https://zp.leafpool.com/miners/zen1qa9ttmrt43l9h5h7fdllk3lx5j090yc7lm42226nt63f4jd2rksnqa4s0gv&sa=D&source=hangouts&ust=1544558399285000&usg=AFQjCNHqEK6UPdbDk7tGt691U_Z82Keb7g</a>
+                <!--    <p><b>Mining statistics link</b></p>
                     <p><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank" style="word-wrap: break-word;color: #797777 !important;">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p>
                 </div> -->
-				<div class="row overflow modal-body">
-					<div id="chartContainer"></div>
+			<!--	<div class="row overflow modal-body">
+					<div id="chartContainer" style="height: 600px; width: 100%;"></div>
 					<div class="row closer">
 					<table class="light new-table">
 						<thead>
@@ -1950,22 +1952,24 @@
 						</tbody>
 					</table>
 					</div>
-				</div>
+				</div> -->
             </div>
         </div>
-    </div>
+    </div></div>
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
             <div class="modal-content">
-                <div class="modal-header">
+				
+               <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" style="color: #000 !important">&times;</button>
                     <div class="modal-title text-center"><img src="img/black-logo.png" alt="logo" width="20%" class="img-responsive"></div>
                 </div>
-            <!--<div class="modal-body">
-                    <p><b>Mining statistics link</b></p>
-                    <p><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank" style="word-wrap: break-word;color: #797777 !important;">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p>
-                </div> -->
+            <div class="modal-body modelz">
+			<a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" class="modal-link">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a>
+                 <!--   <p><b>Mining statistics link</b></p>
+                    <p><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank" style="word-wrap: break-word;color: #797777 !important;">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p>-->
+        <!--        </div> 
 				<div class="row overflow modal-body">
 					<div class="frame">
 						<h1>3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</h1>
@@ -2006,28 +2010,28 @@
 										<th class="rmv" style="text-align: right;">Rejected speed<br>(BTC/day)</th>
 										<th class="rmv" style="text-align: right;">Profitability</th>
 										<!--<th class="rmv2" style="text-align: right;">Unpaid balance<br>(BTC)</th>-->
-									</tr>
+					<!--				</tr>
 								</thead>
 								<tbody id="miningStats">
 									<tr>
 										<td>Equihash<!--<div class="shw"><b>Accepted speed:</b> 783344.00 Sol/s<br><b>Unpaid balance:</b> 0.00838217 BTC</div>--></td>
-										<td class="rmv2" style="text-align: right;">723015.00 Sol/s</td>
+					<!--					<td class="rmv2" style="text-align: right;">723015.00 Sol/s</td>
 										<td class="rmv" style="text-align: right;">1856.83 Sol/s (0.26%)</td>
 										<td class="rmv" style="text-align: right;">0.062</td>
 										<!--<td class="rmv2" style="text-align: right;">0.00838217</td>-->
-									</tr>
+					<!--				</tr>
 									<tr>
 										<td>Lyra2Z<!--<div class="shw"><b>Accepted speed:</b> 0.00 MH/s<br><b>Unpaid balance:</b> 0.00000000 BTC</div>--></td>
-										<td class="rmv2" style="text-align: right;">0.00 MH/s</td>
+					<!--					<td class="rmv2" style="text-align: right;">0.00 MH/s</td>
 										<td class="rmv" style="text-align: right;">0.00 MH/s (0.00%)</td>
 										<td class="rmv" style="text-align: right;">0.0000</td>
 										<!--<td class="rmv2" style="text-align: right;">0.00000000</td>-->
-									</tr>
+					<!--				</tr>
 									<tr class="rmv"><td></td><td></td>
 										<td class="results" style="text-align: right;"><div style="margin-bottom: 5px;">Total BTC</div><span class="text-muted">Total USD</span></td>
 										<td class="results" style="text-align: right;"><div style="margin-bottom: 5px;">0.062 BTC/day</div><span class="text-muted"><span class="fiatAmount">210 USD</span>/day</span></td>
 										<!--<td class="results"><div style="margin-bottom: 5px;">0.00838217</div><span class="text-muted"><span class="fiatAmount">27.21</span></span></td>-->
-									</tr>
+					<!--				</tr>
 								</tbody>
 							</table>
 							
@@ -2046,7 +2050,7 @@
 											<div class="title">Payout amount</div>
 											<div class="value"><span id="nextPayoutBalanceBTC">0.03067990</span> BTC<sub><span class="fiatAmount" id="nextPayoutBalanceFIAT">99.59 </span><span class="fiatCurrency">USD</span></sub></div>
 										</div>-->
-									</div>
+						<!--			</div>
 									<div class="payout_content">
 										<div class="line">
 											<div class="title">Daily income</div>
@@ -2066,8 +2070,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
+					</div>-->
+				</div> 
             </div>
         </div>
     </div>
@@ -2292,11 +2296,9 @@
     </script>
 	
 	<script>
-					
+					window.onload = function () {
 
 					var chart = new CanvasJS.Chart("chartContainer", {
-                        width: 1024,
-                        height: 480,
 						animationEnabled: true,  
 						title:{
 							text: "Company Revenue by Year"
@@ -2336,7 +2338,7 @@
 						});
 					chart.render();
 
-					
+					}
 					</script>
 	
     <!-- Start of LiveChat (www.livechatinc.com) code -->
