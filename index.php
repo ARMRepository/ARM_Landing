@@ -1516,8 +1516,17 @@
                             <!-- News Slider Starts -->
                             <div class="news-slider">
                                 
-                                    <!-- News Slide Box Starts -->
-                                    <div class="news-slide-box">
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://finance.yahoo.com/news/bullion-giant-apmex-partners-bitpay-222106295.html" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/BullionGiant.jpg);"></div>
+                                        <h5 class="news-tit">Bullion Giant APMEX Partners with BitPay to Let Investors Buy Gold with Bitcoin</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
                                     <a href="https://finance.yahoo.com/news/g20-countries-regulate-cryptocurrencies-line-191710160.html" target="_blank">
                                         <div class="news-img bg-img" style="background-image: url(img/g20countries.jpg);"></div>
                                         <h5 class="news-tit">G20 Countries to Regulate Cryptocurrencies in Line with FATF Standards</h5>
