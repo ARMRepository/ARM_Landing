@@ -1518,6 +1518,15 @@
                                 
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
+                                    <a href="https://www.finextra.com/newsarticle/33095/currencies-direct-switches-on-xcurrent-from-ripple-for-indian-remittances" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/CurrenciesDirect.jpg);"></div>
+                                        <h5 class="news-tit">Currencies Direct switches on xCurrent from Ripple for Indian remittances</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
                                     <a href="https://finance.yahoo.com/news/bullion-giant-apmex-partners-bitpay-222106295.html" target="_blank">
                                         <div class="news-img bg-img" style="background-image: url(img/BullionGiant.jpg);"></div>
                                         <h5 class="news-tit">Bullion Giant APMEX Partners with BitPay to Let Investors Buy Gold with Bitcoin</h5>
