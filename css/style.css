@@ -3765,6 +3765,95 @@ Static Page CSS
 }
 
 
+/* product details page*/
+
+.product-img img {
+    width: 100%;
+}
+
+.detailspage {
+    margin-top: 70px;
+}
+
+.product-details h4 {
+    font-size: 18px;
+}
+
+.product-details {
+    margin-top: 50px;
+}
+
+.product-details p {
+    font-size: 16px;
+}
+
+.product-details form label {
+    display: block;
+    font-size: 16px;
+    color: #797979;
+    font-weight: lighter;
+}
+
+.product-details form input {
+    width: 100px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.product-details form button {
+    background: #3F51B5;
+    margin-top: 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px;
+    width: 100px;
+}
+
+.descrip table>tbody>tr>td {
+    border: 1px solid #ececec;
+    text-align: left;
+    padding: 4px 10px;
+    color: #636363;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.descrip {
+    margin-top: 50px;
+}
+
+.descrip h6 {
+    font-size: 18px;
+}
+
+.product-details form {
+    margin-top: 40px;
+}
+
+.product-overview {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.tab-content h3 {
+    font-size: 16px;
+    margin-top: 40px;
+    color: #000000;
+}
+
+.tab-content {
+    margin-bottom: 70px;
+}
+
+.tab-content ol {
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+
 /*=========================================== 
 }
 Responsive CSS
