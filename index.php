@@ -351,14 +351,16 @@
                         </div>
                     </div>
                     <div class="items col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="item-icon">
-                                <img src="img/stable.3dd4e6e9.svg" alt="" width="50px" height="50px">
-                            </div>
-                            <div class="item-title"><strong>Stable and reliable</strong></div>
-                            <div class="item-desc">
-                                <div>Specialized deployment  99.9% no fault guarantee</div>
-                            </div>
+                        <div class="item-icon">
+                            <img src="img/stable.3dd4e6e9.svg" alt="" width="50px" height="50px">
                         </div>
+                        <div class="item-title"><strong>Stable and reliable</strong></div>
+                        <div class="item-desc">
+                            <div>Specialized deployment  99.9% no fault guarantee</div>
+                        </div>
+                    </div>
+                    <div class="mybutton">
+                        <a href="product.html">more detail</a>
                     </div>
                 </div>
             </section>

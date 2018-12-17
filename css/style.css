@@ -3599,6 +3599,171 @@ Static Page CSS
     width: 100%;
 }
 
+.mybutton {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mybutton a {
+    background: #3F51B5;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+
+/* products */
+
+.machine {
+    text-align: center;
+    margin-top: 60px;
+    padding: 60px 0;
+}
+
+.machine img {
+    max-width: 400px;
+    width: 100%;
+}
+
+.machine h4 {
+    font-size: 20px;
+}
+
+.machine ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.machine ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.machine ul li a {
+    padding: 10px 40px;
+    border: 1px solid #737373;
+    border-radius: 25px;
+    max-width: 100px;
+    background: #737373;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.machine ul li:first-child a {
+    border: 1px solid #737373;
+    background: transparent;
+    color: #737373;
+    transition: 0.3s;
+}
+
+.machine ul li:hover a {
+    background: #3F51B5;
+    border-color: #3F51B5;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.feature {
+    background: #f3f3f3;
+    padding: 60px 0;
+}
+
+.feature ul {
+    list-style: none;
+    padding: 0;
+}
+
+.feature ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.feature ul li i {
+    font-size: 40px;
+    color: #000000;
+}
+
+.feature ul li h4 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.feature ul li a {
+    padding: 15px;
+    display: inline-block;
+}
+
+.product-grid {
+    padding: 60px 0;
+}
+
+.product-grid h4.section-title {
+    text-align: center;
+}
+
+.product-grid ul {
+    padding-left: 0;
+}
+
+.product-grid>.container>ul>li {
+    width: 25%;
+    float: left;
+    list-style: none;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.product-grid ul li .product-img img {
+    width: 100%;
+}
+
+.product-details h4 {
+    font-size: 16px;
+}
+
+.product-details p {
+    color: #000000;
+}
+
+.product-grid ul.mybuttons li {
+    width: 48%;
+    float: none;
+    display: inline-block;
+}
+
+.product-grid ul.mybuttons {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.product-grid ul.mybuttons li a {
+    color: #ffffff;
+    width: 100%;
+    background: #d0d0d0;
+    border-radius: 25px;
+    padding: 8px 18px;
+    display: inline-block;
+    border: 1px solid #d0d0d0;
+}
+
+.product-grid ul.mybuttons li:first-child a {
+    background: transparent;
+    color: #000000;
+}
+
+.product-grid ul.mybuttons li:hover a {
+    background: #3F51B5;
+    border-color: #3F51B5;
+    color: #ffffff;
+}
+
 
 /*=========================================== 
 }
@@ -3983,6 +4148,9 @@ Responsive CSS
     .bg_img_1.ll {
         display: none;
     }
+    .product-grid>.container>ul>li {
+        width: 33.33%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -4354,6 +4522,14 @@ Responsive CSS
     .sec-title h4 {
         font-size: 20px;
     }
+    /* product page */
+    .feature ul li {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .product-grid>.container>ul>li {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -4424,6 +4600,31 @@ Responsive CSS
     }
     .token-details:last-child {
         margin: 0;
+    }
+    /* product page */
+    .feature ul li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .product-grid>.container>ul>li {
+        width: 100%;
+    }
+    .machine ul {
+        padding-left: 0;
+    }
+    .machine ul li {
+        margin: 20px 0;
+        width: 50%;
+        float: left;
+    }
+    .machine ul li a {
+        max-width: 100%;
+    }
+    .machine ul li a {
+        width: 100%;
+    }
+    .machine h4 {
+        font-size: 14px;
     }
 }
 
