@@ -300,6 +300,8 @@
                                 <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">nice mining stats</a>
 
                                 <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-new">zp stats</a>
+
+                                <a class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-verus">Verus miner</a>
 								
 								<!--<a href="https://discord.gg/wVgD9J6" class="gradient-btn intro-btn">Join Our Community</a> -->
                             </div>
@@ -610,13 +612,13 @@
                 <div class="container">
                     <!-- <div class="sec-tit text-center">Videos</div> -->
                     <div class="sec-inner solution-sec-inner">
-                        <div class="col-md-3">
+                        <!-- <div class="col-md-3">
                             <div class="testimonial wow fadeInUp" data-wow-duration="1.5s">
                                 <div class="testi-img bg-img" style="background-image: url(img/team/manpreet.jpg);"></div>
                                 <div class="testi-content">
-                                    <!--  <div class="quote">
+                                     <div class="quote">
                                         <img src="img/manpreet.jpg">
-                                    </div> -->
+                                    </div>
                                     <h5 class="testi-tit">Manpreet Singh</h5>
                                     <p class="testi-txt">( Chief Operating Officer )</p>
                                     <br>
@@ -625,7 +627,7 @@
                                     <a href="#" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal2">Read More</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-md-3">
                             <div class="testimonial wow fadeInUp" data-wow-duration="1.8s">
                                 <div class="testi-img bg-img" style="background-image: url(img/team/gurpreet.jpg);"></div>
@@ -1517,7 +1519,52 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://www.ccn.com/bitcoin-surges-18-in-3-days-as-it-nears-3800-whats-next-for-the-market/" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/WhyCryptocurrencies.jpg);"></div>
+                                        <h5 class="news-tit">Why cryptocurrencies are here to stay</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
                                 
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="http://www.cityam.com/270906/why-cryptocurrencies-stay" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/BitcoinSurges.jpg);"></div>
+                                        <h5 class="news-tit">Bitcoin Surges 18% in 3 Days as it Nears $3,800: What’s Next For the Market?</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://cryptonews.net/69159/?utm_source=CryptoNews&utm_medium=app&utm_campaign=shared" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/WesternUnionCEO.jpg);"></div>
+                                        <h5 class="news-tit">Western Union CEO Says Company is Prepared to Add Cryptocurrencies When It's Necessary</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://cryptonews.net/68619/?utm_source=CryptoNews&utm_medium=app&utm_campaign=shared" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/MorethanBillionUSD.jpeg);"></div>
+                                        <h5 class="news-tit">More than $2 Billion USD Poured Into Bitcoin (BTC) within 45 Minutes</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://www.ccn.com/new-us-chief-of-staff-bitcoin-is-good-not-manipulable-by-any-government" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/NewUSChief.jpg);"></div>
+                                        <h5 class="news-tit">New US Chief of Staff: Bitcoin is Good, ‘Not Manipulable by Any Government’</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
                                     <a href="https://www.finextra.com/newsarticle/33095/currencies-direct-switches-on-xcurrent-from-ripple-for-indian-remittances" target="_blank">
@@ -1975,7 +2022,8 @@
 				</div> -->
             </div>
         </div>
-    </div></div>
+    </div>
+</div>
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
@@ -2097,9 +2145,9 @@
     </div>
     <!-- Modal_1 End -->
     <!-- Modal_2 Start -->
-    <div class="modal fade" id="myModal2" role="dialog">
+    <!-- <div class="modal fade" id="myModal2" role="dialog">
         <div class="modal-dialog">
-            <!-- Modal content-->
+            
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" style="color: #000 !important">&times;</button>
@@ -2119,7 +2167,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Modal_2 End -->
     <!-- Modal_3 Start -->
     <div class="modal fade" id="myModal3" role="dialog">
@@ -2182,6 +2230,24 @@
                     <h6 class="testi_title"> Dr.Sanjay Goyal <span>Executive board Chairman and Vice President</span></h6>
                     <p>I have been in medical practice since 1995 in New York. Specialized in Endocrinology, Diabetes and Metabolism. Have been angle investor in stocks, bonds and Hospitality. I been doing charitable diabetes clinics in Guatemala since 2010 visiting atleast 3 times a year, providing free consultation and medications to 400-500 rural patients.</p>
                     <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="myModal-verus" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="color: #000 !important">&times;</button>
+                    <div class="modal-title text-center">Verus miner</div>
+                </div>
+                <div class="modal-body">
+                    <br>
+                    <a href="https://luckpool.net/verus/miner.html?RUJhgfzxytRr5kAsfVd89T31hhMC3tKbk2">https://luckpool.net/verus/miner.html?RUJhgfzxytRr5kAsfVd89T31hhMC3tKbk2</a>
                     <br>
                 </div>
             </div>
