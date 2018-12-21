@@ -1522,6 +1522,15 @@
                                 
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
+                                    <a href="https://www.cnbc.com/amp/2018/12/21/facebook-reportedly-working-on-a-cryptocurrency-for-transfering-money-through-whatsapp-.html" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/Facebookwillreportedly.jpg);"></div>
+                                        <h5 class="news-tit">Facebook will reportedly use cryptocurrency for transferring money through WhatsApp</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
                                     <a href="https://cryptonews.net/70605/?utm_source=CryptoNews&utm_medium=app&utm_campaign=shared" target="_blank">
                                         <div class="news-img bg-img" style="background-image: url(img/USLawmakersLook.jpg);"></div>
                                         <h5 class="news-tit">US Lawmakers Look to Exclude Cryptocurrency From Definition of a Security and Limit SEC’s Role in Crypto Regulation</h5>
