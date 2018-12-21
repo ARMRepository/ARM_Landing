@@ -1519,6 +1519,15 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
+                                
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://cryptonews.net/70605/?utm_source=CryptoNews&utm_medium=app&utm_campaign=shared" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/USLawmakersLook.jpg);"></div>
+                                        <h5 class="news-tit">US Lawmakers Look to Exclude Cryptocurrency From Definition of a Security and Limit SEC’s Role in Crypto Regulation</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
 
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
