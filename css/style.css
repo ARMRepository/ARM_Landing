@@ -5681,3 +5681,235 @@ p {
         font-weight: 400;
     }
 }
+
+
+/* New Styles */
+
+.cart-page {
+    margin: 85px auto 0;
+}
+
+.cart-page .cart-para {
+    display: block;
+    background: #efefef;
+    padding: 10px;
+}
+
+.cart-page h2 {
+    color: #222;
+    font-family: "roboto";
+    font-size: 20px;
+    padding: 25px 0 5px 0;
+}
+
+.cart-page .cart-para table {
+    display: block;
+    width: 100%;
+}
+
+.cart-page .cart-para table thead,
+.cart-page .cart-para table tbody {
+    display: block;
+    width: 100%;
+}
+
+.cart-page .cart-para table tr {
+    display: block;
+}
+
+.cart-page .cart-para table tr th {
+    display: inline-block;
+    padding: 10px;
+}
+
+.cart-page .cart-para table tr th.items {
+    width: 42%;
+}
+
+.cart-page .cart-para table tr th.price-unit {
+    width: 18%;
+}
+
+.cart-page .cart-para table tr th.amount {
+    width: 18%;
+}
+
+.cart-page .cart-para table tr th.total {
+    display: inline-block;
+    width: 20%;
+    padding: 10px 0;
+    text-align: right;
+    border: none;
+}
+
+.cart-page .cart-para table tr th.total::before {
+    border: none;
+    background: transparent;
+}
+
+.cart-page .cart-para table thead tr {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+.cart-page .cart-para table tbody td.items {
+    width: 42%;
+    display: inline-block;
+}
+
+.cart-page .cart-para table tbody td {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cart-page .cart-para table tbody td.price-unit {
+    width: 18%;
+}
+
+.cart-page .cart-para table tbody td.amount {
+    width: 18%;
+}
+
+.cart-page .cart-para table tbody td.total {
+    border: none;
+    text-align: right;
+    width: 20%;
+    font-family: roboto;
+    font-weight: 700;
+}
+
+.cart-page .cart-para table tbody td.total::before {
+    background: transparent;
+}
+
+.cart-page .cart-para table tbody tr {
+    padding: 10px 0;
+}
+
+.cart-page .cart-para table tbody td.items a {
+    padding-left: 8px;
+}
+
+.cart-page .cart-para table tbody td.amount input.quantity {
+    max-width: 80px;
+    border: 1px solid #cacaca;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.purchasing-cntnt.cart-para label {
+    display: block;
+    padding: 12px 16px;
+    margin-bottom: 0;
+}
+
+.purchasing-cntnt.cart-para p {
+    font-size: 13px;
+    font-family: roboto;
+    font-weight: 400;
+    margin: 0;
+    color: #9e9e9e;
+}
+
+.purchasing-cntnt.cart-para label span {
+    padding-left: 5px;
+}
+
+.invitation-code .clip-coupons-cntnt.cart-para .coupon-box {
+    max-width: 300px;
+    min-height: 100px;
+    padding: 3%;
+    box-sizing: border-box;
+    border: 1px dashed;
+}
+
+.invitation-code .invitation-code-cntnt.cart-para input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 1px solid #cecece;
+    width: 14em;
+    color: #afafaf;
+}
+
+.invitation-code .invitation-code-cntnt.cart-para {
+    padding: 18px 24px;
+}
+
+.invitation-code .clip-coupons-cntnt.cart-para {
+    padding: 18px 20px;
+}
+
+.payment-select-cntnt.cart-para label {
+    padding-right: 10px;
+    margin: 0;
+}
+
+.payment-select-cntnt.cart-para {
+    padding: 16px 18px;
+}
+
+.cart-cntnt-code .totals {
+    max-width: 400px;
+    float: right;
+    padding: 20px 0;
+    text-align: right;
+}
+
+.cart-cntnt-code .totals li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.cart-cntnt-code .totals li span.left {
+    display: inline-block;
+    width: 56%;
+    text-align: left;
+    float: left;
+    padding-left: 25%;
+}
+
+.cart-cntnt-code .totals li span.right {
+    font-family: roboto;
+    font-weight: 600;
+}
+
+.cart-cntnt-code .totals a.btn {
+    background: #947e3d;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.order-detail .order-value {
+    background: #efefef;
+    padding: 12px 18px;
+}
+
+.order-detail .order-value .row {
+    margin: 0;
+    padding: 8px 0;
+}
+
+.order-detail .order-value .row .order-value-cntnt {
+    display: inline-block;
+    width: 64%;
+    vertical-align: middle;
+}
+
+.order-detail .order-value .row .order-value-btn {
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+}
+
+.order-detail .order-value .row .order-value-btn a.btn {
+    background: #947e3d;
+    color: #fff;
+    padding: 6px 20px;
+    margin: 0 3px;
+}
