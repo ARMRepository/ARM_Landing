@@ -131,11 +131,19 @@
         </nav>
     </div>
 
-    <div class="cart-page">
+    <div class="cart-page pay-order">
         <div class="container">
             <div class="cart-table">
-                <h2>Buy Product</h2>
+                <h2>Order Detail</h2>
                 <div class="cart-table-cntnt cart-para">
+					<div class="order-details">
+						<div class="left-cntnt">
+							<p>Order number: <span>201812252246045784066696</span></p>
+						</div>
+						<div class="right-cntnt">
+							<p>2018/12/25 20:16:04</p>
+						</div>
+					</div>
                     <table>
                         <thead>
                             <tr>
@@ -153,7 +161,8 @@
                                 <td class="total">$ 2,500</td>
                             </tr>
                             <tr>
-                                <td>Please Check the Price Carefully.</td>
+                                <td class="note-cntnt">Please Check the Price Carefully.</td>
+								<td class="pay-total">Total order:$ 2,500.0</td>
                             </tr>
                         </tbody>
                     </table>
@@ -161,62 +170,26 @@
             </div>
 
             <div class="payment-select">
-                <h2>Payment Way</h2>
-                <div class="payment-select-cntnt cart-para">
-                    <form>
-                        <label><input type="radio" name="gender" value="BTC" checked> BTC</label>
-                        <label><input type="radio" name="gender" value="GUSD"> GUSD</label>
-                    </form>
+                <h2>Payment Way: BTC</h2>
+                <div class="payment-select-order">
+                    <p class="pay-order-amnt">Order amount:  <span>0.65678195BTC</span> <strong>=$ 2,500.0</strong></p>
+					<div class="left-cntnt">
+						<img src="img/qr-code.png">
+					</div>
+					<div class="right-cntnt">
+						<p class="scan-cntnt">You can scan the left side of the two-dimensional code to complete the payment.</p>
+						<p class="payment-scan">You can scan the left side of the two-dimensional code to complete the payment.:</p>
+						<p class="scan-code">1MkzgiVZNYwg59bvg456m5XrDHPLcyD3Tg</p>
+						<a href="#" class="btn">Copy</a>
+					</div>
+					<div class="scan-description">
+						<strong>Note: </strong>
+						<p>1.We will verify the receipt within 24 hours after payment and confirm the immediate deployment process after receiving the payment.</p>
+						<p>2.Must use BTC to pay。If other means of payment are made, payment will not be successful. HashAltcoin is not responsible for the damage you have caused.</p>
+						<br>
+						<a href="#" class="btn">My orders ></a>
+					</div>
                 </div>
-            </div>
-
-            <div class="purchasing-content">
-                <h2>Way of Purchasing</h2>
-                <div class="purchasing-cntnt cart-para">
-                    <form>
-                        <label class="purchasing1">
-<input type="radio" name="gender" value="BTC" checked>
-<span>Official Hosting</span>
-<p>Customer can configure the miner after the order is completed.</p>
-<p>Customer can configure algorithm and pool information.</p>
-<p>The successful mining configuration of the miner will take effect immediately.</p>
-</label>
-                        <label>
-<input type="radio" name="gender">
-<span>Send Miner</span>
-<p>After the payment is confirmed and the order is completed, your miner will be shipped out to your address. You must setup and upgrade your miner by yourself. Shipping cost is paid by buyer.</p>
-</label>
-                    </form>
-                </div>
-            </div>
-
-            <div class="invitation-code">
-                <h2>Invitation Code</h2>
-                <div class="invitation-code-cntnt cart-para">
-                    <input type="text" value="Please Fill in the Invitation">
-                    <p>With the invitation code, you and the inviter can get a $100 coupon for each purchase.</p>
-                </div>
-            </div>
-
-            <div class="invitation-code">
-                <h2>Clip coupons</h2>
-                <div class="clip-coupons-cntnt cart-para">
-                    <div class="coupon-box">
-                        <p>EJSSMR5<span>$ 100.0</span></p>
-                        <p>Expiration date:2019/05/25</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cart-cntnt-code clearfix">
-                <div class="totals">
-                    <li><span class="left">Total</span> <span class="right"> $ 2,500</span></li>
-                    <li> <span class="left">Coupon</span> <span class="right"> -$100</span></li>
-                    <li><span class="left">Total order</span> <span class="right"> $ 2,400</span></li>
-                    <li>
-                        <p>Please read carefully before buying. <a href="#">miner detail</a></p>
-                    </li>
-                    <a href="order-btn" class="btn">Submit Order</a></div>
             </div>
         </div>
     </div>

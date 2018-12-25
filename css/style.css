@@ -5791,7 +5791,10 @@ p {
 .cart-page .cart-para table tbody td.items a {
     padding-left: 8px;
 }
-
+.cart-page .cart-para table tbody td.items img {
+    display: inline-block;
+    width: 60px;
+}
 .cart-page .cart-para table tbody td.amount input.quantity {
     max-width: 80px;
     border: 1px solid #cacaca;
@@ -5823,9 +5826,9 @@ p {
     min-height: 100px;
     padding: 3%;
     box-sizing: border-box;
-    border: 1px dashed;
+border: 1px dashed #9a9a9a;
+    box-shadow: #b5b5b5 0px 0px 4px 1px;
 }
-
 .invitation-code .invitation-code-cntnt.cart-para input {
     padding: 8px;
     margin-bottom: 10px;
@@ -5913,3 +5916,78 @@ p {
     padding: 6px 20px;
     margin: 0 3px;
 }
+.order-detail .order-value .row .order-value-btn a.btn.btn2 {
+    background: #848484;
+}
+.pay-order .order-details .left-cntnt {
+    display: inline-block;
+}
+.pay-order .order-details .right-cntnt {
+    display: inline-block;
+    float: right;
+}
+.pay-order .order-details {
+    padding: 8px;
+    border-bottom: 1px solid #d0d0d0;
+    margin-bottom: 8px;
+}
+.pay-order.cart-page .cart-para table thead tr {
+    border-bottom: 1px solid #e6e3e3;
+}
+.pay-order tbody td.pay-total {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+.pay-order tbody td.note-cntnt {
+    display: inline-block;
+    width: 59%;
+}
+.payment-select-order {
+    padding: 15px 20px;
+    background: #efefef;
+    margin-bottom: 40px;
+}
+.payment-select-order p.pay-order-amnt span {
+    font-size: 20px;
+    color: #333;
+}
+.payment-select-order p.pay-order-amnt {
+    padding-bottom: 14px;
+    padding-top: 10px;
+}
+.payment-select-order .left-cntnt {
+    display: inline-block;    vertical-align: top;
+}
+.payment-select-order .right-cntnt {
+    display: inline-block;
+    padding-top: 20px;
+}
+.payment-select-order .right-cntnt p.payment-scan {
+    display: block;
+    padding-top: 25px;
+}
+.payment-select-order .right-cntnt p.scan-code {
+    font-size: 16px;
+    font-family: roboto;
+    color: #333;
+    display: inline-block;
+}
+.payment-select-order .right-cntnt a.btn {
+    background: #d2d2d2;
+    padding: 5px 15px;
+    margin-left: 8px;
+}
+.payment-select-order .scan-description a.btn {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
