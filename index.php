@@ -612,7 +612,7 @@
                 <div class="container">
                     <!-- <div class="sec-tit text-center">Videos</div> -->
                     <div class="sec-inner solution-sec-inner">
-                        <!-- <div class="col-md-3">
+                        <div class="col-md-3">
                             <div class="testimonial wow fadeInUp" data-wow-duration="1.5s">
                                 <div class="testi-img bg-img" style="background-image: url(img/team/manpreet.jpg);"></div>
                                 <div class="testi-content">
@@ -627,7 +627,7 @@
                                     <a href="#" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal2">Read More</a>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="col-md-3">
                             <div class="testimonial wow fadeInUp" data-wow-duration="1.8s">
                                 <div class="testi-img bg-img" style="background-image: url(img/team/gurpreet.jpg);"></div>
@@ -1522,6 +1522,15 @@
                                 
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
+                                    <a href="https://www.coindesk.com/india-may-legalize-cryptos-but-under-strong-rules-report" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/IndiaMayLegalize.jpg);"></div>
+                                        <h5 class="news-tit">India May Legalize Cryptos But Under ‘Strong’ Rules: Report</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
                                     <a href="https://www.cnbc.com/amp/2018/12/21/facebook-reportedly-working-on-a-cryptocurrency-for-transfering-money-through-whatsapp-.html" target="_blank">
                                         <div class="news-img bg-img" style="background-image: url(img/Facebookwillreportedly.jpg);"></div>
                                         <h5 class="news-tit">Facebook will reportedly use cryptocurrency for transferring money through WhatsApp</h5>
@@ -2163,7 +2172,7 @@
     </div>
     <!-- Modal_1 End -->
     <!-- Modal_2 Start -->
-    <!-- <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal fade" id="myModal2" role="dialog">
         <div class="modal-dialog">
             
             <div class="modal-content">
@@ -2185,7 +2194,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- Modal_2 End -->
     <!-- Modal_3 Start -->
     <div class="modal fade" id="myModal3" role="dialog">
