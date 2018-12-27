@@ -616,9 +616,9 @@
                             <div class="testimonial wow fadeInUp" data-wow-duration="1.5s">
                                 <div class="testi-img bg-img" style="background-image: url(img/team/manpreet.jpg);"></div>
                                 <div class="testi-content">
-                                     <div class="quote">
+                                     <!-- <div class="quote">
                                         <img src="img/manpreet.jpg">
-                                    </div>
+                                    </div> -->
                                     <h5 class="testi-tit">Manpreet Singh</h5>
                                     <p class="testi-txt">( Chief Operating Officer )</p>
                                     <br>
