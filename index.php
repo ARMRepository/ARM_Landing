@@ -301,7 +301,7 @@
 
                                 <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-new">zp stats</a>
 
-                                <a class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-verus">Verus miner</a>
+                                <!-- <a class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-verus">Verus miner</a> -->
 								
 								<!--<a href="https://discord.gg/wVgD9J6" class="gradient-btn intro-btn">Join Our Community</a> -->
                             </div>
@@ -1522,6 +1522,24 @@
                                 
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
+                                    <a href="https://cointelegraph.com/news/fortnite-merchandise-store-starts-exclusively-accepting-monero-as-payment-method" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/FortniteMerchandise.webp);"></div>
+                                        <h5 class="news-tit">Fortnite Merchandise Store Starts ’Exclusively’ Accepting Monero as Payment Method</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://www.coindesk.com/bank-of-america-files-for-blockchain-atm-as-a-service-patent" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/BankofAmerica.jpg);"></div>
+                                        <h5 class="news-tit">Bank of America Files for Blockchain ‘ATM as a Service’ Patent</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
                                     <a href="https://www.coindesk.com/india-may-legalize-cryptos-but-under-strong-rules-report" target="_blank">
                                         <div class="news-img bg-img" style="background-image: url(img/IndiaMayLegalize.jpg);"></div>
                                         <h5 class="news-tit">India May Legalize Cryptos But Under ‘Strong’ Rules: Report</h5>
@@ -1897,7 +1915,7 @@
             <section class="whitepaper-sec section p-80">
                 <div class="shape-bg bg-img"></div>
                 <div class="container">
-                <h4 class="raised-tit sales-tit black text-center mb40">“First payout to our investors is <span>decided by the board,</span> <span>will be distributed on</span> <span>31st of December 2018”</span></h4>
+                <h4 class="raised-tit sales-tit black text-center mb40">“As promised, Aarnav Inc. has successfully paid over 10% quarterly dividend to its investors. <br>Once again we thank our investors for the trust in our project. <br>Have happy and prosperous 2019. Thanks </span></h4>
                     <div class="sec-inner whitepaper-sec-inner">
                         <!-- Section Content Starts -->
                         <div class="sec-content whitepaper-sec-content wow fadeInUp" data-wow-duration="1s">
