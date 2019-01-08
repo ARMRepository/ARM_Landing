@@ -1522,6 +1522,33 @@
                                 
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
+                                    <a href="https://www.ccn.com/japans-financial-watchdog-might-approve-cryptocurrency-etfs-after-saying-no-to-futures/" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/JapansFinancial.jpg);"></div>
+                                        <h5 class="news-tit">Japan’s Financial Watchdog Might Approve Cryptocurrency ETFs After Saying No to Futures</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://channels.theinnovationenterprise.com/articles/us-blockchain-firm-announces-crypto-debit-card" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/USblockchain.jpg);"></div>
+                                        <h5 class="news-tit">US blockchain firm announces crypto debit card</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
+                                    <a href="https://www.financemagnates.com/cryptocurrency/news/hong-kong-based-physical-bitcoin-futures-aim-at-retail-traders/" target="_blank">
+                                        <div class="news-img bg-img" style="background-image: url(img/HongKong-Based.jpg);"></div>
+                                        <h5 class="news-tit">Hong Kong-Based Physical Bitcoin Futures Aim at Retail Traders</h5>
+                                    </a>
+                                </div>
+                                <!-- News Slide Box Ends -->
+
+                                <!-- News Slide Box Starts -->
+                                <div class="news-slide-box">
                                     <a href="https://cointelegraph.com/news/fortnite-merchandise-store-starts-exclusively-accepting-monero-as-payment-method" target="_blank">
                                         <div class="news-img bg-img" style="background-image: url(img/FortniteMerchandise.webp);"></div>
                                         <h5 class="news-tit">Fortnite Merchandise Store Starts ’Exclusively’ Accepting Monero as Payment Method</h5>
