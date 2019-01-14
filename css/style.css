@@ -5986,8 +5986,38 @@ border: 1px dashed #9a9a9a;
 
 
 
+/* statement page */
+.statement {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 60px 0;
+    border-bottom: 1px solid #d0d0d0;
+}
 
+.statement img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
+.statement>div:first-child {
+    padding-right: 50px;
+    text-align: center;
+}
 
+.statement h5 {
+    font-size: 18px;
+}
 
+.statement p {
+    margin-bottom: 25px;
+}
 
+.statement p:last-child {
+    margin-bottom: 0;
+}
+
+.statement:last-child {
+    border: 0;
+}
