@@ -1521,7 +1521,36 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
-                                
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://finance.yahoo.com/news/3-2-trillion-bitcoin-payments-074536897.html" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/TrillionBitcoin.jpg);"></div>
+                                    <h5 class="news-tit">$3.2 Trillion in Bitcoin Payments Processed in 2018: Is the Cryptocurrency a Better Version of Gold?</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.ccn.com/crypto-could-still-be-global-currency-of-future-nasdaq-ceo/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/CryptoCould.jpg);"></div>
+                                    <h5 class="news-tit">Crypto Could Still Be ‘Global Currency of Future’: Nasdaq CEO</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.ccn.com/bitcoin-price-could-crack-10-million-become-new-gold-standard-asset-management-firm/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/BitcoinPrice.jpg);"></div>
+                                    <h5 class="news-tit">Bitcoin Price Could Crack $10 Million, Become New Gold Standard: Asset Management Firm</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            
+
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
                                     <a href="https://www.ccn.com/japans-financial-watchdog-might-approve-cryptocurrency-etfs-after-saying-no-to-futures/" target="_blank">
