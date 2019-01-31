@@ -1521,6 +1521,33 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
+                            
+                             <!-- News Slide Box Starts -->
+                             <div class="news-slide-box">
+                                <a href="https://www.pymnts.com/blockchain/bitcoin/2019/sbi-swiss-crypto-wallet-saudi-arabia-uae-central-bank-test-crypto/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/BitcoinDailySBI.jpg);"></div>
+                                    <h5 class="news-tit">Bitcoin Daily: SBI Backs Swiss Crypto Wallet; Saudi Arabia, UAE Central Banks Test New Crypto</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://bitcoinwarrior.net/2019/01/bitcoin-btc-and-other-cryptocurrencies-can-now-be-credited-to-uber-app/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/IndiaMayLegalize.jpg);"></div>
+                                    <h5 class="news-tit">Bitcoin [BTC] and other cryptocurrencies can now be credited to Uber app</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://cointelegraph.com/news/report-fidelity-sets-march-launch-date-for-bitcoin-custody-service" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/reportfidelity.webp);"></div>
+                                    <h5 class="news-tit">Report: Fidelity Sets March Launch Date for Bitcoin Custody Service</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
 
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
