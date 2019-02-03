@@ -106,7 +106,7 @@
         }
         $i++;
     }
-    
+
     //echo '<pre>';print_r($stats);echo '</pre>';exit;
 
 
@@ -149,8 +149,17 @@
                         <li>
                             <a href="index.php#news">News</a>
                         </li>
-                        <li>
-                            <a href="statement.html">Aarnav Statement</a>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="javascript: void(0)">Aarnav Statement
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="statement.html" target="_blank">Aarnav Statement</a>
+                                </li>
+                                <li>
+                                    <a href="profitability.php" target="_blank">Aarnav ARM A1 Miner Profitability</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="gallery.html">Gallery</a>
@@ -197,8 +206,7 @@
         <div class="content-wrapper faq">
             <div class="static-head text-center">
                 <h2>Aarnav ARM A1 Miner PROFITABLITY</h2>
-                <p>Data syncs every 5 min.</p>
-                <p>Currently January 27, 2019 11:44 am Data: 11:40 am (eastern)</p>
+                <p>Currently <?php echo date('F d Y h:i a');?></p>
             </div>
             <div class="static-content">
                 <div class="container">

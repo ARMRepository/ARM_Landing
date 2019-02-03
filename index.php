@@ -217,8 +217,18 @@
                         </li>
                         <li>
                             <a href="index.php#news">News</a>
-                        </li><li>
-                            <a href="statement.html">Aarnav Statement</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="javascript: void(0)">Aarnav Statement
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="statement.html" target="_blank">Aarnav Statement</a>
+                                </li>
+                                <li>
+                                    <a href="profitability.php" target="_blank">Aarnav ARM A1 Miner Profitability</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="gallery.html">Gallery</a>
@@ -304,7 +314,7 @@
                                 <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-new">zp stats</a>
 
                                 <!-- <a class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-verus">Verus miner</a> -->
-								
+
 								<!--<a href="https://discord.gg/wVgD9J6" class="gradient-btn intro-btn">Join Our Community</a> -->
                             </div>
                         </div>
@@ -466,7 +476,7 @@
             </section> -->
             <!-- Discounts Section Ends -->
             <!-- Problem Section Starts style="background-image: url(img/shape.png);"-->
-        
+
 
 
             <section class="problem-sec section p-80 gray-bg" id="about">
@@ -1521,7 +1531,7 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
-                            
+
                              <!-- News Slide Box Starts -->
                              <div class="news-slide-box">
                                 <a href="https://www.pymnts.com/blockchain/bitcoin/2019/sbi-swiss-crypto-wallet-saudi-arabia-uae-central-bank-test-crypto/" target="_blank">
@@ -1557,7 +1567,7 @@
                                 </a>
                             </div>
                             <!-- News Slide Box Ends -->
-                            
+
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
                                 <a href="https://www.ccn.com/crypto-could-still-be-global-currency-of-future-nasdaq-ceo/" target="_blank">
@@ -1576,7 +1586,7 @@
                             </div>
                             <!-- News Slide Box Ends -->
 
-                            
+
 
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
@@ -1658,7 +1668,7 @@
                                     </a>
                                 </div>
                                 <!-- News Slide Box Ends -->
-                                
+
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
                                     <a href="http://www.cityam.com/270906/why-cryptocurrencies-stay" target="_blank">
@@ -1766,7 +1776,7 @@
                                     </a>
                                 </div>
                                 <!-- News Slide Box Ends -->
-                                
+
                                 <!-- News Slide Box Starts -->
                                 <div class="news-slide-box">
                                     <a href="https://www.ccn.com/worlds-first-crypto-etp-gets-green-light-in-switzerland/" target="_blank">
@@ -1776,7 +1786,7 @@
                                 </div>
                                 <!-- News Slide Box Ends -->
 
-                                 <!-- News Slide Box Starts --> 
+                                 <!-- News Slide Box Starts -->
                                  <div class="news-slide-box">
                                     <a href="https://www.ccn.com/worlds-first-crypto-etp-gets-green-light-in-switzerland/" target="_blank">
                                         <div class="news-img bg-img" style="background-image: url(img/Singapore-Exchange.webp);"></div>
@@ -1994,7 +2004,7 @@
             </section>
             <!-- News Section Ends -->
 
-            
+
 
             <!-- Whitepaper Section Starts style="background-image: url(img/bg.png);-->
             <section class="whitepaper-sec section p-80">
@@ -2113,7 +2123,7 @@
         <div class="modal-dialog">
             <!-- Modal content-->
             <div class="modal-content">
-				
+
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" style="color: #000 !important">&times;</button>
                     <div class="modal-title text-center"><img src="img/black-logo.png" alt="logo" width="20%" class="img-responsive"></div>
@@ -2158,7 +2168,7 @@
         <div class="modal-dialog">
             <!-- Modal content-->
             <div class="modal-content">
-				
+
                <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" style="color: #000 !important">&times;</button>
                     <div class="modal-title text-center"><img src="img/black-logo.png" alt="logo" width="20%" class="img-responsive"></div>
@@ -2167,7 +2177,7 @@
 			<a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" class="modal-link">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a>
                  <!--   <p><b>Mining statistics link</b></p>
                     <p><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank" style="word-wrap: break-word;color: #797777 !important;">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p>-->
-        <!--        </div> 
+        <!--        </div>
 				<div class="row overflow modal-body">
 					<div class="frame">
 						<h1>3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</h1>
@@ -2195,7 +2205,7 @@
 							<div class="content" id="totalWorkers">1</div>
 						</div>
 					</div>
-					
+
 					<div class="row closer">
 						<div class="col_2_3">
 							<div>
@@ -2232,7 +2242,7 @@
 					<!--				</tr>
 								</tbody>
 							</table>
-							
+
 							</div>
 						</div>
 						<div class="col_1_3">
@@ -2269,7 +2279,7 @@
 							</div>
 						</div>
 					</div>-->
-				</div> 
+				</div>
             </div>
         </div>
     </div>
@@ -2277,7 +2287,7 @@
     <!-- Modal_2 Start -->
     <div class="modal fade" id="myModal2" role="dialog">
         <div class="modal-dialog">
-            
+
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" style="color: #000 !important">&times;</button>
@@ -2510,12 +2520,12 @@
         });
     });
     </script>
-	
+
 	<script>
 					window.onload = function () {
 
 					var chart = new CanvasJS.Chart("chartContainer", {
-						animationEnabled: true,  
+						animationEnabled: true,
 						title:{
 							text: "Company Revenue by Year"
 						},
@@ -2556,7 +2566,7 @@
 
 					}
 					</script>
-	
+
     <!-- Start of LiveChat (www.livechatinc.com) code -->
     <script type="text/javascript">
     window.__lc = window.__lc || {};

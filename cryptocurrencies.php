@@ -140,8 +140,18 @@
                         </li>
                         <li>
                             <a href="index.php#news">News</a>
-                        </li><li>
-                            <a href="statement.html">Aarnav Statement</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="javascript: void(0)">Aarnav Statement
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="statement.html" target="_blank">Aarnav Statement</a>
+                                </li>
+                                <li>
+                                    <a href="profitability.php" target="_blank">Aarnav ARM A1 Miner Profitability</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="gallery.html">Gallery</a>
