@@ -53,7 +53,64 @@
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+<?php
+    // 'https://whattomine.com/coins/187-d-tribus&commit=Calculate?utf8=%E2%9C%93&hr=2800.0&p=607.0&fee=0.0&cost=0.1&hcost=0.0.json',
+    // 'https://whattomine.com/coins/199.json',
+    // 'https://whattomine.com/coins/241.json',
+    // 'https://whattomine.com/coins/212.json',
+    // 'https://whattomine.com/coins/197.json',
+    // 'https://whattomine.com/coins/267.json',
+    // 'https://whattomine.com/coins/5.json',
+    // 'https://whattomine.com/coins/114.json',
+    // 'https://whattomine.com/coins/67.json',
+    // 'https://whattomine.com/coins/250.json',
+    // 'https://whattomine.com/coins/217.json',
+    // 'https://whattomine.com/coins/148.json',
+    // 'https://whattomine.com/coins/73.json',
+    function init_curl($url){
+        if($url !=''){
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL,$url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            $response = curl_exec($ch);
+            $result = json_decode($response,true);
+            return $result;
+        }
+    }
+    $coin_calculators_urls = array(
+        'https://www.coincalculators.io/api.aspx?name=argoneum&hashrate=51700000&power=395&poolfee=0&powercost=0.1&difficultytime=54',
+        'https://www.coincalculators.io/api.aspx?name=scriv&hashrate=2800000000&power=607&poolfee=0&powercost=0.1&difficultytime=2',
+        'https://www.coincalculators.io/api.aspx?name=0xbitcoin&hashrate=21600000000&power=605&poolfee=0&powercost=0.1&difficultytime=1',
+        'https://www.coincalculators.io/api.aspx?name=fonero&hashrate=314000000&power=558&poolfee=0&powercost=0.1&difficultytime=17',
+        'https://www.coincalculators.io/api.aspx?name=bzlcoin&hashrate=2800000000&power=607&poolfee=0&powercost=0.1&difficultytime=188',
+        'https://www.coincalculators.io/api.aspx?name=infinex&hashrate=53000000&power=590&poolfee=0&powercost=0.1&difficultytime=420',
+        'https://www.coincalculators.io/api.aspx?name=absolute&hashrate=216000000&power=334&poolfee=0&powercost=0.1&difficultytime=3',
+        'https://www.coincalculators.io/api.aspx?name=virtus&hashrate=2800000000&power=607&poolfee=0&powercost=0.1&difficultytime=0',
+        'https://www.coincalculators.io/api.aspx?name=microbitcoin&hashrate=1540000000&power=600&poolfee=0&powercost=0.1&difficultytime=101',
+        'https://www.coincalculators.io/api.aspx?name=bitcoinzero&hashrate=53000000&power=590&poolfee=0&powercost=0.1&difficultytime=160',
+        'https://www.coincalculators.io/api.aspx?name=zcore&hashrate=53000000&power=590&poolfee=0&powercost=0.1&difficultytime=1',
+    );
+    $stats = array();
+    $i= 0;
+    foreach($coin_calculators_urls as $coin_calculators_url){
+        $curl = init_curl($coin_calculators_url);
+        //echo '<pre>';print_r($curl);echo '</pre>';exit;
+        if(!empty($curl)){
+            $stats[$i]['name'] = $curl['name'];
+            $stats[$i]['image'] = 'https://www.coincalculators.io/'.$curl['image'];
+            $stats[$i]['algorithm'] = $curl['algorithm'];
+            $stats[$i]['power'] = $curl['powerWatt'];
+            $stats[$i]['hash_rate'] = $curl['yourHashrate'];
+            $stats[$i]['daily_revenue'] = number_format($curl['revenueInDayUSD'],2);
+            $stats[$i]['daily_profit'] = number_format($curl['profitInDayUSD'],2);
+        }
+        $i++;
+    }
+    
+    //echo '<pre>';print_r($stats);echo '</pre>';exit;
 
+
+?>
 <body>
     <!-- Main Wrapper Starts -->
     <div class="main-wrapper">
@@ -155,14 +212,18 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td><img width="15px" src="img/icons/dnr.png" alt=""> Denarius *Not Listed</td>
-                                    <td>tribus</td>
-                                    <td>607W</td>
-                                    <td>2800 MH/s</td>
-                                    <td>$8.92</td>
-                                    <td>$7.47</td>
-                                </tr>
+                                <?php if(!empty($stats)){?>
+                                    <?php foreach($stats as $vals){?>
+                                        <tr>
+                                            <td><img width="15px" src="<?php echo $vals['image'];?>" alt="<?php echo $vals['name'];?>"><?php echo $vals['name'];?></td>
+                                            <td><?php echo $vals['algorithm'];?></td>
+                                            <td><?php echo round($vals['power']);?> W</td>
+                                            <td><?php echo $vals['hash_rate'] /  1000000;?> Mhz</td>
+                                            <td>$<?php echo $vals['daily_revenue'];?></td>
+                                            <td>$<?php echo $vals['daily_profit'];?></td>
+                                        </tr>
+                                    <?php } ?>
+                                <?php } ?>
                             </tbody>
                         </table>
                     </div>
