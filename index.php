@@ -1531,8 +1531,17 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.ccn.com/jack-dorsey-bitcoin-cash-app-2nd-popular-apple-app" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/JackDorseyBitcoin.jpg);"></div>
+                                    <h5 class="news-tit">Jack Dorsey: Bitcoin-Friendly Cash App is Now 2nd Most Popular Apple Application</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
 
-                             <!-- News Slide Box Starts -->
+                            <!-- News Slide Box Starts -->
                              <div class="news-slide-box">
                                 <a href="https://www.pymnts.com/blockchain/bitcoin/2019/sbi-swiss-crypto-wallet-saudi-arabia-uae-central-bank-test-crypto/" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(img/BitcoinDailySBI.jpg);"></div>
