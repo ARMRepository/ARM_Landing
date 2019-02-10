@@ -325,6 +325,38 @@
                 </div>
             </section>
 
+            <section class="newsection-armaltcoin letstalk section p-80">
+                <div class="container">
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h4>This week in crypto !!</h4>
+                    <ul>
+                        <li>
+                            <p>@binance allows buying crypto w/ credit cards</p>
+                        </li>
+                        <li>
+                            <p>CBOE resumbits Bitcoin ETF</p>
+                        </li>
+                        <li>
+                            <p>@CasaHODL launches BTC browser extension</p>
+                        </li>
+                        <li>
+                            <p>Fidelity's crypto trading in final testing</p>
+                        </li>
+                        <li>
+                            <p>@Gemini passes SOC 2 security audit</p>
+                        </li>
+                        <li>
+                            <p>Wrapped BTC launches on Ethereum</p>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <img class="img-responsive" src="img/Lets_Talk_Crypto_2.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </section>
 
             <section class="newsection-armaltcoin section p-80">
                 <div class="container">
@@ -1531,7 +1563,61 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://itunes.apple.com/us/app/hodl-live-crypto-coin-charts-news-tweets/id1253668876?ls=1&mt=8" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/hodl.jpg);"></div>
+                                    <h5 class="news-tit">HODL Real-Time Cryptocurrency</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
                             
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://news.bitcoin.com/union-bank-philippines-cryptocurrency-atm/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/UnionBank.webp);"></div>
+                                    <h5 class="news-tit">Union Bank of the Philippines Launching Cryptocurrency ATM</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.fxstreet.com/cryptocurrencies/news/public-transport-facilities-in-37-localities-across-argentina-now-accept-bitcoin-201902072130" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/PublicTransport.jpg);"></div>
+                                    <h5 class="news-tit">Public transport facilities in 37 localities across Argentina now accept Bitcoin</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://finance.yahoo.com/news/blockchain-main-strengths-transparency-instantaneity-180800465.html" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/BlockchainsMain.jpg);"></div>
+                                    <h5 class="news-tit">Blockchain’s Main Strengths Are Transparency and Instantaneity: HSBC Exec</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://hacked.com/crypto-markets-see-modest-gains-as-sec-commissioner-hints-at-bitcoin-etf-approval/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/CryptoMarkets.jpg);"></div>
+                                    <h5 class="news-tit">Crypto Markets See Modest Gains as SEC Commissioner Hints at Bitcoin ETF Approval</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://cheddar.com/media/the-crypto-miner-using-regulation-to-its-advantage" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/CryptoMiner.png);"></div>
+                                    <h5 class="news-tit">The Crypto Miner Using Regulation to Its Advantage</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
                                 <a href="https://www.ccn.com/jack-dorsey-bitcoin-cash-app-2nd-popular-apple-app" target="_blank">
