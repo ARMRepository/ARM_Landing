@@ -1566,6 +1566,60 @@
 
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
+                                <a href="https://cryptonews.net/99525/?utm_source=CryptoNews&utm_medium=app&utm_campaign=shared" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/Bitcoin2020What.jpg);"></div>
+                                    <h5 class="news-tit">Bitcoin 2020: What will the US presidential race do for crypto?</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://cryptonews.net/99238/?utm_source=CryptoNews&utm_medium=app&utm_campaign=shared" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/MultiBillionDollarStore.jpg);"></div>
+                                    <h5 class="news-tit">Multi-Billion-Dollar Store, Domino’s Pizza Now Accepts Bitcoin</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.ccn.com/newsflash-bitcoin-basher-jamie-dimon-jp-morgan-just-launched-their-own-cryptocurrency" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/NewsflashBitcoinBasher.webp);"></div>
+                                    <h5 class="news-tit">Newsflash: Bitcoin Basher Jamie Dimon & JP Morgan Just Launched Their Own Cryptocurrency</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://finance.yahoo.com/news/uae-exchange-payment-platform-unimoni-173700001.html" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/UAEExchange.jpg);"></div>
+                                    <h5 class="news-tit">UAE Exchange and Payment Platform Unimoni Join Ripple’s Payments Network</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://finance.yahoo.com/news/newsflash-why-virginia-police-department-162728241.html" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/NewsflashWhyThisVirginia.jpg);"></div>
+                                    <h5 class="news-tit">Newsflash: Why This Virginia Police Department’s Pension Just Invested in a $40 Million Crypto Fund</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.coindesk.com/nasdaq-to-add-bitcoin-and-ethereum-indices-to-global-data-service" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/NasdaqtoAddBitcoin.jpg);"></div>
+                                    <h5 class="news-tit">Nasdaq to Add Bitcoin and Ethereum Indices to Global Data Service</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
                                 <a href="https://itunes.apple.com/us/app/hodl-live-crypto-coin-charts-news-tweets/id1253668876?ls=1&mt=8" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(img/hodl.jpg);"></div>
                                     <h5 class="news-tit">HODL Real-Time Cryptocurrency</h5>
