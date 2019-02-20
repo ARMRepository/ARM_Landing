@@ -1563,7 +1563,52 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
+                                
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://cointelegraph.com/news/elon-musk-bitcoin-has-quite-brilliant-structure-paper-money-is-going-away" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/ElonMuskBitcoin.webp);"></div>
+                                    <h5 class="news-tit">Elon Musk: Bitcoin Has ‘Quite Brilliant’ Structure, Paper Money is Going Away</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.investinblockchain.com/last-chance-buy-1-bitcoin-btc-crypto-analyst/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/ThisCouldBe.jpeg);"></div>
+                                    <h5 class="news-tit">This Could Be Your Last Chance To Buy 1 Bitcoin (BTC), Says Crypto Analyst</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
 
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://coinnounce.com/alert-the-last-chance-to-buy-cheap-bitcoin-btc-to-the-moon/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/AlertTheLast.jpg);"></div>
+                                    <h5 class="news-tit">Alert: The Last Chance to Buy Cheap Bitcoin: BTC to the Moon!</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.coindesk.com/nasdaq-to-add-bitcoin-and-ethereum-indices-to-global-data-service" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/NasdaqtoAdd.jpg);"></div>
+                                    <h5 class="news-tit">Nasdaq to Add Bitcoin and Ethereum Indices to Global Data Service</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.coindesk.com/nyse-arca-filing-kicks-off-countdown-for-new-bitcoin-etf" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/NYSEArca.jpg);"></div>
+                                    <h5 class="news-tit">NYSE Arca Filing Kicks Off Countdown for New Bitcoin ETF</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
                                 <a href="https://cryptonews.net/99525/?utm_source=CryptoNews&utm_medium=app&utm_campaign=shared" target="_blank">
