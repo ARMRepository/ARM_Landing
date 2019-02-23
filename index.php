@@ -1563,6 +1563,15 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.ccn.com/1-million-ibm-crypto-chief-sets-massive-bitcoin-price-target" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/1MillionIBM.jpg);"></div>
+                                    <h5 class="news-tit">$1 Million: IBM Crypto Chief Sets Massive Bitcoin Price Target</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
                                 
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
