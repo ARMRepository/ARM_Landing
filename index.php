@@ -1566,6 +1566,15 @@
 
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
+                                <a href="https://www.ccn.com/russia-regulate-cryptop-with-a-keen-eye-on-oil-backed-digital-currency" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/RussiatoRegulate.jpg);"></div>
+                                    <h5 class="news-tit">Russia to Regulate Crypto While Launching its Own Oil-Backed Cryptocurrency</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
                                 <a href="https://www.ccn.com/1-million-ibm-crypto-chief-sets-massive-bitcoin-price-target" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(img/1MillionIBM.jpg);"></div>
                                     <h5 class="news-tit">$1 Million: IBM Crypto Chief Sets Massive Bitcoin Price Target</h5>
