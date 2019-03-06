@@ -311,7 +311,7 @@
                                 <br>
                                 <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">nice mining stats</a>
 
-                                <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-new">zp stats</a>
+                                <!-- <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-new">zp stats</a> -->
 
                                 <!-- <a class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-verus">Verus miner</a> -->
 
@@ -325,7 +325,7 @@
                 </div>
             </section>
 
-            <section class="newsection-armaltcoin letstalk section p-80">
+            <!-- <section class="newsection-armaltcoin letstalk section p-80">
                 <div class="container">
                     
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -356,9 +356,9 @@
                     </div>
                     
                 </div>
-            </section>
+            </section> -->
 
-            <section class="newsection-armaltcoin section p-80">
+            <!-- <section class="newsection-armaltcoin section p-80">
                 <div class="container">
                     <h4 class="text-center">ARM Altcoin<span>Simple Configuration Mine flexibly</span></h4>
                     <div class="items col-lg-3 col-md-3 col-sm-3 col-xs-12">
@@ -409,7 +409,7 @@
                         <a href="product.html">more detail</a>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <!-- Intro Section Ends -->
             <!-- Discounts Section Starts -->
@@ -558,6 +558,11 @@
                                                 </ol>
                                             </p>
                                             <p> Aarnav is issuing a Security Token Offering (STO) to raise funds and build the world’s biggest crowdfunded cryptocurrency mining operation. Investors in the Aarnav STO will be issued the ARM Security Token. ARM Token holders will share in profits proportionally based on the quantity of ARM Tokens they hold. Aarnav’s STO is issued under the exemption of Regulation D, Section 506c for American accredited investors and Regulation S for accredited offshore investors.</p>
+
+                                            <p><b>What are we mining in our First batch of SC1 dual gen 2 miners!</b></p>
+                                            <br>    
+                                            <p>Sia is the leading decentralized cloud storage platform. No signups, no servers, no trusted third parties. Sia leverages blockchain technology to create a data storage marketplace that is more robust and more affordable than traditional cloud storage providers. </p>
+                                            <p>Siacoin is a utility token, mined via the Blake2b-Sia Proof-of-Work function. Siacoin's supply is inflationary, meaning that it will always have a block reward.</p>
                                         </div>
                                         <!-- <div class="processchart-img wow fadeInRight" data-wow-delay=".4s" data-wow-duration="1s"> -->
                                         <!-- <center><img src="img/processchart.jpg" class="img-responsive"></center> -->
@@ -1439,7 +1444,7 @@
             <!-- ICO Details Section Ends -->
             <!-- News Section Starts -->
 
-            <section class="news-sec bg-img section p-80">
+            <!-- <section class="news-sec bg-img section p-80">
                 <div class="container">
                     <div class="sec-inner news-sec-inner m-b-80">
                         <div class="sec-head text-center">
@@ -1472,7 +1477,7 @@
                         </ul>
                     </div>
                 </div
->            </section>
+>            </section> -->
 
             <div class="cryptocurrencies">
             <div class="container">
@@ -1563,6 +1568,61 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
+                           
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://cointelegraph.com/news/california-bill-would-legalize-crypto-for-tax-payments-from-cannabis-related-businesses" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/CaliforniaBill.webp);"></div>
+                                    <h5 class="news-tit">California Bill Would Legalize Crypto for Tax Payments From Cannabis-Related Businesses</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://cointelegraph.com/news/coffee-for-bakkt-starbucks-equity-deal-will-see-crypto-based-payments-source-claims" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/CoffeeforBakkt.webp);"></div>
+                                    <h5 class="news-tit">‘Coffee for Bakkt’? Starbucks Equity Deal Will See Crypto-Based Payments, Source Claims</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                             <!-- News Slide Box Starts -->
+                             <div class="news-slide-box">
+                                <a href="https://dailycoin.info/bitcoins-lightning-torch-enters-iran-payment-experiment-blazes/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/BitcoinsLightning.jpg);"></div>
+                                    <h5 class="news-tit">Bitcoin’s Lightning Torch Enters Iran as Payment Experiment Blazes On</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://itunes.apple.com/us/app/hodl-live-crypto-coin-charts-news-tweets/id1253668876?ls=1&mt=8" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/HODL.jpg);"></div>
+                                    <h5 class="news-tit">HODL Real-Time Cryptocurrency</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+
+                             <!-- News Slide Box Starts -->
+                             <div class="news-slide-box">
+                                <a href="https://news.bitcoin.com/indian-government-confirms-cryptocurrency-regulation-final-stages/?utm_source=OneSignal%20Push&utm_medium=notification&utm_campaign=Push%20Notifications" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/IndianGovernment.webp);"></div>
+                                    <h5 class="news-tit">Indian Government Confirms Cryptocurrency Regulation in Final Stages</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                           
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.cryptonewsz.com/siacoin-is-on-its-way-to-plunge-deeper-into-the-profit-pool/10153/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/SiacoinIsOn.png);"></div>
+                                    <h5 class="news-tit">Siacoin Is On Its Way to Plunge Deeper Into The “Profit Pool”</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
 
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
