@@ -253,7 +253,7 @@
                                     <a target="_blank" href="pdf/ARM_Chain_Core.pdf">ARM Chain Core</a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="pdf/WHATSMINER DCR QTRWISE FINANCIALS.pdf">Quarterly Projections</a>
+                                    <a target="_blank" href="pdf/PROJECTED FINANCIALS OF OBELISK SC1.pdf">Quarterly Projections</a>
                                 </li>
                             </ul>
                         </li>
@@ -1571,6 +1571,51 @@
                            
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
+                                <a href="https://www.cnbc.com/2019/03/08/fidelitys-new-cryptocurrency-company-is-up-and-running-despite-a-bear-market-for-digital-coins.html" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/fidelitysnew.jpeg);"></div>
+                                    <h5 class="news-tit">Fidelity’s new cryptocurrency company is up and running despite a bear market for digital coins</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.coindesk.com/six-exchange-may-list-xrp-exchange-traded-product-in-two-months" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/swissexchange.jpg);"></div>
+                                    <h5 class="news-tit">Swiss Exchange to List XRP Exchange-Traded Investment Product</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.ccn.com/samsung-pay-10m-users-integrate-crypto" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/samsungpaywill.jpg);"></div>
+                                    <h5 class="news-tit">Samsung Pay Will Integrate Cryptocurrencies for 10 Million Users: Report</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://mrtopstep.com/bitcoin-appreciated-by-over-70000x-over-past-decade-can-btc-move-even-higher/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/bitcoinappreciated.jpg);"></div>
+                                    <h5 class="news-tit">Bitcoin Appreciated By Over 70,000x Over Past Decade: Can BTC Move Even Higher?</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.fxstreet.com/cryptocurrencies/news/bitcoin-price-prediction-btc-usd-parabolic-rise-to-50-000-expected-in-2022-confluence-detector-201903081247" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/bitcoinpriceprediction.png);"></div>
+                                    <h5 class="news-tit">Bitcoin price prediction: BTC/USD parabolic rise to $50,000 expected in 2022 – Confluence Detector</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
                                 <a href="https://cointelegraph.com/news/california-bill-would-legalize-crypto-for-tax-payments-from-cannabis-related-businesses" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(img/CaliforniaBill.webp);"></div>
                                     <h5 class="news-tit">California Bill Would Legalize Crypto for Tax Payments From Cannabis-Related Businesses</h5>
@@ -1599,7 +1644,7 @@
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
                                 <a href="https://itunes.apple.com/us/app/hodl-live-crypto-coin-charts-news-tweets/id1253668876?ls=1&mt=8" target="_blank">
-                                    <div class="news-img bg-img" style="background-image: url(img/HODL.jpg);"></div>
+                                    <div class="news-img bg-img" style="background-image: url(img/hodl.jpg);"></div>
                                     <h5 class="news-tit">HODL Real-Time Cryptocurrency</h5>
                                 </a>
                             </div>
