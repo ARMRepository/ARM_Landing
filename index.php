@@ -1569,6 +1569,15 @@
                             <!-- News Slider Starts -->
                             <div class="news-slider">
                            
+                           <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://medium.com/@bfcochran14/it-is-time-for-our-data-to-be-decentralized-d0a89495bf0e" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(https://cdn-images-1.medium.com/fit/c/50/50/1*5w69kkx2I-_rBldnWNXPuw.png);"></div>
+                                    <h5 class="news-tit">It is time for our data to be decentralized</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
                                 <a href="https://www.cnbc.com/2019/03/08/fidelitys-new-cryptocurrency-company-is-up-and-running-despite-a-bear-market-for-digital-coins.html" target="_blank">
