@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aarnav - FAQ</title>
+    <title>Aarnav - PROFITABLITY</title>
     <meta name="description" content=" Aarnav is a community of investors leveraging economies of scale to achieve profitable returns from cryptocurrency mining. By pooling resources, Aarnav investors save on cutting-edge equipment and professional maintenance and gain access to ultra-low-cost electricity.">
     <meta name="keywords" content=" Aarnav, Mining, Cryptocurrency, Startup, Investors">
     <meta name="author" content="Aarnav">

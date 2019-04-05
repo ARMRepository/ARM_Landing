@@ -311,7 +311,7 @@
                                 <br>
                                 <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">nice mining stats</a>
 
-                                <!-- <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-new">zp stats</a> -->
+                                <a href="https://mining.luxor.tech/user/SC/1b746958b590aa45a31e33cedd8609dc01b115f54e6c1cc4e3e803923930ad816e0b97ddc62d" target="_blank" class="gradient-btn intro-btn">Mining Luxor Tech</a>
 
                                 <!-- <a class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-verus">Verus miner</a> -->
 
@@ -1568,8 +1568,8 @@
                         <div class="sec-content news-sec-content row wow fadeInUp" data-wow-duration="1s">
                             <!-- News Slider Starts -->
                             <div class="news-slider">
-                           
-                           <!-- News Slide Box Starts -->
+
+                            <!-- News Slide Box Starts -->
                            <div class="news-slide-box">
                                 <a href="https://medium.com/@bfcochran14/it-is-time-for-our-data-to-be-decentralized-d0a89495bf0e" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(https://cdn-images-1.medium.com/fit/c/50/50/1*5w69kkx2I-_rBldnWNXPuw.png);"></div>
