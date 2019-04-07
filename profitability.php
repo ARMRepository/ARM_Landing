@@ -157,7 +157,7 @@
                                     <a href="statement.html" target="_blank">Aarnav Statement</a>
                                 </li>
                                 <li>
-                                    <a href="profitability.php" target="_blank">Aarnav ARM A1 Miner Profitability</a>
+                                    <a href="profitability.html" target="_blank">Aarnav ARM A1 Miner Profitability</a>
                                 </li>
                             </ul>
                         </li>
