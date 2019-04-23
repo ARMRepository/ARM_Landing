@@ -1571,6 +1571,87 @@
 
                             <!-- News Slide Box Starts -->
                            <div class="news-slide-box">
+                                <a href="https://thelatestbreakingnews.com/institutions-to-bring-bitcoin-past-20000-in-coming-2-years-cnbc-analyst/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/april232.jpg);"></div>
+                                    <h5 class="news-tit">Institutions To Bring Bitcoin Past $20,000 In Coming 2 Years: CNBC Analyst</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://medium.com/@bfcochran14/it-is-time-for-our-data-to-be-decentralized-d0a89495bf0e" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/april238.jpg);"></div>
+                                    <h5 class="news-tit">It is time for our data to be decentralized</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://cryptonews.net/en/130231/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/april237.jpg);"></div>
+                                    <h5 class="news-tit">U.S Lawmakers Resumes Quest To Exempt Crypto From Securities Law</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://www.forbes.com/sites/billybambrough/2019/04/10/coinbase-and-visa-are-making-bitcoin-ethereum-ripples-xrp-and-litecoin-payments-a-reality/#2020aa675943" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/april236.jpg);"></div>
+                                    <h5 class="news-tit">Coinbase And Visa Are Making Bitcoin, Ethereum, Ripple's XRP And Litecoin Payments A Reality</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://www.coindesk.com/you-can-now-shop-with-bitcoin-on-amazon-using-lightning" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/april235.png);"></div>
+                                    <h5 class="news-tit">You Can Now Shop With Bitcoin on Amazon Using Lightning</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://www.fxstreet.com/cryptocurrencies/news/bitcoin-will-be-over-1-million-in-7-10-years-according-to-paypal-director-201904160345" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/april234.jpg);"></div>
+                                    <h5 class="news-tit">Bitcoin will be over $1 million in 7-10 years according to Paypal director</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://bitcoinist.com/bitcoin-price-google-data-people-lag/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/april233.jpg);"></div>
+                                    <h5 class="news-tit">PEOPLE ONLY WANT TO BUY BITCOIN *AFTER* PRICE RISES, GOOGLE DATA SHOWS</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://sg.finance.yahoo.com/news/bitcoin-outperforms-nasdaq-100-p-113550415.html" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/april232.jpg);"></div>
+                                    <h5 class="news-tit">Bitcoin Outperforms Nasdaq 100, S&P 500, Grows Whopping 37% in 2019</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://finance.yahoo.com/news/nyse-backed-bitcoin-exchange-snags-203031971.html" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/april231.jpg);"></div>
+                                    <h5 class="news-tit">NYSE-Backed Bitcoin Exchange Snags PayPal & Google Veteran</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
                                 <a href="https://medium.com/@bfcochran14/it-is-time-for-our-data-to-be-decentralized-d0a89495bf0e" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(https://cdn-images-1.medium.com/fit/c/50/50/1*5w69kkx2I-_rBldnWNXPuw.png);"></div>
                                     <h5 class="news-tit">It is time for our data to be decentralized</h5>
