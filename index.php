@@ -1570,6 +1570,61 @@
                             <div class="news-slider">
 
                             <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://bitcoinist.com/bitcoin-price-10k-by-2020-halving-model-stock-flow/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/bitcoinwill.jpg);"></div>
+                                    <h5 class="news-tit">BITCOIN WILL BE OVER $10K BY 2020 HALVING, MODEL SHOWS</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends --> 
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://finance.yahoo.com/news/crypto-invades-nasdaq-institutions-warm-001515185.html" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/cryptoinvades.jpg);"></div>
+                                    <h5 class="news-tit">Crypto Invades the Nasdaq as Institutions Warm Up to Bitcoin</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends --> 
+
+
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://www.cnbc.com/2019/05/02/london-stock-exchange-ceo-on-blockchain-and-cryptocurrency.html?__source=iosappshare%7Cnet.whatsapp.WhatsApp.ShareExtension" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/londonstock.jpg);"></div>
+                                    <h5 class="news-tit">London Stock Exchange CEO hints at how the 300-year-old trading venue could use blockchain</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends --> 
+
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://bitcoinmagazine.com/articles/us-citizens-can-now-accept-their-federal-or-state-tax-refund-bitcoin/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/uscitizens.jpg);"></div>
+                                    <h5 class="news-tit">U.S. Citizens Can Now Accept Their Federal or State Tax Refund in Bitcoin</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->       
+
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://www.pymnts.com/blockchain/bitcoin/2019/chinese-govt-blockchain-city-mcafee-bitcoin-debit-card/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/bitcoindailychinese.jpg);"></div>
+                                    <h5 class="news-tit">Bitcoin Daily: Chinese Gov’t On Board For Building ‘Blockchain City’; Will McAfee Launch Bitcoin Debit Card?</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                           <div class="news-slide-box">
+                                <a href="https://foreignpolicyi.org/bitcoin-and-cryptocurrencies-in-general-might-be-greener-than-we-think/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/bitcoin-cryptocurrencies.jpg);"></div>
+                                    <h5 class="news-tit">Bitcoin and cryptocurrencies, in general, might be greener than we think</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
                            <div class="news-slide-box">
                                 <a href="https://thelatestbreakingnews.com/institutions-to-bring-bitcoin-past-20000-in-coming-2-years-cnbc-analyst/" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(img/april232.jpg);"></div>
