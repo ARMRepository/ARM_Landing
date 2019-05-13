@@ -1571,6 +1571,15 @@
 
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
+                                <a href="https://www.fxstreet.com/cryptocurrencies/news/fidelity-set-to-launch-bitcoin-trading-in-a-few-weeks-bloomberg-report-201905061137" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/hodl.jpg);"></div>
+                                    <h5 class="news-tit">Fidelity set to launch Bitcoin trading in a few weeks – Bloomberg report</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends --> 
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
                                 <a href="https://bitcoinist.com/bitcoin-price-10k-by-2020-halving-model-stock-flow/" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(img/bitcoinwill.jpg);"></div>
                                     <h5 class="news-tit">BITCOIN WILL BE OVER $10K BY 2020 HALVING, MODEL SHOWS</h5>
