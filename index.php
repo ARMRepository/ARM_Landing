@@ -1571,6 +1571,24 @@
 
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
+                                <a href="https://icoexaminer.com/blog/microsoft-to-use-bitcoin-to-protect-users-privacy/" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/microsofttousebitcoin.jpg);"></div>
+                                    <h5 class="news-tit">MICROSOFT TO USE BITCOIN TO PROTECT USERS’ PRIVACY</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://finance.yahoo.com/news/bread-milk-bitcoin-consumers-now-130000051.html" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/hodl.jpg);"></div>
+                                    <h5 class="news-tit">Bread, Milk, Bitcoin … Consumers Can Now Walk into Their Local Grocery Store and Purchase Digital Currency</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends --> 
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
                                 <a href="https://www.fxstreet.com/cryptocurrencies/news/fidelity-set-to-launch-bitcoin-trading-in-a-few-weeks-bloomberg-report-201905061137" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(img/hodl.jpg);"></div>
                                     <h5 class="news-tit">Fidelity set to launch Bitcoin trading in a few weeks – Bloomberg report</h5>
