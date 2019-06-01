@@ -1571,6 +1571,15 @@
 
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
+                                <a href="https://blog.tmcnet.com/blog/rich-tehrani/att/153m-att-subscribers-can-now-pay-with-bitcoin.html" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/153mat.jpg);"></div>
+                                    <h5 class="news-tit">153M AT&T Subs Can Now Pay With Bitcoin!</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
                                 <a href="https://icoexaminer.com/blog/microsoft-to-use-bitcoin-to-protect-users-privacy/" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(img/microsofttousebitcoin.jpg);"></div>
                                     <h5 class="news-tit">MICROSOFT TO USE BITCOIN TO PROTECT USERS’ PRIVACY</h5>
