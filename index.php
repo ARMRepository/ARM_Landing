@@ -718,8 +718,8 @@
                                         <img src="img/manpreet.jpg">
                                     </div> -->
                                     <h5 class="testi-tit">Dr.Sanjay Goyal</h5>
-                                    <p class="testi-txt">Executive board Chairman and Vice President</p>
-                                    <p class="testi-txt1">As Director and Chairman of Executive committe of htpp://aarnav.io, a serial entrepreneur.</p>
+                                    <p class="testi-txt">Executive Vice President, Board Chairman & Director</p>
+                                    <p class="testi-txt1">As Director and Chairman of Executive committe of <a href="https://aarnav.io">aarnav.io</a>, a serial entrepreneur.</p>
                                     <br>
                                     <a href="#" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal5">Read More</a>
                                 </div>
@@ -2494,7 +2494,7 @@
                     </div>
                     <!-- News Section Inner Ends -->
                     <div class="sec-button-sec text-center m-t-50">
-                        <a href="http://investor.aarnav.io/register" class="white-btn">Signup &amp; Buy Tokens</a>
+                        <a href="https://investor.aarnav.io/register" target="blank" class="white-btn">Signup &amp; Buy Tokens</a>
 						<a href="https://discord.gg/wVgD9J6" class="gradient-btn intro-btn">Join Our Community</a>
                     </div>
                 </div>
@@ -2795,7 +2795,7 @@
                     <h6 class="testi_title">Manpreet Singh <span>Chief Operating Office</span></h6>
                     <p>Entrepreneur, Director and Chief Operating Officer of Aarnav, Manpreet Singh is committed to the development of technology innovation for various algorithms in crypto mining.</p>
                     <p>A blockchain evangelist, Manpreet is committed to developing a top-class investment solution for the crypto world leveraging his experience in wealth creation, real estate investment and working with private organizations, governments, and multilateral organizations across five continents.</p>
-                    <p>Manpreet’s brings over 16 years’ experience in IT Management, IT Operations, and IT Project Management working for some of the largest, globally renowned retail, manufacturing, and IT companies. </p>
+                    <p>Manpreet’s brings over 16 year’s experience in IT Management, IT Operations, and IT Project Management working for some of the largest, globally renowned retail, manufacturing, and IT companies. </p>
                     <p>Manpreet acquired a broad range of experience in Executive leadership positions in sales, business development, and marketing in New Zealand, Australia, India, and the USA. He has conducted business across national borders, regulatory environments, and cultures. </p>
                     <p>Manpreet has also helped numerous companies, educational institutions, non-profit organizations to raise funds and develop, communicate their brand’s mission and message more effectively.</p>
                     <p>Manpreet has been involved in FX, CFDs, stocks, bonds, and innovative technologies with companies such as IG, Oanda FX Trade, Verizon, Common Wealth Bank of Australia, Bank of Melbourne, ASB Bank, and the real estate industry.</p>
@@ -2864,7 +2864,7 @@
                 </div>
                 <div class="modal-body">
                     <br>
-                    <h6 class="testi_title"> Dr.Sanjay Goyal <span>Executive board Chairman and Vice President</span></h6>
+                    <h6 class="testi_title"> Dr.Sanjay Goyal <span>Executive Vice President, Board Chairman & Director</span></h6>
                     <p>I have been in medical practice since 1995 in New York. Specialized in Endocrinology, Diabetes and Metabolism. Have been angle investor in stocks, bonds and Hospitality. I been doing charitable diabetes clinics in Guatemala since 2010 visiting atleast 3 times a year, providing free consultation and medications to 400-500 rural patients.</p>
                     <br>
                     <br>

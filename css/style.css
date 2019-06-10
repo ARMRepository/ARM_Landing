@@ -71,6 +71,10 @@ body {
     margin-bottom: 20px !important;
 }
 
+.mb50 {
+    margin-bottom: 50px;
+}
+
 a,
 a:hover,
 a:focus {
