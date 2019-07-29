@@ -1570,6 +1570,24 @@
 
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
+                                <a href="https://www.forbes.com/sites/investor/2019/07/10/bitcoin-to-20000/#6a015d6348a1" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/BitcoinTo.jpg);"></div>
+                                    <h5 class="news-tit">Bitcoin To $20,000</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://mining.luxor.tech/user/SC/1b746958b590aa45a31e33cedd8609dc01b115f54e6c1cc4e3e803923930ad816e0b97ddc62d" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/hodl.jpg);"></div>
+                                    <h5 class="news-tit">HODL</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
                                 <a href="https://btcmanager.com/bank-america-patent-ripple-ledger/?q=/bank-america-patent-ripple-ledger/&" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(img/BankofAmericaPatent.jpg);"></div>
                                     <h5 class="news-tit">Bank of America Patent Displays use of Ripple Ledger</h5>
@@ -1662,7 +1680,7 @@
                             <!-- News Slide Box Starts -->
                            <div class="news-slide-box">
                                 <a href="https://foreignpolicyi.org/bitcoin-and-cryptocurrencies-in-general-might-be-greener-than-we-think/" target="_blank">
-                                    <div class="news-img bg-img" style="background-image: url(img/bitcoin-cryptocurrencies.jpg);"></div>
+                                    <div class="news-img bg-img" style="background-image: url(img/hodl.jpg);"></div>
                                     <h5 class="news-tit">Bitcoin and cryptocurrencies, in general, might be greener than we think</h5>
                                 </a>
                             </div>
