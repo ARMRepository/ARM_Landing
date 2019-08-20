@@ -1570,6 +1570,24 @@
 
                             <!-- News Slide Box Starts -->
                             <div class="news-slide-box">
+                                <a href="https://www.bloomberg.com/news/articles/2019-08-16/nyse-owner-to-offer-futures-that-pay-out-with-bitcoin-next-month" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/NYSEOwner.jpg);"></div>
+                                    <h5 class="news-tit">NYSE Owner to Offer Futures Paying Out in Bitcoin Next Month</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
+                                <a href="https://www.coindesk.com/bakkt-says-its-cleared-to-launch-bitcoin-futures-next-month" target="_blank">
+                                    <div class="news-img bg-img" style="background-image: url(img/BakktSays.jpg);"></div>
+                                    <h5 class="news-tit">Bakkt Says It’s ‘Cleared to Launch’ Bitcoin Futures Next Month</h5>
+                                </a>
+                            </div>
+                            <!-- News Slide Box Ends -->
+                            
+                            <!-- News Slide Box Starts -->
+                            <div class="news-slide-box">
                                 <a href="https://www.forbes.com/sites/investor/2019/07/10/bitcoin-to-20000/#6a015d6348a1" target="_blank">
                                     <div class="news-img bg-img" style="background-image: url(img/BitcoinTo.jpg);"></div>
                                     <h5 class="news-tit">Bitcoin To $20,000</h5>
