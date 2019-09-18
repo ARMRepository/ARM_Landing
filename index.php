@@ -310,7 +310,7 @@
                                 <br>
                                 <!-- <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">nice mining stats</a> -->
 
-                                <a href="https://mining.luxor.tech/user/SC/1b746958b590aa45a31e33cedd8609dc01b115f54e6c1cc4e3e803923930ad816e0b97ddc62d" target="_blank" class="gradient-btn intro-btn">Luxor’s Mining</a>
+                                <a href="https://mining.luxor.tech/user/SC/929fbc486561ef2e94d49d3fc74f568bb3f93212bc8a77169a5df80629f28c6fad24458bd02a" target="_blank" class="gradient-btn intro-btn">Luxor’s Mining</a>
 
                                 <!-- <a class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-verus">Verus miner</a> -->
 
