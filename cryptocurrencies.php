@@ -129,9 +129,9 @@
                         <li>
                             <a href="index.php">Home</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="roadmap.html">Road Map</a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="https://investor.aarnav.io/">Token Sale</a>
                         </li>
@@ -148,9 +148,9 @@
                                 <li>
                                     <a href="statement.html" target="_blank">Aarnav Statement</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="profitability.html" target="_blank">Aarnav ARM A1 Miner Profitability</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </li>
                         <li>

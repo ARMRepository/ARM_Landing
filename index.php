@@ -206,9 +206,9 @@
                         <li>
                             <a href="./">Home</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="roadmap.html">Road Map</a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="https://investor.aarnav.io/">Token Sale</a>
                         </li>
@@ -225,9 +225,9 @@
                                 <li>
                                     <a href="statement.html" target="_blank">Aarnav Statement</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="profitability.html" target="_blank">Aarnav ARM A1 Miner Profitability</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </li>
                         <li>
@@ -298,19 +298,19 @@
                                 <!-- <p class="intro-txt text-left">"Mining is LIVE with 9 (Nine) mining Equihash algorithm with a maximum hashrate of 50ksol/s for a power consumption of 620W each."
                                 </p> -->
                                 <!-- <a href="http://investor.aarnav.io/" class="gradient-btn intro-btn">Buy ARM Token</a> -->
+                                <!-- <br>
                                 <br>
                                 <br>
-                                <br>
-                                <p class="whitetxt text-center" style="font-size: 16px">Currently mining Siacoin, <br>It’s a cryptocurrency that powers the Sia network, a decentralized cloud storage system <br>that lets anyone rent out spare hard drive space or utilize other people's spare hard drive space to store files.</p>
+                                <p class="whitetxt text-center" style="font-size: 16px">Currently mining Siacoin, <br>It’s a cryptocurrency that powers the Sia network, a decentralized cloud storage system <br>that lets anyone rent out spare hard drive space or utilize other people's spare hard drive space to store files.</p> -->
                                 <!-- <h4 class="discount-text"><a href="http://investor.aarnav.io/">Grand Discount <span>"50% till 13th July"</span></a></h4> -->
                                 <!-- <p class="whitetxt text-center">Mining statistics link</p>
                                 <p class="whitetxt" style="word-wrap: break-word;"><a href="https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms" target="_blank">https://www.nicehash.com/miner/3GRSW78C7RLAA8ZmGBbvcAknKKpUh1Utms</a></p> -->
+                                <!-- <br>
                                 <br>
-                                <br>
-                                <br>
+                                <br> -->
                                 <!-- <a href="http://aarnav.io/cryptocurrencies.php" class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal">nice mining stats</a> -->
 
-                                <a href="https://mining.luxor.tech/user/SC/929fbc486561ef2e94d49d3fc74f568bb3f93212bc8a77169a5df80629f28c6fad24458bd02a" target="_blank" class="gradient-btn intro-btn">Luxor’s Mining</a>
+                                <!-- <a href="https://mining.luxor.tech/user/SC/929fbc486561ef2e94d49d3fc74f568bb3f93212bc8a77169a5df80629f28c6fad24458bd02a" target="_blank" class="gradient-btn intro-btn">Luxor’s Mining</a> -->
 
                                 <!-- <a class="gradient-btn intro-btn" data-toggle="modal" data-target="#myModal-verus">Verus miner</a> -->
 
